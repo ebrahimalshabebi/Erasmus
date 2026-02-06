@@ -1,0 +1,126 @@
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+.container {
+  width: min(1120px, 92%);
+  margin: 0 auto;
+}
+
+/* ===== Header ===== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  gap: 14px;
+}
+
+/* ===== Logo ===== */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #222;
+  min-width: 150px;
+}
+
+.brand-logo {
+  width: auto;
+  height: 58px;
+  object-fit: contain;
+}
+
+.brand-text {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+/* ===== Navigation ===== */
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #444;
+  font-size: 0.95rem;
+  padding: 8px 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible {
+  color: #000;
+  background-color: #f2f2f2;
+  outline: none;
+}
+
+/* ===== Contact button ===== */
+.btn-contact {
+  text-decoration: none;
+  padding: 10px 16px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-contact:hover {
+  background-color: #333;
+}
+
+/* ===== Mobile toggle ===== */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.nav-toggle-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #222;
+  margin: 4px 0;
+}
