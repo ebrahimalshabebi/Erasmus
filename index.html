@@ -1,43 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Erasmus</title>
 </head>
+
 <body>
     <header class="site-header" id="top">
-  <div class="container header-inner">
-    <!-- Logo -->
-    <a class="brand" href="index.html" aria-label="Erasmus Home">
-      <img src="imgs/logo.png" alt="Erasmus Logo" class="brand-logo" />
-    </a>
+        <div class="container header-inner">
+            <!-- Logo -->
+            <a class="brand" href="index.html" aria-label="Erasmus Home">
+                <img src="imgs/logo.png" alt="Erasmus Logo" class="brand-logo" />
+            </a>
 
-    <!-- Mobile menu button -->
-    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <!-- Mobile menu button -->
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
       <span class="nav-toggle-bar"></span>
       <span class="nav-toggle-bar"></span>
       <span class="nav-toggle-bar"></span>
     </button>
 
-    <!-- Navigation -->
-    <nav class="nav" aria-label="Main navigation">
-      <ul class="nav-list">
-        <li><a class="nav-link" href="#about">About</a></li>
-        <li><a class="nav-link" href="#incoming">Incoming</a></li>
-        <li><a class="nav-link" href="#outgoing">Outgoing</a></li>
-        <li><a class="nav-link" href="#bips">BIPs</a></li>
-        <li><a class="nav-link" href="#partners">Partners</a></li>
-        <li><a class="nav-link" href="#projects">Projects</a></li>
-        <li><a class="nav-link" href="#events">Events</a></li>
-      </ul>
-    </nav>
+            <!-- Navigation -->
+            <nav class="nav" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#incoming">Incoming</a></li>
+                    <li><a class="nav-link" href="#outgoing">Outgoing</a></li>
+                    <li><a class="nav-link" href="#bips">BIPs</a></li>
+                    <li><a class="nav-link" href="#partners">Partners</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#events">Events</a></li>
+                </ul>
+            </nav>
 
-    <!-- Right CTA -->
-    <a class="btn btn-contact" href="#contact">Contact</a>
-  </div>
-</header>
-<script src="assets/js/app.js"></script>
+            <!-- Right CTA -->
+            <a class="btn btn-contact" href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="announcements" class="announcements-section">
+            <div class="container">
+                <h2 class="section-title">Latest Announcements</h2>
+
+                <div class="announcements-grid">
+                    <article class="announcement-card">
+                        <div class="card-content">
+                            <span class="card-tag">Important</span>
+                            <h3>Application Deadline 2026</h3>
+                            <p>The deadline for the upcoming winter semester is approaching fast. Make sure to submit all documents.</p>
+                            <a href="#" class="card-link">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="announcement-card">
+                        <div class="card-content">
+                            <span class="card-tag">Event</span>
+                            <h3>Welcome Orientation</h3>
+                            <p>Join us next Monday for the international students welcome meeting in the main hall.</p>
+                            <a href="#" class="card-link">View Details →</a>
+                        </div>
+                    </article>
+
+                    <article class="announcement-card">
+                        <div class="card-content">
+                            <span class="card-tag">Project</span>
+                            <h3>New BIP Partnership</h3>
+                            <p>We are excited to announce a new Blended Intensive Program with our partners in Rome.</p>
+                            <a href="#" class="card-link">Learn More →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/app.js"></script>
 </body>
+
 </html>
