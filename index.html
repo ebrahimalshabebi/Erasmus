@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Erasmus</title>
 </head>
@@ -17,61 +22,139 @@
             </a>
 
             <!-- Mobile menu button -->
-            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
       <span class="nav-toggle-bar"></span>
       <span class="nav-toggle-bar"></span>
       <span class="nav-toggle-bar"></span>
     </button>
 
             <!-- Navigation -->
-            <nav class="nav" aria-label="Main navigation">
+            <nav class="nav" id="primary-nav" aria-label="Main navigation">
                 <ul class="nav-list">
-                    <li><a class="nav-link" href="#about">About</a></li>
-                    <li><a class="nav-link" href="#incoming">Incoming</a></li>
-                    <li><a class="nav-link" href="#outgoing">Outgoing</a></li>
-                    <li><a class="nav-link" href="#bips">BIPs</a></li>
-                    <li><a class="nav-link" href="#partners">Partners</a></li>
-                    <li><a class="nav-link" href="#projects">Projects</a></li>
-                    <li><a class="nav-link" href="#events">Events</a></li>
+                    <li><a class="nav-link" href="#about" data-i18n="nav_about">About</a></li>
+                    <li><a class="nav-link" href="#incoming" data-i18n="nav_incoming">Incoming</a></li>
+                    <li><a class="nav-link" href="#outgoing" data-i18n="nav_outgoing">Outgoing</a></li>
+                    <li><a class="nav-link" href="#bips" data-i18n="nav_bips">BIPs</a></li>
+                    <li><a class="nav-link" href="#partners" data-i18n="nav_partners">Partners</a></li>
+                    <li><a class="nav-link" href="#projects" data-i18n="nav_projects">Projects</a></li>
+                    <li><a class="nav-link" href="#events" data-i18n="nav_events">Events</a></li>
                 </ul>
             </nav>
 
             <!-- Right CTA -->
-            <a class="btn btn-contact" href="#contact">Contact</a>
+            <div class="header-actions">
+                <div class="lang-toggle" role="group" aria-label="Language">
+                    <button class="lang-btn is-active" type="button" aria-pressed="true">EN</button>
+                    <button class="lang-btn" type="button" aria-pressed="false">TR</button>
+                </div>
+                <a class="btn btn-contact" href="#contact" data-i18n="contact">Contact</a>
+            </div>
         </div>
     </header>
 
     <main>
+        <section id="preview" class="preview-section">
+            <div class="container">
+                <div class="preview-header">
+                    <h2 class="section-title section-title-left" data-i18n="preview_title">Campus Preview</h2>
+                    <p class="preview-subtitle" data-i18n="preview_subtitle">Explore our modern learning spaces and student life in Rotterdam.</p>
+                </div>
+                <figure class="preview-card">
+                    <img class="preview-media" src="https://placehold.co/1400x700" alt="Modern campus preview">
+                    <figcaption class="preview-overlay">
+                        <div class="preview-content">
+                            <p class="preview-label" data-i18n="preview_label">Featured Story</p>
+                            <h3 data-i18n="preview_heading">Inside the Erasmus Experience</h3>
+                            <a href="#video" class="preview-link" data-i18n="preview_link">Watch the overview</a>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
         <section id="announcements" class="announcements-section">
             <div class="container">
-                <h2 class="section-title">Latest Announcements</h2>
+                <h2 class="section-title" data-i18n="announcements_title">Latest Announcements</h2>
 
                 <div class="announcements-grid">
                     <article class="announcement-card">
                         <div class="card-content">
-                            <span class="card-tag">Important</span>
-                            <h3>Application Deadline 2026</h3>
-                            <p>The deadline for the upcoming winter semester is approaching fast. Make sure to submit all documents.</p>
-                            <a href="#" class="card-link">Read More →</a>
+                            <span class="card-tag" data-i18n="card_tag_important">Important</span>
+                            <h3 data-i18n="announce1_title">Application Deadline 2026</h3>
+                            <p data-i18n="announce1_body">The deadline for the upcoming winter semester is approaching fast. Make sure to submit all documents.</p>
+                            <a href="#" class="card-link" data-i18n="announce1_link">Read More →</a>
                         </div>
                     </article>
 
                     <article class="announcement-card">
                         <div class="card-content">
-                            <span class="card-tag">Event</span>
-                            <h3>Welcome Orientation</h3>
-                            <p>Join us next Monday for the international students welcome meeting in the main hall.</p>
-                            <a href="#" class="card-link">View Details →</a>
+                            <span class="card-tag" data-i18n="card_tag_event">Event</span>
+                            <h3 data-i18n="announce2_title">Welcome Orientation</h3>
+                            <p data-i18n="announce2_body">Join us next Monday for the international students welcome meeting in the main hall.</p>
+                            <a href="#" class="card-link" data-i18n="announce2_link">View Details →</a>
                         </div>
                     </article>
 
                     <article class="announcement-card">
                         <div class="card-content">
-                            <span class="card-tag">Project</span>
-                            <h3>New BIP Partnership</h3>
-                            <p>We are excited to announce a new Blended Intensive Program with our partners in Rome.</p>
-                            <a href="#" class="card-link">Learn More →</a>
+                            <span class="card-tag" data-i18n="card_tag_project">Project</span>
+                            <h3 data-i18n="announce3_title">New BIP Partnership</h3>
+                            <p data-i18n="announce3_body">We are excited to announce a new Blended Intensive Program with our partners in Rome.</p>
+                            <a href="#" class="card-link" data-i18n="announce3_link">Learn More →</a>
                         </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="opportunities" class="opportunities-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title section-title-left" data-i18n="opportunities_title">Explore Your Opportunities</h2>
+                    <p class="section-subtitle" data-i18n="opportunities_subtitle">Navigate Erasmus pathways built for global mobility and academic growth.</p>
+                </div>
+
+                <div class="opportunities-grid">
+                    <article class="opportunity-card">
+                        <h3 data-i18n="opp_incoming_title">Incoming</h3>
+                        <p data-i18n="opp_incoming_body">Plan your exchange at Erasmus with clear timelines, support, and step-by-step guidance.</p>
+                        <a href="#incoming" class="card-link" data-i18n="opp_incoming_link">Get Started →</a>
+                    </article>
+
+                    <article class="opportunity-card">
+                        <h3 data-i18n="opp_outgoing_title">Outgoing</h3>
+                        <p data-i18n="opp_outgoing_body">Discover partner institutions, funding options, and curated mobility tracks.</p>
+                        <a href="#outgoing" class="card-link" data-i18n="opp_outgoing_link">Find Destinations →</a>
+                    </article>
+
+                    <article class="opportunity-card">
+                        <h3 data-i18n="opp_bips_title">BIPs</h3>
+                        <p data-i18n="opp_bips_body">Explore Blended Intensive Programmes combining short mobility and digital learning.</p>
+                        <a href="#bips" class="card-link" data-i18n="opp_bips_link">View Programmes →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-choose-us" class="why-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title section-title-left" data-i18n="why_title">Why Choose Us</h2>
+                    <p class="section-subtitle" data-i18n="why_subtitle">A trusted international partner with a student-first experience.</p>
+                </div>
+
+                <div class="why-grid">
+                    <article class="why-card">
+                        <h3 data-i18n="why1_title">Global Reputation</h3>
+                        <p data-i18n="why1_body">Ranked among Europe’s leading universities with a strong international network.</p>
+                    </article>
+                    <article class="why-card">
+                        <h3 data-i18n="why2_title">Personal Support</h3>
+                        <p data-i18n="why2_body">Dedicated advisors, housing guidance, and arrivals teams focused on your success.</p>
+                    </article>
+                    <article class="why-card">
+                        <h3 data-i18n="why3_title">Career Impact</h3>
+                        <p data-i18n="why3_body">Build real-world experience through internships, research, and industry projects.</p>
                     </article>
                 </div>
             </div>
