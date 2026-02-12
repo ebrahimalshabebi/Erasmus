@@ -31,13 +31,64 @@
             <!-- Navigation -->
             <nav class="nav" id="primary-nav" aria-label="Main navigation">
                 <ul class="nav-list">
-                    <li><a class="nav-link" href="#about">About</a></li>
-                    <li><a class="nav-link" href="#incoming">Incoming</a></li>
-                    <li><a class="nav-link" href="#outgoing">Outgoing</a></li>
-                    <li><a class="nav-link" href="#bips">BIPs</a></li>
-                    <li><a class="nav-link" href="#partners">Partners</a></li>
-                    <li><a class="nav-link" href="#projects">Projects</a></li>
-                    <li><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Incoming</a>
+                        <div class="nav-dropdown dropdown-wide" aria-label="Incoming submenu">
+                            <div class="dropdown-grid">
+                                <div class="dropdown-section">
+                                    <span class="dropdown-title">Students</span>
+                                    <a class="dropdown-link" href="javascript:void(0)">Study Mobility</a>
+                                    <a class="dropdown-link" href="javascript:void(0)">Traineeship Mobility</a>
+                                    <a class="dropdown-link" href="javascript:void(0)">Short-term Mobility</a>
+                                    <a class="dropdown-link" href="javascript:void(0)">PhD Short-term Mobility</a>
+                                </div>
+                                <div class="dropdown-section">
+                                    <span class="dropdown-title">Staff</span>
+                                    <a class="dropdown-link" href="javascript:void(0)">Teaching Mobility</a>
+                                    <a class="dropdown-link" href="javascript:void(0)">Training Mobility</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Outgoing</a>
+                        <div class="nav-dropdown dropdown-wide" aria-label="Outgoing submenu">
+                            <div class="dropdown-grid">
+                                <div class="dropdown-section">
+                                    <span class="dropdown-title">Students</span>
+                                    <a class="dropdown-link" href="javascript:void(0)">Study Mobility</a>
+                                    <a class="dropdown-link" href="javascript:void(0)">Traineeship Mobility</a>
+                                    <a class="dropdown-link" href="javascript:void(0)">Short-term Mobility</a>
+                                    <a class="dropdown-link" href="javascript:void(0)">PhD Short-term Mobility</a>
+                                </div>
+                                <div class="dropdown-section">
+                                    <span class="dropdown-title">Staff</span>
+                                    <a class="dropdown-link" href="javascript:void(0)">Teaching Mobility</a>
+                                    <a class="dropdown-link" href="javascript:void(0)">Training Mobility</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:void(0)">BIPs</a></li>
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Partners</a>
+                        <div class="nav-dropdown" aria-label="Partners submenu">
+                            <div class="dropdown-section">
+                                <a class="dropdown-link" href="javascript:void(0)">List of Partners</a>
+                                <a class="dropdown-link" href="javascript:void(0)">Partner with us!</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="nav-dropdown" aria-label="Projects submenu">
+                            <div class="dropdown-section">
+                                <a class="dropdown-link" href="javascript:void(0)">KA171</a>
+                                <a class="dropdown-link" href="javascript:void(0)">KA2</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Events</a></li>
                 </ul>
             </nav>
 
@@ -47,22 +98,67 @@
     </header>
 
     <main>
-        <section id="preview" class="preview-section">
-            <div class="container">
-                <div class="preview-header">
-                    <h2 class="section-title section-title-left">Campus Preview</h2>
-                    <p class="preview-subtitle">Explore our modern learning spaces and student life in Rotterdam.</p>
+        <section id="hero" class="hero">
+            <div class="hero-media" aria-hidden="true">
+                <video class="hero-video" autoplay muted loop playsinline poster="https://placehold.co/1920x1080">
+                    <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container hero-content">
+                <p class="hero-label">Erasmus Global Mobility</p>
+                <h1 class="hero-title">Open your studies to the world.</h1>
+                <p class="hero-subtitle">Exchange, research, and partner opportunities designed for students and staff.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="javascript:void(0)">Start your journey</a>
+                    <a class="btn btn-ghost" href="javascript:void(0)">Watch the overview</a>
                 </div>
-                <figure class="preview-card">
-                    <img class="preview-media" src="https://placehold.co/1400x700" alt="Modern campus preview">
-                    <figcaption class="preview-overlay">
-                        <div class="preview-content">
-                            <p class="preview-label">Featured Story</p>
-                            <h3>Inside the Erasmus Experience</h3>
-                            <a href="#video" class="preview-link">Watch the overview</a>
+            </div>
+            <div class="partner-bar" aria-label="Erasmus partners">
+                <div class="partner-viewport">
+                    <div class="partner-track">
+                        <div class="partner-group">
+                        <img src="imgs/partners/1.png" alt="Partner 01">
+                        <img src="imgs/partners/2.png" alt="Partner 02">
+                        <img src="imgs/partners/3.png" alt="Partner 03">
+                        <img src="imgs/partners/4.png" alt="Partner 04">
+                        <img src="imgs/partners/5.png" alt="Partner 05">
+                        <img src="imgs/partners/6.png" alt="Partner 06">
+                        <img src="imgs/partners/7.png" alt="Partner 07">
+                        <img src="imgs/partners/8.png" alt="Partner 08">
+                        <img src="imgs/partners/9.png" alt="Partner 09">
+                        <img src="imgs/partners/10.png" alt="Partner 10">
+                        <img src="imgs/partners/11.png" alt="Partner 11">
+                        <img src="imgs/partners/12.png" alt="Partner 12">
+                        <img src="imgs/partners/13.png" alt="Partner 13">
+                        <img src="imgs/partners/14.png" alt="Partner 14">
+                        <img src="imgs/partners/15.png" alt="Partner 15">
+                        <img src="imgs/partners/16.png" alt="Partner 16">
+                        <img src="imgs/partners/17.png" alt="Partner 17">
+                        <img src="imgs/partners/18.png" alt="Partner 18">
                         </div>
-                    </figcaption>
-                </figure>
+                        <div class="partner-group" aria-hidden="true">
+                        <img src="imgs/partners/1.png" alt="Partner 01">
+                        <img src="imgs/partners/2.png" alt="Partner 02">
+                        <img src="imgs/partners/3.png" alt="Partner 03">
+                        <img src="imgs/partners/4.png" alt="Partner 04">
+                        <img src="imgs/partners/5.png" alt="Partner 05">
+                        <img src="imgs/partners/6.png" alt="Partner 06">
+                        <img src="imgs/partners/7.png" alt="Partner 07">
+                        <img src="imgs/partners/8.png" alt="Partner 08">
+                        <img src="imgs/partners/9.png" alt="Partner 09">
+                        <img src="imgs/partners/10.png" alt="Partner 10">
+                        <img src="imgs/partners/11.png" alt="Partner 11">
+                        <img src="imgs/partners/12.png" alt="Partner 12">
+                        <img src="imgs/partners/13.png" alt="Partner 13">
+                        <img src="imgs/partners/14.png" alt="Partner 14">
+                        <img src="imgs/partners/15.png" alt="Partner 15">
+                        <img src="imgs/partners/16.png" alt="Partner 16">
+                        <img src="imgs/partners/17.png" alt="Partner 17">
+                        <img src="imgs/partners/18.png" alt="Partner 18">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -149,6 +245,144 @@
                     <article class="why-card">
                         <h3>Career Impact</h3>
                         <p>Build real-world experience through internships, research, and industry projects.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="incoming" class="info-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title section-title-left">Incoming</h2>
+                    <p class="section-subtitle">Guidance and resources for inbound Erasmus mobility.</p>
+                </div>
+                <div class="info-grid">
+                    <article id="incoming-study" class="info-card">
+                        <h3>Study Mobility</h3>
+                        <p>Semester-long exchange pathways with academic coordination and course guidance.</p>
+                    </article>
+                    <article id="incoming-traineeship" class="info-card">
+                        <h3>Traineeship Mobility</h3>
+                        <p>Placement support and internship coordination with local and international partners.</p>
+                    </article>
+                    <article id="incoming-short-term" class="info-card">
+                        <h3>Short-term Mobility</h3>
+                        <p>Intensive short-term experiences designed for flexible study schedules.</p>
+                    </article>
+                    <article id="incoming-phd" class="info-card">
+                        <h3>PhD Short-term Mobility</h3>
+                        <p>Research-focused stays for doctoral candidates and visiting scholars.</p>
+                    </article>
+                    <article id="incoming-teaching" class="info-card">
+                        <h3>Teaching Mobility</h3>
+                        <p>Teaching exchange opportunities for partner university staff.</p>
+                    </article>
+                    <article id="incoming-training" class="info-card">
+                        <h3>Training Mobility</h3>
+                        <p>Professional development visits for administrative and academic teams.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="outgoing" class="info-section alt-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title section-title-left">Outgoing</h2>
+                    <p class="section-subtitle">Plan your Erasmus journey abroad with curated support.</p>
+                </div>
+                <div class="info-grid">
+                    <article id="outgoing-study" class="info-card">
+                        <h3>Study Mobility</h3>
+                        <p>Find partner universities and align your study plan for credit transfer.</p>
+                    </article>
+                    <article id="outgoing-traineeship" class="info-card">
+                        <h3>Traineeship Mobility</h3>
+                        <p>Explore international placements and internship preparation support.</p>
+                    </article>
+                    <article id="outgoing-short-term" class="info-card">
+                        <h3>Short-term Mobility</h3>
+                        <p>Short, focused exchanges that fit around your academic calendar.</p>
+                    </article>
+                    <article id="outgoing-phd" class="info-card">
+                        <h3>PhD Short-term Mobility</h3>
+                        <p>Research visits and doctoral exchange opportunities abroad.</p>
+                    </article>
+                    <article id="outgoing-teaching" class="info-card">
+                        <h3>Teaching Mobility</h3>
+                        <p>Teaching exchange options for academic staff in the Erasmus network.</p>
+                    </article>
+                    <article id="outgoing-training" class="info-card">
+                        <h3>Training Mobility</h3>
+                        <p>Staff training visits with institutional partners across Europe.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="bips" class="info-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title section-title-left">BIPs</h2>
+                    <p class="section-subtitle">Blended Intensive Programmes that combine virtual and physical mobility.</p>
+                </div>
+                <div class="info-grid">
+                    <article class="info-card">
+                        <h3>Programme Overview</h3>
+                        <p>Browse upcoming BIPs and learn how to apply for blended mobility formats.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="partners" class="info-section alt-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title section-title-left">Partners</h2>
+                    <p class="section-subtitle">Global collaborations that power Erasmus mobility.</p>
+                </div>
+                <div class="info-grid">
+                    <article id="partners-list" class="info-card">
+                        <h3>List of Partners</h3>
+                        <p>Discover universities and institutions within our Erasmus network.</p>
+                    </article>
+                    <article id="partners-join" class="info-card">
+                        <h3>Partner with us!</h3>
+                        <p>Explore collaboration opportunities and contact our partnership team.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="info-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title section-title-left">Projects</h2>
+                    <p class="section-subtitle">Strategic initiatives supporting mobility and innovation.</p>
+                </div>
+                <div class="info-grid">
+                    <article id="projects-ka171" class="info-card">
+                        <h3>KA171</h3>
+                        <p>International credit mobility projects across partner regions.</p>
+                    </article>
+                    <article id="projects-ka2" class="info-card">
+                        <h3>KA2</h3>
+                        <p>Cooperation partnerships and capacity-building initiatives.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="info-section alt-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title section-title-left">Events</h2>
+                    <p class="section-subtitle">Upcoming briefings, orientations, and Erasmus community events.</p>
+                </div>
+                <div class="info-grid">
+                    <article class="info-card">
+                        <h3>Upcoming Events</h3>
+                        <p>Stay up to date with orientations, info sessions, and partner events.</p>
                     </article>
                 </div>
             </div>
