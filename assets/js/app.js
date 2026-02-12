@@ -142,4 +142,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     update();
-});
+}); // Inside your update function, wrap the movement in an IF statement
+
+function update() {
+    if (!isPaused) { // Only calculate and move if NOT hovered
+        speed += (targetSpeed - speed) * 0.05;
+        currentX -= speed;
+
+        const halfWidth = track.scrollWidth / 2;
+        if (Math.abs(currentX) >= halfWidth) {
+            currentX = 0;
+        } else if (currentX > 0) {
+            currentX = -halfWidth;
+        }
+
+        track.style.transform = `translateX(${currentX}px)`;
+    }
+    requestAnimationFrame(update);
+}

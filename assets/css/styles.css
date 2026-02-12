@@ -1219,3 +1219,60 @@ body {
     transform: translateY(-5px);
     /* Lift effect on hover */
 }
+
+
+/* Layout for Title + Button */
+
+.section-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+/* Modern View All Button */
+
+.btn-view-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--secondary);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid var(--secondary);
+    border-radius: 50px;
+    /* Pill shape */
+    transition: all 0.3s ease;
+}
+
+.btn-view-all span {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.btn-view-all:hover {
+    background-color: var(--secondary);
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(10, 50, 91, 0.2);
+}
+
+.btn-view-all:hover span {
+    transform: translateX(5px);
+    /* Arrow nudges right */
+}
+
+
+/* Responsive adjustment */
+
+@media (max-width: 600px) {
+    .section-header-flex {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
