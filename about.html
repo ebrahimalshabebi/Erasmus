@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="imgs/logos/head.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>About | Erasmus</title>
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a class="brand" href="index.html" aria-label="Erasmus Home">
+        <img src="imgs/logos/logo.png" alt="Erasmus Logo" class="brand-logo" />
+      </a>
+
+      <!-- Mobile menu button -->
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <!-- Navigation -->
+      <nav class="nav" id="primary-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" style="font-weight:700;">About</a>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a class="nav-link" href="javascript:void(0)">Incoming</a>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a class="nav-link" href="javascript:void(0)">Outgoing</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">BIPs</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Partners</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Events</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <!-- CTA -->
+      <a class="btn btn-contact" href="#contact">Contact</a>
+
+    </div>
+  </header>
+
+  <!-- ================= PAGE CONTENT ================= -->
+  <main class="about-page">
+    <div class="container about-layout">
+
+      <!-- Sidebar -->
+      <aside class="about-sidebar">
+        <div class="about-sidebar-title">ABOUT IAU</div>
+        <div class="about-sidebar-sep"></div>
+
+        <nav class="about-menu" aria-label="About IAU menu">
+          <button class="about-menu-item active" type="button" data-section="institutional"><span class="chev">»</span> INSTITUTIONAL</button>
+          <button class="about-menu-item" type="button" data-section="management"><span class="chev">»</span> MANAGEMENT</button>
+          <button class="about-menu-item" type="button" data-section="legislation"><span class="chev">»</span> LEGISLATION</button>
+          <button class="about-menu-item" type="button" data-section="boards"><span class="chev">»</span> BOARDS AND COMMITTEES</button>
+          <button class="about-menu-item" type="button" data-section="media"><span class="chev">»</span> MEDIA CENTER</button>
+        </nav>
+      </aside>
+
+      <!-- Right Content -->
+      <section class="about-content">
+
+        <h1 class="about-title" id="aboutTitle">Institutional</h1>
+        <p class="about-intro">
+          Choose a section from the left menu to view related topics and resources.
+        </p>
+
+        <!-- Cards container (dynamic) -->
+        <div class="about-grid" id="rightCards"></div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+
+  <!-- About page dynamic menu -->
+  <script>
+    const contentMap = {
+      institutional: {
+        title: "Institutional",
+        items: [
+          "Our university",
+          "Mission and Vision",
+          "Corporate Identity",
+          "Policies",
+          "Sustainable IAU",
+          "AKEV",
+          "CIMER",
+          "Information Request",
+          "Quality Assurance System",
+          "Human Resources Management",
+          "Corporate Governance Compliance Reports",
+          "Corporate Governance Rating Report",
+          "Corporate Governance Rating Revision Report",
+          "Education and Training Information System (EIS)",
+          "Protection and Processing of Personal Data",
+          "Student Dean's Office",
+          "IAUMED",
+          "Solution Center"
+        ]
+      },
+      management: {
+        title: "Management",
+        items: [
+          "Chairman of the Board of Trustees",
+          "Board of Trustees",
+          "Board of Trustees Advisory Board",
+          "Rectorate",
+          "Board of Directors",
+          "Senate",
+          "General Secretariat"
+        ]
+      },
+      legislation: {
+        title: "Legislation",
+        items: [
+          "Regulations and Guidelines",
+          "YÖK REGULATIONS"
+        ]
+      },
+      boards: {
+        title: "Boards and Committees",
+        items: [
+          "BAP Commission",
+          "Publications Committee",
+          "UAIPK Code of Ethics Guidelines",
+          "Ethics Committee",
+          "Non-Interventional Studies Ethics Committee",
+          "Audit Committee",
+          "Corporate Governance Committee",
+          "Social Contribution"
+        ]
+      },
+      media: {
+        title: "Media Center",
+        items: [
+          "Why IAU?",
+          "IAU in the media",
+          "University Publications",
+          "IAU in Photos",
+          "Radio Aydin",
+          "Promotional Videos",
+          "Virtual Tour",
+          "Erasmus Catalogue",
+          "Promotional Catalog"
+        ]
+      }
+    };
+
+    const rightCards = document.getElementById("rightCards");
+    const aboutTitle = document.getElementById("aboutTitle");
+    const menuItems = document.querySelectorAll(".about-menu-item[data-section]");
+
+    function escapeHtml(str) {
+      return str.replace(/[&<>"']/g, (m) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      }[m]));
+    }
+
+    function renderSection(sectionKey) {
+      const section = contentMap[sectionKey] || contentMap.institutional;
+
+      aboutTitle.textContent = section.title;
+
+      rightCards.innerHTML = section.items.map((title) => `
+        <a class="about-card" href="javascript:void(0)">
+          <span>${escapeHtml(title)}</span>
+          <span>›</span>
+        </a>
+      `).join("");
+    }
+
+    // default
+    renderSection("institutional");
+
+    menuItems.forEach(btn => {
+      btn.addEventListener("click", () => {
+        menuItems.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        renderSection(btn.getAttribute("data-section"));
+      });
+    });
+  </script>
+
+</body>
+
+</html>
