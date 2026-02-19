@@ -738,7 +738,7 @@ body {
 }
 
 
-/* ===== Opportunities Section ===== */
+/* ===== Quick Access Section ===== */
 
 .section-header {
     margin-bottom: 32px;
@@ -750,80 +750,218 @@ body {
     color: var(--secondary);
 }
 
-.opportunities-section {
-    padding: 80px 0;
+.quick-access-section {
+    padding: 80px 0 100px;
     background-color: #ffffff;
 }
 
-.opportunities-grid {
+.quick-access-layout {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 24px;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 28px;
+    align-items: start;
 }
 
-.opportunity-card {
+.quick-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(140px, 1fr));
+    gap: 14px;
+}
+
+.quick-menu-card {
     background: #fff;
     border: 1px solid #e5e5e5;
     border-top: 4px solid var(--secondary);
     border-radius: 8px;
-    padding: 24px;
+    padding: 10px;
+    aspect-ratio: 1 / 1;
+    min-height: 128px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.opportunity-card:hover {
+.quick-menu-card:nth-child(1),
+.quick-menu-card:nth-child(5) {
+    border-top-color: #35507a;
+}
+
+.quick-menu-card:nth-child(2),
+.quick-menu-card:nth-child(3) {
+    border-top-color: #2d8fd8;
+}
+
+.quick-menu-card:nth-child(4),
+.quick-menu-card:nth-child(6) {
+    border-top-color: #11a37f;
+}
+
+.quick-menu-card:nth-child(7),
+.quick-menu-card:nth-child(9) {
+    border-top-color: #e28a1f;
+}
+
+.quick-menu-card:nth-child(8),
+.quick-menu-card:nth-child(10) {
+    border-top-color: #c85b12;
+}
+
+.quick-menu-card:nth-child(11) {
+    border-top-color: #ea4d3f;
+}
+
+.quick-menu-card:nth-child(12) {
+    border-top-color: #8b56b3;
+}
+
+.quick-menu-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    background: #f4f7fc;
+    color: #1f4f85;
+    font-size: 2.1rem;
+    line-height: 1;
+}
+
+.quick-menu-card:hover,
+.quick-menu-card:focus-visible {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    outline: none;
 }
 
-.opportunity-card h3 {
-    margin: 0 0 10px;
-    font-size: 1.25rem;
-    font-weight: 700;
-    font-family: "Montserrat", "Segoe UI", Tahoma, Arial, sans-serif;
-}
-
-.opportunity-card p {
-    margin: 0 0 18px;
-    color: #666;
-    line-height: 1.6;
-}
-
-
-/* ===== Why Section ===== */
-
-.why-section {
-    padding: 80px 0 100px;
-    background-color: #f9f9f9;
-}
-
-.why-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 24px;
-}
-
-.why-card {
-    background: #fff;
-    border: 1px solid #e5e5e5;
-    border-top: 4px solid var(--secondary);
-    border-radius: 8px;
-    padding: 24px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-.why-card h3 {
-    margin: 0 0 10px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    font-family: "Montserrat", "Segoe UI", Tahoma, Arial, sans-serif;
-}
-
-.why-card p {
+.quick-menu-title {
+    color: #111;
     margin: 0;
-    color: #666;
-    line-height: 1.6;
+    font-size: 0.96rem;
+    line-height: 1.25;
+    font-weight: 700;
+    font-family: "Montserrat", "Segoe UI", Tahoma, Arial, sans-serif;
+    max-width: 90%;
 }
+
+.quick-menu-meta {
+    display: none;
+}
+
+.quick-stats-panel {
+    background: #f9fbff;
+    border: 1px solid #dfe8f2;
+    border-radius: 12px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.quick-stats-title {
+    margin: 0 0 4px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0f2f52;
+    font-family: "Montserrat", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+.quick-stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 10px;
+    border-left: 4px solid var(--secondary);
+    background: #ffffff;
+    border-radius: 8px;
+    transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+    will-change: transform;
+    animation: stat-enter 0.45s ease both;
+}
+
+.quick-stat-item:nth-child(2) {
+    animation-delay: 0.05s;
+}
+
+.quick-stat-item:nth-child(3) {
+    animation-delay: 0.1s;
+}
+
+.quick-stat-item:nth-child(4) {
+    animation-delay: 0.15s;
+}
+
+.quick-stat-item:nth-child(5) {
+    animation-delay: 0.2s;
+}
+
+.quick-stat-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 18px rgba(15, 47, 82, 0.1);
+    border-left-color: #1f5e9f;
+}
+
+.quick-stat-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quick-stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    background: #eef4fd;
+    color: #19497f;
+    font-size: 1.43rem;
+    line-height: 1;
+    transition: transform 0.24s ease, background-color 0.24s ease;
+}
+
+.quick-stat-item:hover .quick-stat-icon {
+    transform: scale(1.06);
+    background-color: #e3efff;
+}
+
+.quick-stat-value {
+    font-size: 1.5rem;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #0f2f52;
+    font-family: "Montserrat", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+.quick-stat-label {
+    color: #596879;
+    font-size: 0.86rem;
+}
+
+@keyframes stat-enter {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .quick-stat-item,
+    .quick-stat-icon {
+        animation: none;
+        transition: none;
+    }
+}
+
 
 .testimonials-section {
     background: #ffffff;
@@ -1083,13 +1221,25 @@ body {
     .announcements-section {
         padding: 70px 0;
     }
-    .opportunities-section,
-    .why-section {
+    .quick-access-section {
         padding: 70px 0;
     }
     .info-section {
         padding: 70px 0;
     }
+
+    .quick-access-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-stats-panel {
+        max-width: 500px;
+    }
+
+    .quick-menu-grid {
+        grid-template-columns: repeat(2, minmax(160px, 1fr));
+    }
+
 }
 
 @media (max-width: 540px) {
@@ -1116,9 +1266,12 @@ body {
     .announcements-grid {
         grid-template-columns: 1fr;
     }
-    .opportunities-grid,
-    .why-grid {
+    .quick-menu-grid {
         grid-template-columns: 1fr;
+    }
+
+    .quick-stats-panel {
+        padding: 14px;
     }
 }
 
