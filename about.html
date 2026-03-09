@@ -15,7 +15,7 @@
   <title>About | Erasmus</title>
 </head>
 
-<body>
+<body class="about-body">
 
   <!-- ================= HEADER ================= -->
   <header class="site-header" id="top">
@@ -76,14 +76,21 @@
 
   <!-- ================= PAGE CONTENT ================= -->
   <main class="about-page">
-    <div class="container about-layout">
+    <div class="container about-shell">
+      <div class="about-layout">
 
       <!-- Sidebar -->
       <aside class="about-sidebar">
-        <div class="about-sidebar-title">ABOUT IAU</div>
+        <div class="about-sidebar-header">
+          <div class="about-sidebar-title">ABOUT IAU</div>
+          <div class="about-theme-switch" role="switch" aria-checked="false" tabindex="0" aria-label="Toggle light/dark mode">
+            <div class="switch-track"></div>
+            <div class="switch-thumb"></div>
+          </div>
+        </div>
         <div class="about-sidebar-sep"></div>
 
-        <nav class="about-menu" aria-label="About IAU menu">
+        <nav class="about-menu" aria-label="About IAU menu"></nav>
           <button class="about-menu-item active" type="button" data-section="institutional"><span class="chev">»</span> INSTITUTIONAL</button>
           <button class="about-menu-item" type="button" data-section="management"><span class="chev">»</span> MANAGEMENT</button>
           <button class="about-menu-item" type="button" data-section="legislation"><span class="chev">»</span> LEGISLATION</button>
@@ -105,6 +112,7 @@
 
       </section>
 
+      </div>
     </div>
   </main>
 
@@ -220,6 +228,30 @@
         btn.classList.add("active");
         renderSection(btn.getAttribute("data-section"));
       });
+    });
+
+    // Theme toggle
+    const themeSwitch = document.querySelector(".about-theme-switch");
+    
+    const currentTheme = localStorage.getItem("aboutTheme") || "light";
+    if (currentTheme === "dark") {
+      document.body.classList.add("about-dark");
+      themeSwitch.setAttribute("aria-checked", "true");
+      themeSwitch.classList.add("checked");
+    }
+
+    themeSwitch.addEventListener("click", () => {
+      const isDark = document.body.classList.toggle("about-dark");
+      themeSwitch.setAttribute("aria-checked", isDark);
+      themeSwitch.classList.toggle("checked");
+      localStorage.setItem("aboutTheme", isDark ? "dark" : "light");
+    });
+
+    themeSwitch.addEventListener("keydown", (e) => {
+      if (e.key === " " || e.key === "Enter") {
+        e.preventDefault();
+        themeSwitch.click();
+      }
     });
   </script>
 
