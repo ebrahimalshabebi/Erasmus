@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="imgs/logos/head.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Partner Details | Erasmus</title>
+</head>
+
+<body class="about-body partners-body">
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Erasmus Home">
+        <img src="imgs/logos/logo.png" alt="Erasmus Logo" class="brand-logo" />
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item has-dropdown"><a class="nav-link" href="javascript:void(0)">Incoming</a></li>
+          <li class="nav-item has-dropdown"><a class="nav-link" href="javascript:void(0)">Outgoing</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void(0)">BIPs</a></li>
+          <li class="nav-item"><a class="nav-link" href="partners.html" style="font-weight:700;">Partners</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Events</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-contact" href="index.html#contact">Contact</a>
+    </div>
+  </header>
+
+  <main class="about-page partners-page">
+    <div class="container about-shell partners-shell">
+      <section class="partner-detail" id="partnerDetail">
+        <a class="partner-back" href="partners.html">← Back to all partners</a>
+        <div class="partner-detail-card">
+          <div class="partner-detail-logo" aria-hidden="true">Logo</div>
+          <div>
+            <h1 class="about-title" id="partnerName">Loading...</h1>
+            <p class="about-intro" id="partnerSummary">Preparing university information.</p>
+          </div>
+        </div>
+
+        <div class="partner-detail-grid" id="partnerDetailGrid"></div>
+      </section>
+    </div>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/partners-data.js"></script>
+  <script src="assets/js/partners.js"></script>
+</body>
+
+</html>
