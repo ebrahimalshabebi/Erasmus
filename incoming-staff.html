@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="imgs/logos/head.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Incoming Staff | Erasmus</title>
+</head>
+
+<body class="about-body">
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Erasmus Home">
+        <img src="imgs/logos/logo.png" alt="Erasmus Logo" class="brand-logo" />
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item has-dropdown">
+            <a class="nav-link" href="incoming.html" aria-haspopup="true" aria-expanded="false" style="font-weight:700;">Incoming</a>
+            <div class="nav-dropdown dropdown-wide" aria-label="Incoming submenu">
+              <div class="dropdown-grid">
+                <div class="dropdown-section">
+                  <span class="dropdown-title">Students</span>
+                  <a class="dropdown-link" href="incoming.html">Study Mobility</a>
+                  <a class="dropdown-link" href="incoming.html">Traineeship Mobility</a>
+                  <a class="dropdown-link" href="incoming.html">Short-term Mobility</a>
+                  <a class="dropdown-link" href="incoming.html">PhD Short-term Mobility</a>
+                </div>
+                <div class="dropdown-section">
+                  <span class="dropdown-title">Staff</span>
+                  <a class="dropdown-link" href="incoming-staff.html">Teaching Mobility</a>
+                  <a class="dropdown-link" href="incoming-staff.html">Training Mobility</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a class="nav-link" href="outgoing.html" aria-haspopup="true" aria-expanded="false">Outgoing</a>
+            <div class="nav-dropdown dropdown-wide" aria-label="Outgoing submenu">
+              <div class="dropdown-grid">
+                <div class="dropdown-section">
+                  <span class="dropdown-title">Students</span>
+                  <a class="dropdown-link" href="outgoing.html">Study Mobility</a>
+                  <a class="dropdown-link" href="outgoing.html">Traineeship Mobility</a>
+                  <a class="dropdown-link" href="outgoing.html">Short-term Mobility</a>
+                  <a class="dropdown-link" href="outgoing.html">PhD Short-term Mobility</a>
+                </div>
+                <div class="dropdown-section">
+                  <span class="dropdown-title">Staff</span>
+                  <a class="dropdown-link" href="outgoing-staff.html">Teaching Mobility</a>
+                  <a class="dropdown-link" href="outgoing-staff.html">Training Mobility</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void(0)">BIPs</a></li>
+          <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Events</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-contact" href="index.html#contact">Contact</a>
+    </div>
+  </header>
+
+  <main class="about-page">
+    <div class="container about-shell">
+      <div class="about-layout">
+        <aside class="about-sidebar">
+          <div class="about-sidebar-header">
+            <div class="about-sidebar-title">INCOMING STAFF</div>
+            <div class="about-theme-switch" role="switch" aria-checked="false" tabindex="0" aria-label="Toggle light/dark mode">
+              <div class="switch-track"></div>
+              <div class="switch-thumb"></div>
+            </div>
+          </div>
+          <div class="about-sidebar-sep"></div>
+
+          <nav class="about-menu" aria-label="Incoming staff menu">
+            <button class="about-menu-item active" type="button" data-section="teaching"><span class="chev">»</span> TEACHING</button>
+            <button class="about-menu-item" type="button" data-section="training"><span class="chev">»</span> TRAINING</button>
+            <button class="about-menu-item" type="button" data-section="ka171teaching"><span class="chev">»</span> KA171 TEACHING</button>
+            <button class="about-menu-item" type="button" data-section="ka171training"><span class="chev">»</span> KA171 TRAINING</button>
+            <button class="about-menu-item" type="button" onclick="window.location.href='incoming.html'"><span class="chev">»</span> INCOMING STUDENTS</button>
+          </nav>
+        </aside>
+
+        <section class="about-content">
+          <h1 class="about-title" id="aboutTitle">Teaching Mobility</h1>
+          <p class="about-intro">Choose a section from the left menu to view incoming staff mobility information.</p>
+          <div class="about-grid" id="rightCards"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+  <script>
+    const contentMap = {
+      teaching: {
+        title: "Teaching Mobility",
+        items: [
+          "General Information",
+          "Academic Calendar",
+          "Academic Coordinators",
+          "Required Documents",
+          "Accommodation",
+          "Transportation"
+        ]
+      },
+      training: {
+        title: "Training Mobility",
+        items: [
+          "General Information",
+          "Academic Calendar",
+          "Academic Coordinators",
+          "Required Documents",
+          "Accommodation",
+          "Transportation"
+        ]
+      },
+      ka171teaching: {
+        title: "KA171 Teaching Mobility",
+        items: [
+          "General Information",
+          "Academic Calendar",
+          "Academic Coordinators",
+          "Required Documents",
+          "Visa Procedures",
+          "Grants & Travel Support",
+          "Staff with Special Needs",
+          "Accommodation",
+          "Transportation"
+        ]
+      },
+      ka171training: {
+        title: "KA171 Training Mobility",
+        items: [
+          "General Information",
+          "Academic Calendar",
+          "Academic Coordinators",
+          "Required Documents",
+          "Visa Procedures",
+          "Grants & Travel Support",
+          "Staff with Special Needs",
+          "Accommodation",
+          "Transportation"
+        ]
+      }
+    };
+
+    const rightCards = document.getElementById("rightCards");
+    const aboutTitle = document.getElementById("aboutTitle");
+    const menuItems = document.querySelectorAll(".about-menu-item[data-section]");
+
+    function escapeHtml(str) {
+      return str.replace(/[&<>"']/g, (m) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      }[m]));
+    }
+
+    function renderSection(sectionKey) {
+      const section = contentMap[sectionKey] || contentMap.teaching;
+      aboutTitle.textContent = section.title;
+      rightCards.innerHTML = section.items.map((title) => `
+        <a class="about-card" href="javascript:void(0)">
+          <span>${escapeHtml(title)}</span>
+          <span>›</span>
+        </a>
+      `).join("");
+    }
+
+    renderSection("teaching");
+
+    menuItems.forEach(btn => {
+      btn.addEventListener("click", () => {
+        menuItems.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        renderSection(btn.getAttribute("data-section"));
+      });
+    });
+
+    const themeSwitch = document.querySelector(".about-theme-switch");
+    const currentTheme = localStorage.getItem("aboutTheme") || "light";
+    if (currentTheme === "dark") {
+      document.body.classList.add("about-dark");
+      themeSwitch.setAttribute("aria-checked", "true");
+      themeSwitch.classList.add("checked");
+    }
+
+    themeSwitch.addEventListener("click", () => {
+      const isDark = document.body.classList.toggle("about-dark");
+      themeSwitch.setAttribute("aria-checked", isDark);
+      themeSwitch.classList.toggle("checked");
+      localStorage.setItem("aboutTheme", isDark ? "dark" : "light");
+    });
+
+    themeSwitch.addEventListener("keydown", (e) => {
+      if (e.key === " " || e.key === "Enter") {
+        e.preventDefault();
+        themeSwitch.click();
+      }
+    });
+  </script>
+</body>
+
+</html>
