@@ -2116,3 +2116,17 @@ body {
         justify-items: start;
     }
 }
+
+.kvkk-link {
+  color: #c00;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.kvkk-link:hover {
+  text-decoration: underline;
+}
+
+.about-details {
+  scroll-margin-top: 100px;
+}
