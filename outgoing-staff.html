@@ -16,43 +16,57 @@
 </head>
 
 <body class="about-body">
+  <!-- ================= HEADER ================= -->
   <header class="site-header" id="top">
     <div class="container header-inner">
+
+      <!-- Logo -->
       <a class="brand" href="index.html" aria-label="Erasmus Home">
         <img src="imgs/logos/logo.png" alt="Erasmus Logo" class="brand-logo" />
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <!-- Mobile menu button -->
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
       </button>
 
+      <!-- Navigation -->
       <nav class="nav" id="primary-nav" aria-label="Main navigation">
         <ul class="nav-list">
+
+          <!-- About -->
           <li class="nav-item has-dropdown">
-  <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">About</a>
-  <div class="nav-dropdown dropdown-wide" aria-label="About submenu">
-    <div class="dropdown-grid">
-      <div class="dropdown-section">
-        <span class="dropdown-title">About IAU</span>
-        <a class="dropdown-link" href="about.html">Institutional</a>
-        <a class="dropdown-link" href="about.html">Erasmus+</a>
-        <a class="dropdown-link" href="about.html">Swiss-EM</a>
-      </div>
-      <div class="dropdown-section">
-        <span class="dropdown-title">More</span>
-        <a class="dropdown-link" href="about.html">Student Club</a>
-        <a class="dropdown-link" href="about.html">Legislation</a>
-        <a class="dropdown-link" href="about.html">Media Center</a>
-      </div>
-    </div>
-  </div>
-</li>
+            <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">About</a>
+            <div class="nav-dropdown dropdown-wide" aria-label="About submenu">
+              <div class="dropdown-grid">
+                <div class="dropdown-section">
+                  <a class="dropdown-link" href="about.html?section=institutional">Institutional</a>
+                  <a class="dropdown-link" href="about.html?section=erasmus">Erasmus+</a>
+                  <a class="dropdown-link" href="about.html?section=semp">Swiss-EM</a>
+                </div>
+                <div class="dropdown-section">
+                  <a class="dropdown-link" href="about.html?section=studentclub">Student Club</a>
+                  <a class="dropdown-link" href="about.html?section=legislation">Legislation</a>
+                  <a class="dropdown-link" href="about.html?section=media">Media Center</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Incoming -->
           <li class="nav-item has-dropdown">
             <a class="nav-link" href="incoming.html" aria-haspopup="true" aria-expanded="false">Incoming</a>
             <div class="nav-dropdown dropdown-wide" aria-label="Incoming submenu">
               <div class="dropdown-grid">
+
                 <div class="dropdown-section">
                   <span class="dropdown-title">Students</span>
                   <a class="dropdown-link" href="incoming.html">Study Mobility</a>
@@ -60,18 +74,25 @@
                   <a class="dropdown-link" href="incoming.html">Short-term Mobility</a>
                   <a class="dropdown-link" href="incoming.html">PhD Short-term Mobility</a>
                 </div>
+
                 <div class="dropdown-section">
                   <span class="dropdown-title">Staff</span>
                   <a class="dropdown-link" href="incoming-staff.html">Teaching Mobility</a>
                   <a class="dropdown-link" href="incoming-staff.html">Training Mobility</a>
+                  <a class="dropdown-link" href="outgoing-staff.html">KA171 Teaching Mobility</a>
+                  <a class="dropdown-link" href="outgoing-staff.html">KA171 Training Mobility</a>
                 </div>
+
               </div>
             </div>
           </li>
+
+          <!-- Outgoing -->
           <li class="nav-item has-dropdown">
-            <a class="nav-link" href="outgoing.html" aria-haspopup="true" aria-expanded="false" style="font-weight:700;">Outgoing</a>
+            <a class="nav-link" href="outgoing.html" aria-haspopup="true" aria-expanded="false">Outgoing</a>
             <div class="nav-dropdown dropdown-wide" aria-label="Outgoing submenu">
               <div class="dropdown-grid">
+
                 <div class="dropdown-section">
                   <span class="dropdown-title">Students</span>
                   <a class="dropdown-link" href="outgoing.html">Study Mobility</a>
@@ -79,22 +100,48 @@
                   <a class="dropdown-link" href="outgoing.html">Short-term Mobility</a>
                   <a class="dropdown-link" href="outgoing.html">PhD Short-term Mobility</a>
                 </div>
+
                 <div class="dropdown-section">
                   <span class="dropdown-title">Staff</span>
                   <a class="dropdown-link" href="outgoing-staff.html">Teaching Mobility</a>
                   <a class="dropdown-link" href="outgoing-staff.html">Training Mobility</a>
+                  <a class="dropdown-link" href="outgoing-staff.html">KA171 Teaching Mobility</a>
+                  <a class="dropdown-link" href="outgoing-staff.html">KA171 Training Mobility</a>
                 </div>
+
               </div>
             </div>
           </li>
-          <li class="nav-item"><a class="nav-link" href="javascript:void(0)">BIPs</a></li>
-          <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
-          <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Events</a></li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">BIPs</a>
+          </li>
+
+          <!-- Partners -->
+          <li class="nav-item has-dropdown">
+            <a class="nav-link" href="partners.html" aria-haspopup="true" aria-expanded="false">Partners</a>
+            <div class="nav-dropdown" aria-label="Partners submenu">
+              <div class="dropdown-section">
+                <a class="dropdown-link" href="partners.html">List of Partners</a>
+                <a class="dropdown-link" href="javascript:void(0)">Partner with us!</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Events</a>
+          </li>
+
         </ul>
       </nav>
 
-      <a class="btn btn-contact" href="index.html#contact">Contact</a>
+      <!-- Right CTA -->
+      <a class="btn btn-contact" href="#contact">Contact</a>
+
     </div>
   </header>
 

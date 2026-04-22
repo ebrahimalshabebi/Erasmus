@@ -48,14 +48,14 @@
             <div class="nav-dropdown dropdown-wide" aria-label="About submenu">
               <div class="dropdown-grid">
                 <div class="dropdown-section">
-                  <a class="dropdown-link" href="about.html">Institutional</a>
-                  <a class="dropdown-link" href="about.html">Erasmus+</a>
-                  <a class="dropdown-link" href="about.html">Swiss-EM</a>
+                  <a class="dropdown-link" href="about.html?section=institutional">Institutional</a>
+                  <a class="dropdown-link" href="about.html?section=erasmus">Erasmus+</a>
+                  <a class="dropdown-link" href="about.html?section=semp">Swiss-EM</a>
                 </div>
                 <div class="dropdown-section">
-                  <a class="dropdown-link" href="about.html">Student Club</a>
-                  <a class="dropdown-link" href="about.html">Legislation</a>
-                  <a class="dropdown-link" href="about.html">Media Center</a>
+                  <a class="dropdown-link" href="about.html?section=studentclub">Student Club</a>
+                  <a class="dropdown-link" href="about.html?section=legislation">Legislation</a>
+                  <a class="dropdown-link" href="about.html?section=media">Media Center</a>
                 </div>
               </div>
             </div>
@@ -154,10 +154,6 @@
       <aside class="about-sidebar">
         <div class="about-sidebar-header">
           <div class="about-sidebar-title">ABOUT IAU</div>
-          <div class="about-theme-switch" role="switch" aria-checked="false" tabindex="0" aria-label="Toggle light/dark mode">
-            <div class="switch-track"></div>
-            <div class="switch-thumb"></div>
-          </div>
         </div>
         <div class="about-sidebar-sep"></div>
 
@@ -1167,30 +1163,6 @@
       });
     });
 
-    // Theme toggle
-    const themeSwitch = document.querySelector(".about-theme-switch");
-    
-    const currentTheme = localStorage.getItem("aboutTheme") || "light";
-    if (currentTheme === "dark") {
-      document.body.classList.add("about-dark");
-      themeSwitch.setAttribute("aria-checked", "true");
-      themeSwitch.classList.add("checked");
-    }
-
-    themeSwitch.addEventListener("click", () => {
-      const isDark = document.body.classList.toggle("about-dark");
-      themeSwitch.setAttribute("aria-checked", isDark);
-      themeSwitch.classList.toggle("checked");
-      localStorage.setItem("aboutTheme", isDark ? "dark" : "light");
-    });
-
-    themeSwitch.addEventListener("keydown", (e) => {
-      if (e.key === " " || e.key === "Enter") {
-        e.preventDefault();
-        themeSwitch.click();
-      }
-    });
-
     const aboutDetails = document.getElementById("aboutDetails");
 
     function attachCardEvents() {
@@ -1207,6 +1179,11 @@
         });
       });
     }
+
+    const params = new URLSearchParams(window.location.search);
+    const sectionFromURL = params.get("section") || "institutional";
+
+    renderSection(sectionFromURL);
   </script>
 
 </body>
