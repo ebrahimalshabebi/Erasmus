@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-
     <link rel="icon" type="image/png" href="imgs/logos/head.png">
     <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>Partners | Erasmus</title>
+    <link rel="stylesheet" href="assets/css/d.css">
 </head>
 
-<body class="about-body partners-body">
-    <header class="site-header" id="top">
-        <div class="container header-inner">
 
+
+<body>
+    <header class="site-header announcements-page-header" id="top">
+        <div class="container header-inner">
             <!-- Logo -->
             <a class="brand" href="index.html" aria-label="Erasmus Home">
                 <img src="imgs/logos/logo.png" alt="Erasmus Logo" class="brand-logo" />
@@ -26,40 +26,22 @@
 
             <!-- Mobile menu button -->
             <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
 
             <!-- Navigation -->
             <nav class="nav" id="primary-nav" aria-label="Main navigation">
                 <ul class="nav-list">
 
-                    <!-- About -->
-                    <li class="nav-item has-dropdown">
-                        <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">About</a>
-                        <div class="nav-dropdown dropdown-wide" aria-label="About submenu">
-                            <div class="dropdown-grid">
-                                <div class="dropdown-section">
-                                    <a class="dropdown-link" href="about.html?section=institutional">Institutional</a>
-                                    <a class="dropdown-link" href="about.html?section=erasmus">Erasmus+</a>
-                                    <a class="dropdown-link" href="about.html?section=semp">Swiss-EM</a>
-                                </div>
-                                <div class="dropdown-section">
-                                    <a class="dropdown-link" href="about.html?section=studentclub">Student Club</a>
-                                    <a class="dropdown-link" href="about.html?section=legislation">Legislation</a>
-                                    <a class="dropdown-link" href="about.html?section=media">Media Center</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+                    <!-- ✅ NEW: About (first on the left) -->
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 
-                    <!-- Incoming -->
                     <li class="nav-item has-dropdown">
                         <a class="nav-link" href="incoming.html" aria-haspopup="true" aria-expanded="false">Incoming</a>
                         <div class="nav-dropdown dropdown-wide" aria-label="Incoming submenu">
                             <div class="dropdown-grid">
-
                                 <div class="dropdown-section">
                                     <span class="dropdown-title">Students</span>
                                     <a class="dropdown-link" href="incoming.html">Study Mobility</a>
@@ -67,25 +49,18 @@
                                     <a class="dropdown-link" href="incoming.html">Short-term Mobility</a>
                                     <a class="dropdown-link" href="incoming.html">PhD Short-term Mobility</a>
                                 </div>
-
                                 <div class="dropdown-section">
                                     <span class="dropdown-title">Staff</span>
                                     <a class="dropdown-link" href="incoming-staff.html">Teaching Mobility</a>
                                     <a class="dropdown-link" href="incoming-staff.html">Training Mobility</a>
-                                    <a class="dropdown-link" href="outgoing-staff.html">KA171 Teaching Mobility</a>
-                                    <a class="dropdown-link" href="outgoing-staff.html">KA171 Training Mobility</a>
                                 </div>
-
                             </div>
                         </div>
                     </li>
-
-                    <!-- Outgoing -->
                     <li class="nav-item has-dropdown">
                         <a class="nav-link" href="outgoing.html" aria-haspopup="true" aria-expanded="false">Outgoing</a>
                         <div class="nav-dropdown dropdown-wide" aria-label="Outgoing submenu">
                             <div class="dropdown-grid">
-
                                 <div class="dropdown-section">
                                     <span class="dropdown-title">Students</span>
                                     <a class="dropdown-link" href="outgoing.html">Study Mobility</a>
@@ -93,96 +68,94 @@
                                     <a class="dropdown-link" href="outgoing.html">Short-term Mobility</a>
                                     <a class="dropdown-link" href="outgoing.html">PhD Short-term Mobility</a>
                                 </div>
-
                                 <div class="dropdown-section">
                                     <span class="dropdown-title">Staff</span>
                                     <a class="dropdown-link" href="outgoing-staff.html">Teaching Mobility</a>
                                     <a class="dropdown-link" href="outgoing-staff.html">Training Mobility</a>
-                                    <a class="dropdown-link" href="outgoing-staff.html">KA171 Teaching Mobility</a>
-                                    <a class="dropdown-link" href="outgoing-staff.html">KA171 Training Mobility</a>
                                 </div>
-
                             </div>
                         </div>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">BIPs</a>
-                    </li>
-
-                    <!-- Partners -->
+                    <li class="nav-item"><a class="nav-link" href="javascript:void(0)">BIPs</a></li>
                     <li class="nav-item has-dropdown">
                         <a class="nav-link" href="partners.html" aria-haspopup="true" aria-expanded="false">Partners</a>
                         <div class="nav-dropdown" aria-label="Partners submenu">
                             <div class="dropdown-section">
                                 <a class="dropdown-link" href="partners.html">List of Partners</a>
-                                <a class="dropdown-link" href="PartnerWithUs.html">Partner with us!</a>
+                                <a class="dropdown-link" href="javascript:void(0)">Partner with us!</a>
                             </div>
                         </div>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Projects</a>
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="nav-dropdown" aria-label="Projects submenu">
+                            <div class="dropdown-section">
+                                <a class="dropdown-link" href="javascript:void(0)">KA171</a>
+                                <a class="dropdown-link" href="javascript:void(0)">KA2</a>
+                            </div>
+                        </div>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Events</a>
-                    </li>
-
+                    <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Events</a></li>
                 </ul>
             </nav>
 
             <!-- Right CTA -->
             <a class="btn btn-contact" href="#contact">Contact</a>
-
         </div>
     </header>
 
-    <main class="about-page partners-page">
-        <div class="container about-shell partners-shell">
-            <section class="partners-content">
-                <div class="partners-head">
-                    <h1 class="about-title">Partner Universities</h1>
-                    <p class="about-intro">Browse all Erasmus partners and filter by Program, Country, and Study Area.</p>
+
+    <main class="announcements-page">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">All Announcements</h1>
+                <p class="section-subtitle">Stay updated with the latest Erasmus news, events, and deadlines.</p>
+            </div>
+
+            <div class="filter-bar">
+                <div class="search-group">
+                    <input type="text" id="searchInput" placeholder="Search keywords...">
                 </div>
-
-                <div class="partners-toolbar" aria-label="Partner filters">
-                    <div class="partners-search-container">
-                        <input type="text" id="partnersSearch" class="partners-search" placeholder="Search partners by name or country..." aria-label="Search partners" />
-                        <span class="search-icon" aria-hidden="true">🔍</span>
-                    </div>
-
-                    <label class="partners-filter">
-            <span>Program</span>
-            <select id="programFilter">
-              <option value="">All Programs</option>
-            </select>
-          </label>
-
-                    <label class="partners-filter">
-            <span>Country</span>
-            <select id="countryFilter">
-              <option value="">All Countries</option>
-            </select>
-          </label>
-
-                    <label class="partners-filter">
-            <span>Study Area</span>
-            <input id="studyAreaFilter" type="text" list="studyAreaOptions" placeholder="Any Study Area" autocomplete="off" />
-            <datalist id="studyAreaOptions"></datalist>
-          </label>
+                <div class="filter-group">
+                    <select id="categoryFilter">
+                    <option value="All">All Categories</option>
+                    <option value="Important">Important</option>
+                    <option value="Event">Event</option>
+                    <option value="Grant">Grant</option>
+                    <option value="Staff">Staff</option>
+                </select>
                 </div>
+                <div class="date-group">
+                    <input type="date" id="startDate" aria-label="Start Date">
+                    <span>to</span>
+                    <input type="date" id="endDate" aria-label="End Date">
+                </div>
+                <button id="resetFilters" class="btn btn-ghost">Reset</button>
+            </div>
 
-                <p class="partners-count" id="partnersCount">Loading partners...</p>
+            <div class="announcements-grid" id="announcementsGrid">
+            </div>
 
-                <div class="partners-grid" id="partnersGrid" aria-live="polite"></div>
-            </section>
+            <div class="pagination" id="paginationControls">
+            </div>
         </div>
     </main>
 
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/partners-data.js"></script>
-    <script src="assets/js/partners.js"></script>
+    <div id="announcementModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <span id="modalTag" class="card-tag"></span>
+                <div id="modalDate" class="modern-date"></div>
+            </div>
+            <h2 id="modalTitle"></h2>
+            <div id="modalBody" class="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/announce.js"></script>
+
+
 </body>
 
 </html>
