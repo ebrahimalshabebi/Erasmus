@@ -158,6 +158,7 @@
     var countryFilter = document.getElementById("countryFilter");
     var studyAreaFilter = document.getElementById("studyAreaFilter");
     var studyAreaOptions = document.getElementById("studyAreaOptions");
+    var searchInput = document.getElementById("partnersSearch");
 
     function selectedProgramsPool() {
       var selectedProgram = normalize(programFilter.value);
@@ -208,6 +209,7 @@
       var selectedProgram = normalize(programFilter.value);
       var selectedCountry = normalize(countryFilter.value);
       var selectedStudyArea = normalize(studyAreaFilter.value).toLowerCase();
+      var searchQuery = normalize(searchInput.value).toLowerCase();
 
       var filtered = partners.filter(function (partner) {
         var programMatch = !selectedProgram || partner.program === selectedProgram;
@@ -215,8 +217,11 @@
         var studyAreaMatch = !selectedStudyArea || partner.studyAreas.some(function (area) {
           return area.toLowerCase().includes(selectedStudyArea);
         });
+        var searchMatch = !searchQuery || 
+          partner.universityName.toLowerCase().includes(searchQuery) || 
+          partner.country.toLowerCase().includes(searchQuery);
 
-        return programMatch && countryMatch && studyAreaMatch;
+        return programMatch && countryMatch && studyAreaMatch && searchMatch;
       });
 
       countLabel.textContent = filtered.length + " partners";
@@ -237,6 +242,10 @@
     });
 
     studyAreaFilter.addEventListener("input", applyFilters);
+    
+    if (searchInput) {
+      searchInput.addEventListener("input", applyFilters);
+    }
   }
 
   function initPartnerDetailPage(partners) {
