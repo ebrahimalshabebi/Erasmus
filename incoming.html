@@ -174,109 +174,856 @@
 
   <script src="assets/js/app.js"></script>
   <script>
-    const contentMap = {
-      study: {
-        title: "Study Mobility",
-        items: [
-          "General Information",
-          "Academic Calendar",
-          "Nomination Process",
-          "Application Process",
-          "Required Documents",
-          "Course Catalogue",
-          "Visa and Residence Permit",
-          "Health Insurance",
-          "Accommodation",
-          "Transportation",
-          "Arrival and Orientation",
-          "ECTS Conversion Scale"
-        ]
-      },
-      traineeship: {
-        title: "Traineeship Mobility",
-        items: [
-          "General Information",
-          "Academic Calendar",
-          "Nomination Process",
-          "Application Process",
-          "Required Documents",
-          "Visa and Residence Permit",
-          "Health Insurance",
-          "Accommodation",
-          "Transportation",
-          "Arrival and Orientation",
-          "ECTS Conversion Scale"
-        ]
-      },
-      shortterm: {
-        title: "Short-term Mobility",
-        items: [
-          "General Information",
-          "Academic Calendar",
-          "Nomination Process",
-          "Application Process",
-          "Required Documents",
-          "Health Insurance",
-          "Accommodation",
-          "Transportation",
-          "Arrival and Orientation",
-          "ECTS Conversion Scale"
-        ]
-      },
-      phdshort: {
-        title: "PhD Short-term Mobility",
-        items: [
-          "General Information",
-          "Academic Calendar",
-          "Nomination Process",
-          "Application Process",
-          "Required Documents",
-          "Health Insurance",
-          "Accommodation",
-          "Transportation",
-          "Arrival and Orientation",
-          "ECTS Conversion Scale"
-        ]
-      }
+  const contentMap = {
+    study: {
+      title: "Study Mobility",
+      items: [
+        "General Information",
+        "Academic Calendar",
+        "Nomination Process",
+        "Application Process",
+        "Required Documents",
+        "Course Catalogue",
+        "Visa and Residence Permit",
+        "Health Insurance",
+        "Accommodation",
+        "Transportation",
+        "Arrival and Orientation",
+        "ECTS Conversion Scale"
+      ]
+    },
+    traineeship: {
+      title: "Traineeship Mobility",
+      items: [
+        "General Information",
+        "Academic Calendar",
+        "Nomination Process",
+        "Application Process",
+        "Required Documents",
+        "Visa and Residence Permit",
+        "Health Insurance",
+        "Accommodation",
+        "Transportation",
+        "Arrival and Orientation",
+        "ECTS Conversion Scale"
+      ]
+    },
+    shortterm: {
+      title: "Short-term Mobility",
+      items: [
+        "General Information",
+        "Academic Calendar",
+        "Nomination Process",
+        "Application Process",
+        "Required Documents",
+        "Health Insurance",
+        "Accommodation",
+        "Transportation",
+        "Arrival and Orientation",
+        "ECTS Conversion Scale"
+      ]
+    },
+    phdshort: {
+      title: "PhD Short-term Mobility",
+      items: [
+        "General Information",
+        "Academic Calendar",
+        "Nomination Process",
+        "Application Process",
+        "Required Documents",
+        "Health Insurance",
+        "Accommodation",
+        "Transportation",
+        "Arrival and Orientation",
+        "ECTS Conversion Scale"
+      ]
+    }
+  };
+
+  /* ================= NESTED DETAILS ================= */
+    const studyDetails = {
+      "General Information": `
+        <h2>General Information</h2>
+
+        <p>Erasmus+ aims to improve the quality of higher education and strengthen its European dimension. It does this by encouraging transnational cooperation between universities, fostering the European mobility of students and teachers, and contributing to improved transparency and academic recognition of qualifications and studies throughout the European Union.</p>
+
+        <h3>How does it work?</h3>
+
+        <p>Higher education institutions apply for the Erasmus+ University Charter (ECHE) to the European Commission. The awarding of an ECHE gives the institution the right to participate in activities supported by the Erasmus programme. Once an institution receives a Charter, it can apply for funding for activities such as Student Mobility and Curriculum Development projects.</p>
+
+        <p>To apply to IAU for the Erasmus+ Exchange Program, your university needs to have a current Inter-Institutional Agreement with Istanbul Aydin University and you need to be nominated to study at IAU. You can find the list of our partner universities HERE.</p>
+
+        <h3>A Step By Step Guide</h3>
+
+        <h4>STEP 1</h4>
+        <p>Contact your Local Erasmus+ Coordinator at your Home University If you intend to study at Istanbul Aydin University to first check if our universities have an inter-institutional agreement between them. After this, discuss your application with her/him. If there isn't an inter-institutional agreement between our universities but you are interested in studying at IAU, write to the Erasmus+ Coordinator of our University and suggest the implementation of an inter-institutional agreement. If they are willing to cooperate, we will establish an inter-institutional agreement, and after the existence of this agreement, you can proceed to the next step.</p>
+
+        <h4>STEP 2</h4>
+        <p>You need to be officially nominated to IAU by your Erasmus+ Office. All nominations must be made by your Erasmus Office at this link: CLICK HERE</p>
+
+        <p>The online nomination form includes your personal contact information, your area and study cycle, as well as the desired mobility period (fall/spring/full academic year).</p>
+
+        <p><strong>Deadline for applications and nomination for fall term/full academic year:</strong> August 15</p>
+        <p><strong>Deadline for applications and nomination for spring term:</strong> December 15</p>
+
+        <p>2025-2026 Erasmus Info Sheet</p>
+        <p>2024-2025 Erasmus Info Sheet</p>
+
+        <h4>2025-2026 Academic Year Important Dates</h4>
+
+        <p><strong>Winter/Fall Semester:</strong></p>
+        <ul>
+          <li>15.09.2025 – 21.09.2025 (Orientation Week)</li>
+          <li>22.09.2025 – 07.02.2026 (Winter/Fall Semester)</li>
+        </ul>
+
+        <p><strong>Summer/Spring Semester:</strong></p>
+        <ul>
+          <li>9.02.2026 – 15.02.2026 (Orientation Week)</li>
+          <li>16.02.2026 – 10.07.2026 (Summer/Spring Semester)</li>
+        </ul>
+
+        <h4>STEP 3</h4>
+        <p>Check the Courses Available at our University. At this address you can find the list of subjects available at our University. You will use them to fill in the learning agreement. The learning agreement includes all course units you are planning to follow at our university. Please pay attention to the fact that your learning agreement should only contain courses that are taught during the period of your stay (e.g. fall semester courses for students visiting us in the fall term and spring semester courses for students visiting us in the spring term).</p>
+
+        <p>The maximum workload per semester should not surpass 32-34 ECTS for undergraduate students and 30 ECTS for Master/PhD students.</p>
+
+        <p>If you have academic questions concerning the curricula of a certain programme or if you are unsure about the language of instruction of a course you can always contact the IAU Erasmus+ Coordinators assigned for each Department/Faculty. A list of coordinators is available HERE. Please make sure to Cc us (erasmus@aydin.edu.tr) for the follow-up.</p>
+
+        <h4>STEP 4</h4>
+        <p>Fill in the application documents available HERE in the section BEFORE MOBILITY and obtain from your institution's responsible persons the necessary signatures. Note we do not accept handwritten/incomplete documents.</p>
+
+        <h4>STEP 5</h4>
+        <p>Send Your application documents mentioned above together with your passport scan and an ID picture via email at erasmus@aydin.edu.tr</p>
+
+        <p>The completed application form and learning agreement should be signed and stamped by your local Erasmus+ Office before sending it to us as a scan.</p>
+
+        <p>Once you have sent your full set of application documents it can take up to 4 weeks for our Office to evaluate your application and issue your Acceptance letter. In case of missing information/incomplete documents we will contact you to ask for specific updates.</p>
+
+        <h4>STEP 6</h4>
+        <p><strong>Optional Language Courses</strong></p>
+        <p>Istanbul Aydin University provides Turkish language courses for Erasmus+ students which are held in the Department of Turkish Language and Literature or via AYDIN TOMER programme (http://tomer.aydin.edu.tr/).</p>
+
+        <p>You can chose different learning levels according to your Turkish language proficiency (Elementary or Intermediate). If you need more information you can write to us at erasmus@aydin.edu.tr</p>
+
+        <h4>STEP 7</h4>
+        <p><strong>Insurance Information</strong></p>
+        <p>You should carefully read the information on the insurance options here.</p>
+
+        <h4>STEP 8</h4>
+        <p><strong>Accommodation Arrangements</strong></p>
+        <p>Rooms in private dormitories can be rented for approximately 350-550€ a month. Information on Accommodation can be accessed HERE</p>
+
+        <h4>STEP 9</h4>
+        <p><strong>Visa Procedures</strong></p>
+        <p>You can read more information on visa procedures (if required) here and by visiting the website of the Ministry of Foreign Affairs: http://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa</p>
+
+        <h4>STEP 10</h4>
+        <p><strong>Enroll at Your Home University</strong></p>
+        <p>Before you leave your home country make sure you are officially enrolled at your home University.</p>
+
+        <h4>STEP 11</h4>
+        <p><strong>Arrival at IAU</strong></p>
+        <p>According to the information provided in your Acceptance letter, IAU Erasmus Office will organize an Orientation Programme for incoming students one week before the courses start and students will be informed in advance about how it will take place.</p>
+
+        <p><strong>Address of the Erasmus+ Office of Istanbul Aydin University is:</strong></p>
+        <p>
+          Istanbul Aydın University<br>
+          Florya Campus J Block<br>
+          Erasmus Office<br>
+          Besyol Mah. Inonu Cad. No:40.<br>
+          34295 Sefakoy / Kücükcekmece<br>
+          Istanbul / TURKEY<br>
+          Fax: ( 90 212) 424 08 80<br>
+          Email: erasmus@aydin.edu.tr
+        </p>
+
+        <p>On arrival, you will acquire your IAU Student Card from IAU Erasmus Office. You will also receive a password to gain access to your personal electronic student account, to the university's Wi-Fi, Faculty´s computers and will be informed of the schedules of the courses.</p>
+
+        <h4>STEP 12</h4>
+        <p>Within a month after the beginning of your courses at IAU, if you need to change the initially proposed learning agreement, you should contact the Erasmus+ Coordinator of your home University to get the approval for the changes.</p>
+
+        <p>Then you will have to complete the Changes to Learning agreement document and make sure it is approved both by IAU representatives and your home university's representatives.</p>
+
+        <h4>STEP 13</h4>
+        <p><strong>Course Completion</strong></p>
+        <p>After you have completed your study programme, a Transcript of Records will be handed out by the Faculty and the ECTS for the subjects mentioned in the learning agreement will be integrated in your curriculum at your home institution.</p>
+
+        <p>This transcript is sent to your home University and to your private email after the deadline for grade presentation. Before your departure from IAU, you should visit our Office to obtain your Certificate of Mobility.</p>
+      `,
+      "Academic Calendar": `
+        <h2>Academic Calendar</h2>
+        <p>
+          You can access the official academic calendar here:
+          <a class="kvkk-link" href="https://www.aydin.edu.tr/en-us/ogrenciler/kayit-kabul/Pages/akademik-takvim.aspx" target="_blank" rel="noopener noreferrer">
+            Academic Calendar
+          </a>
+        </p>
+      `,
+      "Nomination Process": `
+        <h2>Nomination Process</h2>
+
+        <p>In order to apply for Erasmus+ mobility at Istanbul Aydin University, students must be officially nominated by their home university’s Erasmus+ Office.</p>
+
+        <h3>How does it work?</h3>
+
+        <p>Your Erasmus+ Office is responsible for submitting your nomination. All nominations must be made through the official system.</p>
+
+        <p>
+          <strong>Online Nomination Form:</strong><br>
+          <a class="kvkk-link" href="https://forms.office.com/pages/responsepage.aspx?id=tL772hMxx0m85vrrhBOb9nGdyjzwAVRBhA3V_TQ3xkpUQzIySlBSS0UwRkVTQUZRM1FGNEVBVkEzVi4u&route=shorturl" target="_blank">
+            Click here to access the form
+          </a>
+        </p>
+
+        <p>The online nomination form includes your personal contact information, your area and study cycle, as well as the desired mobility period (fall/spring/full academic year).</p>
+
+        <h3>Nomination Deadlines</h3>
+
+        <p><strong>Deadline for nominations for fall term/full academic year:</strong> August 15</p>
+        <p><strong>Deadline for nominations for spring term:</strong> December 15</p>
+
+        <h3>Important Notes</h3>
+
+        <p>Students must be nominated before submitting their application.</p>
+
+        <p>Any applications received by IAU after the deadline may not be processed.</p>
+
+        <p>Incomplete applications may also not be processed.</p>
+      `,
+      "Application Process": `
+        <h2>Application Process</h2>
+
+        <p>After being nominated by your home university, you must complete the application process to finalize your Erasmus+ mobility at Istanbul Aydin University.</p>
+
+        <h3>How does it work?</h3>
+
+        <p>The application process consists of preparing your learning agreement, completing the required documents, and submitting your application to the Erasmus Office.</p>
+
+        <h4>STEP 1</h4>
+        <p>Check the Courses Available at our University. You will use them to fill in the learning agreement. The learning agreement includes all course units you are planning to follow at our university.</p>
+
+        <p>Please pay attention to the fact that your learning agreement should only contain courses that are taught during the period of your stay (e.g. fall semester courses for students visiting in the fall term and spring semester courses for students visiting in the spring term).</p>
+
+        <p>The maximum workload per semester should not surpass 32–34 ECTS for undergraduate students and 30 ECTS for Master/PhD students.</p>
+
+        <p>If you have academic questions concerning the curricula of a certain programme or if you are unsure about the language of instruction of a course you can contact the IAU Erasmus+ Coordinators assigned for each Department/Faculty. Please make sure to Cc us (erasmus@aydin.edu.tr) for the follow-up.</p>
+
+        <h4>STEP 2</h4>
+        <p>Fill in the application documents available in the BEFORE MOBILITY section and obtain from your institution's responsible persons the necessary signatures.</p>
+
+        <p>Note that handwritten or incomplete documents are not accepted.</p>
+
+        <h4>STEP 3</h4>
+        <p>Send your application documents together with your passport scan and an ID picture via email:</p>
+
+        <p><strong>Email:</strong> erasmus@aydin.edu.tr</p>
+
+        <p>The completed application form and learning agreement should be signed and stamped by your local Erasmus+ Office before sending.</p>
+
+        <p>Once you have submitted your full application, it may take up to 4 weeks for evaluation and issuance of your Acceptance Letter. In case of missing or incomplete documents, you will be contacted for updates.</p>
+
+        <h3>Application Deadlines</h3>
+
+        <p><strong>Fall semester / full academic year:</strong> 15 August</p>
+        <p><strong>Spring semester:</strong> 15 December</p>
+
+        <h3>Documents Required</h3>
+        <ul>
+          <li>Online Learning Agreement (before mobility)</li>
+          <li>Online Application Form</li>
+          <li>Transcript of records (in English)</li>
+          <li>Passport copy (minimum 1-year validity required)</li>
+          <li>Insurance information</li>
+          <li>ID photo for student card</li>
+        </ul>
+
+        <h3>Important Notes</h3>
+
+        <p>Any applications received after the deadline may not be processed.</p>
+
+        <p>Incomplete applications may not be processed.</p>
+      `,
+      "Required Documents": `
+        <h2>Required Documents</h2>
+
+        <h3>Before Mobility</h3>
+
+        <ul>
+          <li>Application Form</li>
+          <li>
+            Online Learning Agreement – before mobility; students need to create one via
+            <a class="kvkk-link" href="https://learning-agreement.eu/" target="_blank" rel="noopener noreferrer">
+              https://learning-agreement.eu/
+            </a>
+          </li>
+          <li>Check the online guide on how to create OLA</li>
+          <li>Approval form for incoming students – just for students coming for Architecture studies</li>
+        </ul>
+
+        <h3>During Mobility</h3>
+
+        <ul>
+          <li>
+            Online Learning Agreement – during mobility; students need to create the changes to LA via
+            <a class="kvkk-link" href="https://learning-agreement.eu/" target="_blank" rel="noopener noreferrer">
+              https://learning-agreement.eu/
+            </a>
+            by applying changes to the already validated OLA
+          </li>
+          <li>Check the online guide on how to apply changes to OLA</li>
+          <li>Extension Form</li>
+        </ul>
+
+        <h3>After Mobility</h3>
+
+        <ul>
+          <li>Certificate of Mobility</li>
+          <li>Transcript of Records (automatically provided by IAU Erasmus Office within max. 4 weeks after the completion of the mobility)</li>
+        </ul>
+      `,
+      "Course Catalogue": `
+        <h2>Course Catalogue</h2>
+
+        <p>
+          You can access the full list of courses offered at Istanbul Aydin University here:
+          <a class="kvkk-link" href="https://ebs.aydin.edu.tr/en/index.iau?Page=akademikBirimler&ln=tr" target="_blank" rel="noopener noreferrer">
+            Course Catalogue
+          </a>
+        </p>
+      `,
+      "Visa and Residence Permit": `
+        <h2>Visa and Residence Permit</h2>
+
+        <h3>Student Visa</h3>
+
+        <p>According to the new regulations of Ministry of Internal Affairs, student visa is not necessary for residence permit application. However we advise all Erasmus+ incoming students to consult their situation with Turkish Missions.</p>
+
+        <p>Student Visa, if needed, is available only through Turkish Embassies or Consulates outside of the Republic of Turkey and should be obtained before the student plans to arrive. Incoming students are advised to apply for the visa (if needed) at least two months prior to the date of departure from their home country.</p>
+
+        <p>For education visas, students are required to submit documents such as:</p>
+
+        <ul>
+          <li>A letter of acceptance given by IAU Erasmus+ Office</li>
+          <li>Original passport (valid for at least one year)</li>
+          <li>A completed visa application form</li>
+          <li>Recent passport-size pictures</li>
+          <li>A non-refundable processing fee for the Turkish Consulate</li>
+        </ul>
+
+        <p>For the most updated information on visa application students are advised to contact the nearest Turkish Missions.</p>
+
+        <h3>Residence Permit</h3>
+
+        <p>Erasmus+ students are required to apply for a residence permit within 30 days from their arrival in Turkey. IAU Erasmus+ Office assists Erasmus+ students during their residence permit application. The application is processed at the Directorate General for Migration Management in Istanbul.</p>
+
+        <p>Please get the following items ready prior to the application:</p>
+
+        <ul>
+          <li>Application form filled out according to the information on the passport (will be done upon arrival to Turkey)</li>
+          <li>Student Letter document (available from the Student Affairs Office)</li>
+          <li>4 photos (passport size)</li>
+          <li>Passport – copy of the pages including ID information and the last entrance to Turkey</li>
+          <li>Application fee (as mentioned on the online application form)</li>
+          <li>The birth certificate will be requested for foreign minors</li>
+          <li>Proof of Full Legal Name Certificate (if required, issued by the nearest Consulate/Embassy)</li>
+          <li>Original health insurance (if purchased from J Block ground floor)</li>
+        </ul>
+
+        <p>For German students who have AT/11 form, please have with you the paper given to you by the SGK Office in Istanbul.</p>
+
+        <p>If the documents are not completed in time, your application shall be removed and you shall be subject to the general provisions concerning visa and residence permit violations.</p>
+
+        <p>
+          Official residence permit application website:
+          <a class="kvkk-link" href="https://e-ikamet.goc.gov.tr/" target="_blank" rel="noopener noreferrer">
+            Residence Permit Application
+          </a>
+        </p>
+
+        <p><strong>Important:</strong> The application has to be made within 30 days of a student's arrival in Turkey. Otherwise, the student visa of the applicant will be invalidated. Please contact IAU Erasmus+ Office for assistance within 30 days of your arrival.</p>
+
+        <p>The residence permit will be sent to the address declared in your application form. It is essential to declare your full address accurately during the application.</p>
+
+        <p><strong>Important information:</strong> As of October 2022, according to the regulations issued by the Turkish Ministry of Interior, non-Turkish Erasmus incoming students who will be studying at Istanbul Aydın University MUST find accommodation only in non-restricted areas/neighborhoods of Istanbul.</p>
+
+        <p>The list of restricted areas includes: Avcılar, Bahçelievler, Bağcılar, Başakşehir, Esenler, Esenyurt, Fatih, Küçükçekmece, Sultangazi and Zeytinburnu.</p>
+
+        <p>The only exception is related to dormitories available in Küçükçekmece and Bahçelievler, as Istanbul Aydın University's campuses are located in these two districts.</p>
+
+        <p>If you would like to extend your residence permit, you must file your application at the governorship of your place of residence. You may begin the application procedures 60 days prior to the expiry date.</p>
+
+        <p>
+          Please click here for the RESIDENCE PERMIT step-by-step guide:
+          <a class="kvkk-link" href="assets/files/residence-permit.pdf" target="_blank">
+            Residence Permit Guide (PDF)
+          </a>
+        </p>
+      `,
+      "Health Insurance": `
+        <h2>Health Insurance</h2>
+
+        <h3>Health Insurance in Turkey</h3>
+
+        <p>There are different options for incoming students:</p>
+
+        <h4>Option 1</h4>
+        <p>If you are coming from Germany, Netherlands, Belgium, Austria, you can obtain the Health Insurance Policy in your home country by inquiring your National Medical Insurance Company for the equivalent Letter of the Turkish National Medical Insurance-SGK for the entire period of your study mobility at IAU.</p>
+
+        <p>For example:</p>
+        <ul>
+          <li>Germany: T/A 11 form</li>
+          <li>Netherlands: N/TUR 111 form</li>
+          <li>Belgium: B.T.8 form</li>
+          <li>Austria: A/TR 3 form</li>
+        </ul>
+
+        <h4>Option 2</h4>
+        <p>If you are not insured under the National Medical Insurance Company, you can obtain your compulsory Health Insurance Policy in Turkey during the Orientation Programme at Istanbul Aydin University: a comprehensive medical insurance package at an average price of 1500 TL/year.</p>
+
+        <p>The insurance agent is available for consultation in Florya Campus, J Block, entrance floor.</p>
+
+        <h4>Option 3</h4>
+        <p>You can obtain your compulsory Health Insurance Policy in your home country, making sure it is written in English, valid in Turkey, and provides unlimited coverage for both in-patient and out-patient treatment.</p>
+
+        <h3>Minimum Policy Content</h3>
+
+        <p>The insurance must include the following minimum coverage:</p>
+
+        <table>
+          <tr>
+            <th></th>
+            <th>Contracted Institutions</th>
+            <th>Non-Contracted Institutions</th>
+          </tr>
+          <tr>
+            <td>Outpatient Diagnosis Treatment</td>
+            <td>2,000 TL (Insured: 40% / Company: 60%)</td>
+            <td>2,000 TL (Insured: 40% / Company: 60%)</td>
+          </tr>
+          <tr>
+            <td>Inpatient Diagnosis Treatment</td>
+            <td>Unlimited (Insured: 0% / Company: 100%)</td>
+            <td>20,000 TL (Insured: 20% / Company: 80%)</td>
+          </tr>
+        </table>
+
+        <p>*Non-Contracted Institutions: Institutions (hospitals, physicians' offices, and other health institutions) that do not have an agreement with the insurer.</p>
+        <p>**Your insurance company needs to include the conversion rate from Euro/national currency to Turkish Liras.</p>
+
+        <p><strong>Important:</strong> Students who obtain a Health Insurance Policy in their home country that meets the above requirements will not need to translate it into Turkish when applying for a residence permit, saving translation and notarization costs.</p>
+
+        <p>In this case, Istanbul Aydin University will issue an additional certificate confirming that the insurance is valid in Turkey and meets official requirements.</p>
+
+        <h3>Why Compulsory Health Insurance?</h3>
+
+        <ul>
+          <li>Registration to the University</li>
+          <li>Obtaining a residence permit</li>
+          <li>Coverage for medical treatment in hospitals across Türkiye</li>
+        </ul>
+
+        <h3>When should your insurance start?</h3>
+
+        <p>After applying for compulsory health insurance with the help of the Erasmus+ Office, you must complete the payment to activate it. Your insurance begins the following day after payment.</p>
+
+        <h3>How much will it cost?</h3>
+
+        <h4>Option 1</h4>
+        <p>Students from Germany, Netherlands, Belgium, Austria who obtain equivalent national insurance and SGK certification will not pay any fee.</p>
+
+        <h4>Option 2</h4>
+        <p>Students purchasing insurance in Turkey will pay approximately 1500 TL/year. The fee is paid once in cash to the insurance representatives available during the Orientation Programme.</p>
+
+        <h4>Option 3</h4>
+        <p>Students obtaining insurance in their home country will pay the price determined by their insurance provider.</p>
+
+        <p>For more information about the subject, please contact us.</p>
+      `,
+      "Accommodation": `
+        <h2>Accommodation</h2>
+
+        <p>Istanbul Aydın University has special agreements with private dormitories. There is also the option of renting a flat with students who study in Istanbul or with other international students.</p>
+
+        <p>
+          You can also find accommodation using websites or real estate agents such as:
+          <a class="kvkk-link" href="http://www.sahibinden.com/en" target="_blank" rel="noopener noreferrer">
+            sahibinden.com
+          </a>
+        </p>
+
+        <h3>Average Expenses</h3>
+
+        <ul>
+          <li>Flat: € 350–700 monthly</li>
+          <li>Sharing Flat: € 200–500 monthly</li>
+          <li>Dormitory: € 350–700 monthly</li>
+        </ul>
+
+        <h3>Dormitories Near Florya Campus</h3>
+
+        <p>Students are advised to contact the dormitories directly for booking and to follow up if necessary with the IAU Erasmus+ Team and Erasmus Student Club Ambassadors at erasmus@aydin.edu.tr</p>
+
+        <h4>İstanbul Aydın University Dormitory (female students only)</h4>
+        <p>
+          Address: Gültepe Mah. /1012 sokak No:4-6 Küçükçekmece / İstanbul<br>
+          Phone: +90 (212) 540 17 10<br>
+          <a class="kvkk-link" href="https://www.aydinuniversitesikizogrenciyurdu.com/" target="_blank" rel="noopener noreferrer">
+            Visit Website
+          </a>
+        </p>
+
+        <h4>Doruk Dormitory (male students only)</h4>
+        <p>
+          Address: Beşyol, Beşyol Birlik Sok. &, Eski Londra Asf Cd No:22, 34295 Küçükçekmece / İstanbul<br>
+          Phone: +90 (0212) 649 93 22<br>
+          <a class="kvkk-link" href="http://www.dorukerkekyurdu.com/" target="_blank" rel="noopener noreferrer">
+            Visit Website
+          </a>
+        </p>
+
+        <h4>Can Dormitory (female students only)</h4>
+        <p>
+          Address: Kartaltepe Mah. Belediye Cad. 5/B Küçükçekmece, İstanbul<br>
+          Phone: +90 212 541 1100<br>
+          <a class="kvkk-link" href="http://cankizyurdu.com.tr/" target="_blank" rel="noopener noreferrer">
+            Visit Website
+          </a>
+        </p>
+
+        <h4>Eduka Florya Dormitory (male students only)</h4>
+        <p>
+          Address: Beşyol, Cami Sk. 17B D:1, 34295 Küçükçekmece / İstanbul<br>
+          Phone: +90 505 061 53 68<br>
+          <a class="kvkk-link" href="https://edukayurtlari.com/" target="_blank" rel="noopener noreferrer">
+            Visit Website
+          </a>
+        </p>
+      `,
+      "Transportation": `
+        <h2>Transportation</h2>
+
+        <p>Istanbul Aydin University, Florya Campus is located 2 minutes away from bus, minibus, and metrobus stations (Beşyol and Sefaköy). Transportation to the campus is possible through IETT (public transportation of Istanbul), private buses, minibuses, taxis, and private cars.</p>
+
+        <p>
+          You can find the updated map of public transportation in Istanbul here:
+          <a class="kvkk-link" href="https://www.metro.istanbul/YolcuHizmetleri/AgHaritalari" target="_blank" rel="noopener noreferrer">
+            Public Transportation Map
+          </a>
+        </p>
+
+        <p>Public transportation in Istanbul includes municipality buses, public buses, ferries, metro, suburban trains, and more. Prices vary and require tickets or tokens.</p>
+
+        <p>It is essential to obtain an <strong>Istanbul Card</strong>, a smart transportation card that provides access to all public transport options.</p>
+
+        <h3>Getting to Campus</h3>
+
+        <p>There are several transportation options to reach Istanbul Aydin University Florya Campus. Buses and metrobus lines stop at Metrobus Beşyol Station, which is very close to the campus.</p>
+
+        <p>When traveling from Bakırköy, Şirinevler, or Yenibosna, you can easily reach the university by metrobus. Make sure the vehicle has the "Metrobus" sign.</p>
+
+        <p>
+          For more information about the Istanbul Card, please visit:
+          <a class="kvkk-link" href="https://iett.istanbul/en" target="_blank" rel="noopener noreferrer">
+            IETT Official Website
+          </a>
+        </p>
+
+        <h3>COVID-19 Information</h3>
+
+        <p>All passengers aged 6 and over traveling to Turkey must complete an online form within 72 hours before travel.</p>
+
+        <p>
+          <a class="kvkk-link" href="https://register.health.gov.tr/" target="_blank" rel="noopener noreferrer">
+            Travel Entry Form
+          </a>
+        </p>
+
+        <p>By completing the form, a HES code is automatically generated. This allows Turkish authorities to contact travelers who may have been exposed to COVID-19.</p>
+
+        <p>To use public transportation in Turkey, you will need:</p>
+
+        <ul>
+          <li>An Istanbul Card (personal transport card)</li>
+          <li>A HES code</li>
+        </ul>
+
+        <p>For intercity transport (planes, buses, ferries), a reservation, transport ticket, and HES code are required.</p>
+
+        <p>
+          You must also activate your HES code on your Istanbul Card:
+          <a class="kvkk-link" href="https://kisisellestirme.istanbulkart.istanbul/" target="_blank" rel="noopener noreferrer">
+            Activate HES Code
+          </a>
+        </p>
+
+        <p><strong>Note:</strong> HES code activation is only available within Türkiye.</p>
+      `,
+      "Arrival and Orientation": `
+        <h2>Arrival and Orientation</h2>
+
+        <h3>Orientation Description</h3>
+
+        <p>At the beginning of each term, IAU Erasmus+ Office holds a mandatory orientation program for new exchange students. This program is designed to provide valuable information and facilitate your transition to Istanbul Aydin University.</p>
+
+        <p>By participating in the Erasmus+ Student Orientation, you will gain essential information about:</p>
+
+        <ul>
+          <li>Residence permit rules and regulations that affect your visa status</li>
+          <li>Student health services and health insurance requirements at IAU</li>
+          <li>Academic life at IAU and how to register for classes</li>
+          <li>Campus and community resources (campus tour)</li>
+          <li>Opportunities to meet other new international and domestic students at IAU</li>
+          <li>Opportunities to meet Departmental Coordinators</li>
+        </ul>
+
+        <p>All newly admitted exchange students are required to attend orientation and the immigration document check-in. If you do not attend both, Erasmus+ Office will place a hold on your registration.</p>
+
+        <p>For more details, please send your questions by email: <strong>erasmus@aydin.edu.tr</strong></p>
+
+        <h3>Residence Permit Check-in</h3>
+
+        <p>In addition to the orientation, Erasmus+ students are also required to attend the Residence Permit Check-in and bring photocopies of the required documents (see related section/link).</p>
+
+        <h3>Make-up Orientation Session</h3>
+
+        <p>If you are not able to arrive in Turkey by the orientation date, you may schedule a make-up orientation session via email: <strong>erasmus@aydin.edu.tr</strong></p>
+
+        <p>Students who fail to attend both the mandatory Erasmus+ Student Orientation and the Residence Permit Check-in will have a registration hold placed on their records.</p>
+
+        <p>If you are unable to attend one or both sessions, please contact Erasmus+ Office at 0090 (212) 444 1 428 or via email at erasmus@aydin.edu.tr</p>
+
+        <p>General information about the orientation session will be sent to students a few days before the beginning of the programme.</p>
+
+        <h3>COVID-19 Information</h3>
+
+        <p>The student should be aware that depending on the evolution of the COVID-19 pandemic worldwide and in Turkey, both the orientation programme and the courses for the upcoming semester/academic year may be offered online and/or as blended education.</p>
+
+        <p>Students are advised to follow all instructions provided by the Erasmus+ Office and relevant authorities for their health and safety.</p>
+      `,
+      "ECTS Conversion Scale": `
+        <h2>ECTS Conversion Scale</h2>
+
+        <p>
+          You can access the ECTS conversion scale used at Istanbul Aydin University here:
+          <a class="kvkk-link" href="https://ebs.aydin.edu.tr/en/index.iau?Page=ectsVeisyuku&ln=tr" target="_blank" rel="noopener noreferrer">
+            ECTS Conversion Scale
+          </a>
+        </p>
+      `
     };
 
-    const rightCards = document.getElementById("rightCards");
-    const aboutTitle = document.getElementById("aboutTitle");
-    const menuItems = document.querySelectorAll(".about-menu-item[data-section]");
+  const traineeshipDetails = {
+    ...studyDetails,
+    "General Information": `
+        <h2>Traineeship - General Information</h2>
 
-    function escapeHtml(str) {
-      return str.replace(/[&<>"']/g, (m) => ({
-        "&": "&amp;",
-        "<": "&lt;",
-        ">": "&gt;",
-        '"': "&quot;",
-        "'": "&#039;"
-      }[m]));
-    }
+        <p>All year round, Istanbul Aydin University accepts applications for Erasmus+ traineeships. Interested students are encouraged to follow the guidelines and submit their application to the Erasmus+ Office via email: <strong>erasmus@aydin.edu.tr</strong></p>
 
-    function renderSection(sectionKey) {
-      const section = contentMap[sectionKey] || contentMap.study;
-      aboutTitle.textContent = section.title;
-      rightCards.innerHTML = section.items.map((title) => `
-        <a class="about-card" href="javascript:void(0)">
-          <span>${escapeHtml(title)}</span>
-          <span>›</span>
-        </a>
-      `).join("");
-    }
+        <p>Each application is carefully evaluated based on education level, academic results, and motivation. Selected students may be offered a non-paid traineeship lasting between 2 and 12 months within the International Relations Directorate or one of the Faculties/Institutes.</p>
 
-    renderSection("study");
+        <h3>Who is eligible?</h3>
 
-    menuItems.forEach(btn => {
-      btn.addEventListener("click", () => {
-        menuItems.forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-        renderSection(btn.getAttribute("data-section"));
+        <p>Students enrolled in higher education institutions leading to a recognized degree can participate in the Erasmus+ Traineeship Programme.</p>
+
+        <p>Recent graduates may also participate, provided they are selected during their final year of study and complete the traineeship within 12 months after graduation.</p>
+
+        <p>The sending institution must hold an Erasmus+ Charter for Higher Education. While an inter-institutional agreement is not mandatory, students are advised to consult their Erasmus+ Office.</p>
+
+        <h3>Important Notes</h3>
+
+        <ul>
+          <li>Students are not allowed to enroll in regular courses during their traineeship</li>
+          <li>Traineeships are intended for vocational training and work experience</li>
+        </ul>
+
+        <h3>Application Links</h3>
+
+        <p>
+          <a class="kvkk-link" href="https://forms.office.com/pages/responsepage.aspx?id=tL772hMxx0m85vrrhBOb9nGdyjzwAVRBhA3V_TQ3xkpUQzIySlBSS0UwRkVTQUZRM1FGNEVBVkEzVi4u&route=shorturl" target="_blank">
+            Online Nomination Form
+          </a><br>
+
+          <a class="kvkk-link" href="assets/files/traineeship-application-form.docx" target="_blank">
+            Incoming Traineeship Student Application Form
+          </a><br>
+
+          <a class="kvkk-link" href="assets/files/traineeship-arrival-form.docx" target="_blank">
+            Incoming Traineeship Student Arrival Form
+          </a><br>
+
+          <a class="kvkk-link" href="assets/files/traineeship-learning-agreement.docx" target="_blank">
+            Incoming Traineeship Learning Agreement
+          </a>
+        </p>
+
+        <h3>Insurance, Visa and Residence Permit</h3>
+
+        <p><strong>Health Insurance:</strong> Students should contact their home university Erasmus+ Office for guidance.</p>
+
+        <p><strong>Liability and Accident Insurance:</strong> All trainees are strongly recommended to obtain coverage before arrival in Turkey.</p>
+
+        <p>In case of damage to university property:</p>
+
+        <ul>
+          <li>IAU covers damages made inadvertently</li>
+          <li>IAU does not cover damages caused by negligence or intention</li>
+          <li>IAU does not cover third-party damages</li>
+        </ul>
+
+        <h3>Visa Information</h3>
+
+        <p>
+          <a class="kvkk-link" href="http://www.mfa.gov.tr/sub.en.mfa?cc4e437c-6769-4d79-9017-10b63c651224" target="_blank">General Visa</a><br>
+          <a class="kvkk-link" href="https://www.konsolosluk.gov.tr/eKonsolosluk/Sayfalar/Visa" target="_blank">Student Visa</a>
+        </p>
+
+        <p>Students staying more than 90 days must obtain an Erasmus+ internship visa before arrival.</p>
+
+        <p>After arrival, students must apply for a residence permit within 30 days.</p>
+
+        <p>
+          <a class="kvkk-link" href="https://e-ikamet.goc.gov.tr/Ikamet/Basvuru/IlkBasvuru" target="_blank">
+            Residence Permit Application
+          </a>
+        </p>
+
+        <p><strong>Important:</strong> If the residence permit is not obtained, the visa becomes invalid and students may be required to return to their home country.</p>
+
+        <p>If you wish to extend your residence permit, you may apply up to 60 days before expiration.</p>
+      `
+  };
+
+  const shorttermDetails = {
+    ...studyDetails,
+    "General Information": `
+      <h2>Short-term Mobility - General Information</h2>
+
+      <p>Short-term mobility under Erasmus+ allows students to participate in academic activities abroad for a shorter duration compared to regular mobility programs.</p>
+
+      <h3>How does it work?</h3>
+
+      <p>Students are nominated by their home university and participate in short-term study or blended mobility programmes at Istanbul Aydin University.</p>
+
+      <p>The mobility period is shorter and may include physical mobility combined with virtual components.</p>
+
+      <h3>Key Features</h3>
+
+      <ul>
+        <li>Shorter mobility duration compared to semester-based exchanges</li>
+        <li>May include blended learning (online + physical)</li>
+        <li>Focused academic or project-based activities</li>
+        <li>Opportunity to gain international experience in a limited time</li>
+      </ul>
+
+      <p>The structure and duration of the mobility are defined by the programme and agreed upon before the mobility period.</p>
+    `
+  };
+
+  const phdshortDetails = {
+    ...studyDetails,
+    "General Information": `
+      <h2>PhD Short-term Mobility - General Information</h2>
+
+      <p>PhD short-term mobility under Erasmus+ enables doctoral candidates to carry out research, training, or academic activities abroad for a limited period.</p>
+
+      <h3>How does it work?</h3>
+
+      <p>PhD students are nominated by their home university to participate in short-term academic or research-based mobility at Istanbul Aydin University.</p>
+
+      <p>The mobility period is flexible and designed to support research collaboration, academic development, and international networking.</p>
+
+      <h3>Key Features</h3>
+
+      <ul>
+        <li>Short-term mobility tailored for doctoral students</li>
+        <li>Focus on research, academic collaboration, and training</li>
+        <li>Flexible duration depending on research needs</li>
+        <li>Opportunity to work with international academic staff</li>
+      </ul>
+
+      <p>The mobility programme and activities are defined in advance and must be approved by both home and host institutions.</p>
+    `
+  };
+
+  const detailsMap = {
+  study: studyDetails,
+  traineeship: traineeshipDetails,
+  shortterm: shorttermDetails,
+  phdshort: phdshortDetails
+  };
+
+  let currentSection = "study";
+
+  const rightCards = document.getElementById("rightCards");
+  const aboutTitle = document.getElementById("aboutTitle");
+  const menuItems = document.querySelectorAll(".about-menu-item[data-section]");
+
+  const aboutDetails = document.createElement("div");
+  aboutDetails.id = "aboutDetails";
+  aboutDetails.className = "about-details";
+  document.querySelector(".about-content").appendChild(aboutDetails);
+
+  function escapeHtml(str) {
+    return str.replace(/[&<>"']/g, (m) => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#039;"
+    }[m]));
+  }
+
+  function renderSection(sectionKey) {
+    currentSection = sectionKey;
+
+    const section = contentMap[sectionKey] || contentMap.study;
+    aboutTitle.textContent = section.title;
+
+    rightCards.innerHTML = section.items.map((title) => `
+      <div class="about-card" data-title="${escapeHtml(title)}">
+        <span>${escapeHtml(title)}</span>
+        <span>›</span>
+      </div>
+    `).join("");
+
+    attachCardEvents();
+  }
+
+  function attachCardEvents() {
+    document.querySelectorAll(".about-card").forEach(card => {
+      card.addEventListener("click", () => {
+        const title = card.getAttribute("data-title");
+
+        const sectionDetails = detailsMap[currentSection];
+
+        if (sectionDetails && sectionDetails[title]) {
+          aboutDetails.innerHTML = sectionDetails[title];
+          aboutDetails.scrollIntoView({ behavior: "smooth" });
+        } else {
+          aboutDetails.innerHTML = "<p>Content not available.</p>";
+        }
       });
     });
+  }
 
+  renderSection("study");
 
-  </script>
+  menuItems.forEach(btn => {
+    btn.addEventListener("click", () => {
+      menuItems.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      aboutDetails.innerHTML = "";
+      renderSection(btn.getAttribute("data-section"));
+    });
+  });
+
+  const params = new URLSearchParams(window.location.search);
+  const sectionFromURL = params.get("section") || "study";
+
+  renderSection(sectionFromURL);
+</script>
 </body>
 
 </html>
