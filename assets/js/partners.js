@@ -124,13 +124,6 @@
     });
   }
 
-  function applyThemeFromStorage() {
-    var currentTheme = localStorage.getItem("aboutTheme") || "light";
-    if (currentTheme === "dark") {
-      document.body.classList.add("about-dark");
-    }
-  }
-
   function renderPartnerCards(partners, rootEl) {
     if (!partners.length) {
       rootEl.innerHTML = '<div class="partners-empty">No partners found for the selected filters.</div>';
@@ -299,8 +292,6 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    applyThemeFromStorage();
-
     try {
       var partners = getPartnersFromStaticData();
       if (!partners.length) {

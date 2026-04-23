@@ -93,198 +93,6 @@
                 grid-template-columns: 1fr;
             }
         }
-
-        /* ══════════════════════════════════════════
-           STATS BANNER — full-width, no icons
-        ══════════════════════════════════════════ */
-        .stats-banner {
-            background: #0a0f1e;
-            padding: 0 !important;
-            margin: 0 !important;
-            width: 100%;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .stats-banner::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background:
-                radial-gradient(ellipse 60% 120% at 10% 50%, rgba(0, 61, 165, 0.18) 0%, transparent 70%),
-                radial-gradient(ellipse 40% 100% at 90% 50%, rgba(0, 120, 255, 0.10) 0%, transparent 65%);
-            pointer-events: none;
-        }
-
-        .stats-banner-inner {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            position: relative;
-            z-index: 1;
-        }
-
-        .stat-banner-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 52px 24px;
-            gap: 8px;
-            position: relative;
-            transition: background 0.3s ease;
-        }
-
-        .stat-banner-item:hover {
-            background: rgba(255,255,255,0.03);
-        }
-
-        .stat-banner-value {
-            font-family: 'Montserrat', sans-serif;
-            font-size: clamp(2.4rem, 4vw, 3.6rem);
-            font-weight: 700;
-            color: #ffffff;
-            letter-spacing: -0.03em;
-            line-height: 1;
-        }
-
-        .stat-banner-label {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 0.78rem;
-            font-weight: 600;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            color: rgba(255,255,255,0.45);
-        }
-
-        .stat-banner-divider {
-            width: 1px;
-            background: rgba(255,255,255,0.08);
-            align-self: stretch;
-        }
-
-        @media (max-width: 640px) {
-            .stats-banner-inner {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            .stat-banner-divider:nth-child(4) {
-                display: none;
-            }
-        }
-
-        /* ══════════════════════════════════════════
-           QUICK ACCESS — 2026-standard list-grid
-        ══════════════════════════════════════════ */
-        .qa-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1px;
-            background: #e8eaed;
-            border: 1px solid #e8eaed;
-            border-radius: 16px;
-            overflow: hidden;
-            margin-top: 32px;
-        }
-
-        .qa-card {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            padding: 20px 22px;
-            background: #fff;
-            text-decoration: none;
-            color: inherit;
-            transition: background 0.18s ease, transform 0.18s ease;
-            position: relative;
-            group: true;
-        }
-
-        .qa-card:hover {
-            background: #f4f7ff;
-            z-index: 1;
-        }
-
-        .qa-card:hover .qa-card-arrow {
-            opacity: 1;
-            transform: translate(1px, -1px);
-        }
-
-        .qa-card:hover .qa-card-title {
-            color: #003DA5;
-        }
-
-        .qa-card-icon {
-            width: 32px;
-            height: 32px;
-            flex-shrink: 0;
-            opacity: 0.75;
-            transition: opacity 0.18s;
-        }
-
-        .qa-card:hover .qa-card-icon {
-            opacity: 1;
-        }
-
-        .qa-card-body {
-            display: flex;
-            flex-direction: column;
-            gap: 2px;
-            min-width: 0;
-            flex: 1;
-        }
-
-        .qa-card-title {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 0.88rem;
-            font-weight: 700;
-            color: #111827;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            transition: color 0.18s;
-        }
-
-        .qa-card-meta {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 0.73rem;
-            color: #8a94a6;
-            font-weight: 400;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .qa-card-arrow {
-            font-size: 1rem;
-            color: #003DA5;
-            opacity: 0;
-            transition: opacity 0.18s, transform 0.18s;
-            flex-shrink: 0;
-            line-height: 1;
-        }
-
-        .qa-card--featured {
-            background: linear-gradient(135deg, #f0f5ff 0%, #e8f0ff 100%);
-        }
-
-        .qa-card--featured .qa-card-title {
-            color: #003DA5;
-        }
-
-        .qa-card--featured:hover {
-            background: linear-gradient(135deg, #e0ebff 0%, #d0e4ff 100%);
-        }
-
-        @media (max-width: 900px) {
-            .qa-grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        @media (max-width: 640px) {
-            .qa-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
     </style>
     <title>Erasmus</title>
 </head>
@@ -480,27 +288,41 @@
             </div>
         </section>
 
-        <section class="stats-section stats-banner" aria-label="Erasmus statistics">
-            <div class="stats-banner-inner">
-                <div class="stat-banner-item">
-                    <span class="stat-banner-value" data-target="38000">38K+</span>
-                    <span class="stat-banner-label">Students</span>
-                </div>
-                <div class="stat-banner-divider" aria-hidden="true"></div>
-                <div class="stat-banner-item">
-                    <span class="stat-banner-value">420+</span>
-                    <span class="stat-banner-label">Partner Institutions</span>
-                </div>
-                <div class="stat-banner-divider" aria-hidden="true"></div>
-                <div class="stat-banner-item">
-                    <span class="stat-banner-value">95+</span>
-                    <span class="stat-banner-label">Countries</span>
-                </div>
-                <div class="stat-banner-divider" aria-hidden="true"></div>
-                <div class="stat-banner-item">
-                    <span class="stat-banner-value">1,200+</span>
-                    <span class="stat-banner-label">Annual Mobility Placements</span>
-                </div>
+        <section class="stats-section">
+            <div class="container">
+                <aside class="quick-stats-panel" aria-label="Erasmus statistics">
+                    <h3 class="quick-stats-title">At a Glance</h3>
+                    <div class="stats-grid">
+                        <div class="quick-stat-item">
+                            <div class="quick-stat-head">
+                                <span class="quick-stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3L3 8v5c0 3.7 2.7 6.8 6.4 7.7L10 22h4l.6-1.3C18.3 19.8 21 16.7 21 13V8l-9-5zM7 14v-2.1l5 2.5 5-2.5V14c0 2.4-1.7 4.4-4 4.9V18h-2v.9C8.7 18.4 7 16.4 7 14z"/></svg></span>
+                                <span class="quick-stat-value">38K+</span>
+                            </div>
+                            <span class="quick-stat-label">Students</span>
+                        </div>
+                        <div class="quick-stat-item">
+                            <div class="quick-stat-head">
+                                <span class="quick-stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm3.9 14.9A8 8 0 0 1 8.1 5.1a7.9 7.9 0 0 0 7.8 11.8zM5.1 8.1a8.1 8.1 0 0 1 11.8 7.8A8 8 0 0 0 5.1 8.1z"/></svg></span>
+                                <span class="quick-stat-value">420+</span>
+                            </div>
+                            <span class="quick-stat-label">Partner Institutions</span>
+                        </div>
+                        <div class="quick-stat-item">
+                            <div class="quick-stat-head">
+                                <span class="quick-stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.5L5 6v5.8C5 18.3 8.7 22 13 22s8-3.7 8-8.2V6l-7-3.5zm6 8.8c0 2.8-2.2 5.1-5 5.1s-5-2.3-5-5.1V8.6l5-2.5 5 2.5v2.7z"/></svg></span>
+                                <span class="quick-stat-value">95+</span>
+                            </div>
+                            <span class="quick-stat-label">Countries</span>
+                        </div>
+                        <div class="quick-stat-item">
+                            <div class="quick-stat-head">
+                                <span class="quick-stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 19h16v2H4v-2zm2-5h3v5H6v-5zm5-4h3v9h-3V10zm5-3h3v12h-3V7z"/></svg></span>
+                                <span class="quick-stat-value">1,200+</span>
+                            </div>
+                            <span class="quick-stat-label">Annual Mobility Placements</span>
+                        </div>
+                    </div>
+                </aside>
             </div>
         </section>
 
@@ -622,103 +444,69 @@
                     <p class="section-subtitle">Essential services and Erasmus mobility pathways in one clean menu.</p>
                 </div>
 
-                <div class="qa-grid" aria-label="Quick menu links">
-                    <a href="https://www.aydin.edu.tr/en-us/ogrenciler/kayit-kabul/Pages/akademik-takvim.aspx" class="qa-card" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/1.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">Academic Calendar</span>
-                            <span class="qa-card-meta">Dates &amp; schedule</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="https://ubis.aydin.edu.tr/?ucLang=EN" class="qa-card" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/2.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">UBIS</span>
-                            <span class="qa-card-meta">University information system</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="https://ebs.aydin.edu.tr/en/" class="qa-card" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/3.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">EBS</span>
-                            <span class="qa-card-meta">Education management portal</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="faculty-coordinators.html" class="qa-card">
-                        <img src="imgs/icons/4.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">Faculty Coordinator</span>
-                            <span class="qa-card-meta">Erasmus coordinators</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="https://www.aydin.edu.tr/en-us/iau-hakkinda/yonetim/genelsekreterlik/kutuphane/Pages/default.aspx" class="qa-card" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/5.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">Library</span>
-                            <span class="qa-card-meta">Library services</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="https://kalite.aydin.edu.tr/en/home/" class="qa-card" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/6.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">Quality Management</span>
-                            <span class="qa-card-meta">Quality assurance</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="https://akademikkadro.aydin.edu.tr/index.php" class="qa-card" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/7.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">Academic Staff</span>
-                            <span class="qa-card-meta">Faculty directory</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="https://www.aydin.edu.tr/en-us/akademik/fakulteler/Pages/default.aspx" class="qa-card" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/8.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">Faculties</span>
-                            <span class="qa-card-meta">Academic units</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="https://research.aydin.edu.tr/?ucLang=EN" class="qa-card" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/9.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">Research</span>
-                            <span class="qa-card-meta">Research resources</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="https://www.aydin.edu.tr/en-us/arastirma/teknolojimerkezleri/Pages/default.aspx" class="qa-card" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/10.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">Laboratories</span>
-                            <span class="qa-card-meta">Technology centers</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="https://sem.aydin.edu.tr/en" class="qa-card" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/11.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">Continuing Education</span>
-                            <span class="qa-card-meta">SEM programs</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
-                    <a href="https://360.aydin.edu.tr/?startscene=340&startactions=lookat(0,0,120,0,0);" class="qa-card qa-card--featured" target="_blank" rel="noopener noreferrer">
-                        <img src="imgs/icons/12.svg" alt="" class="qa-card-icon" aria-hidden="true">
-                        <div class="qa-card-body">
-                            <span class="qa-card-title">Virtual Campus Tour</span>
-                            <span class="qa-card-meta">360° campus view</span>
-                        </div>
-                        <span class="qa-card-arrow" aria-hidden="true">↗</span>
-                    </a>
+                <div class="quick-access-layout">
+                    <div class="quick-menu-grid" aria-label="Quick menu links">
+                        <a href="https://www.aydin.edu.tr/en-us/ogrenciler/kayit-kabul/Pages/akademik-takvim.aspx" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/1.svg" alt="Academic Calendar" class="quick-menu-icon">
+                            <span class="quick-menu-title">Academic Calendar</span>
+                            <span class="quick-menu-meta">Dates & schedule</span>
+                        </a>
+                        <a href="https://ubis.aydin.edu.tr/?ucLang=EN" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/2.svg" alt="UBIS" class="quick-menu-icon">
+                            <span class="quick-menu-title">UBIS</span>
+                            <span class="quick-menu-meta">University information system</span>
+                        </a>
+                        <a href="https://ebs.aydin.edu.tr/en/" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/3.svg" alt="EBS" class="quick-menu-icon">
+                            <span class="quick-menu-title">EBS</span>
+                            <span class="quick-menu-meta">Education management portal</span>
+                        </a>
+                        <a href="faculty-coordinators.html" class="quick-menu-card">
+                            <img src="imgs/icons/4.svg" alt="Faculty Coordinator" class="quick-menu-icon">
+                            <span class="quick-menu-title">Faculty Coordinator</span>
+                            <span class="quick-menu-meta">Erasmus coordinators</span>
+                        </a>
+                        <a href="https://www.aydin.edu.tr/en-us/iau-hakkinda/yonetim/genelsekreterlik/kutuphane/Pages/default.aspx" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/5.svg" alt="Library" class="quick-menu-icon">
+                            <span class="quick-menu-title">Library</span>
+                            <span class="quick-menu-meta">Library services</span>
+                        </a>
+                        <a href="https://kalite.aydin.edu.tr/en/home/" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/6.svg" alt="Quality Management System" class="quick-menu-icon">
+                            <span class="quick-menu-title">Quality Management System</span>
+                            <span class="quick-menu-meta">Quality assurance</span>
+                        </a>
+                        <a href="https://akademikkadro.aydin.edu.tr/index.php" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/7.svg" alt="Academic Staff" class="quick-menu-icon">
+                            <span class="quick-menu-title">Academic Staff</span>
+                            <span class="quick-menu-meta">Faculty directory</span>
+                        </a>
+                        <a href="https://www.aydin.edu.tr/en-us/akademik/fakulteler/Pages/default.aspx" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/8.svg" alt="Faculties" class="quick-menu-icon">
+                            <span class="quick-menu-title">Faculties</span>
+                            <span class="quick-menu-meta">Academic units</span>
+                        </a>
+                        <a href="https://research.aydin.edu.tr/?ucLang=EN" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/9.svg" alt="Research" class="quick-menu-icon">
+                            <span class="quick-menu-title">Research</span>
+                            <span class="quick-menu-meta">Research resources</span>
+                        </a>
+                        <a href="https://www.aydin.edu.tr/en-us/arastirma/teknolojimerkezleri/Pages/default.aspx" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/10.svg" alt="Laboratories" class="quick-menu-icon">
+                            <span class="quick-menu-title">Laboratories</span>
+                            <span class="quick-menu-meta">Technology centers</span>
+                        </a>
+                        <a href="https://sem.aydin.edu.tr/en" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/11.svg" alt="Continuing Education Center" class="quick-menu-icon">
+                            <span class="quick-menu-title">Continuing Education Center</span>
+                            <span class="quick-menu-meta">SEM programs</span>
+                        </a>
+                        <a href="https://360.aydin.edu.tr/?startscene=340&startactions=lookat(0,0,120,0,0);" class="quick-menu-card" target="_blank" rel="noopener noreferrer">
+                            <img src="imgs/icons/12.svg" alt="Virtual Campus Tour" class="quick-menu-icon">
+                            <span class="quick-menu-title">Virtual Campus Tour</span>
+                            <span class="quick-menu-meta">360° campus view</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -744,7 +532,6 @@
                                 <span>Dedicated support staff for every stage of your journey</span>
                             </li>
                         </ul>
-                        <a href="about.html" class="btn btn-primary testimonials-cta">Read More Stories →</a>
                     </div>
 
                     <!-- Right: Carousel -->

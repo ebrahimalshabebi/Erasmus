@@ -151,10 +151,6 @@
         <aside class="about-sidebar">
           <div class="about-sidebar-header">
             <div class="about-sidebar-title">OUTGOING STUDENTS</div>
-            <div class="about-theme-switch" role="switch" aria-checked="false" tabindex="0" aria-label="Toggle light/dark mode">
-              <div class="switch-track"></div>
-              <div class="switch-thumb"></div>
-            </div>
           </div>
           <div class="about-sidebar-sep"></div>
 
@@ -277,27 +273,7 @@
       });
     });
 
-    const themeSwitch = document.querySelector(".about-theme-switch");
-    const currentTheme = localStorage.getItem("aboutTheme") || "light";
-    if (currentTheme === "dark") {
-      document.body.classList.add("about-dark");
-      themeSwitch.setAttribute("aria-checked", "true");
-      themeSwitch.classList.add("checked");
-    }
 
-    themeSwitch.addEventListener("click", () => {
-      const isDark = document.body.classList.toggle("about-dark");
-      themeSwitch.setAttribute("aria-checked", isDark);
-      themeSwitch.classList.toggle("checked");
-      localStorage.setItem("aboutTheme", isDark ? "dark" : "light");
-    });
-
-    themeSwitch.addEventListener("keydown", (e) => {
-      if (e.key === " " || e.key === "Enter") {
-        e.preventDefault();
-        themeSwitch.click();
-      }
-    });
   </script>
 </body>
 
