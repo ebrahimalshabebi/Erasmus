@@ -109,31 +109,57 @@
                         </div>
                       </div>
                     </li>
-
                     <!-- Outgoing -->
                     <li class="nav-item has-dropdown">
-                        <a class="nav-link" href="outgoing.html" aria-haspopup="true" aria-expanded="false">Outgoing</a>
-                        <div class="nav-dropdown dropdown-wide" aria-label="Outgoing submenu">
-                            <div class="dropdown-grid">
+                      <a class="nav-link" href="outgoing.html" aria-haspopup="true" aria-expanded="false">Outgoing</a>
 
-                                <div class="dropdown-section">
-                                    <span class="dropdown-title">Students</span>
-                                    <a class="dropdown-link" href="outgoing.html">Study Mobility</a>
-                                    <a class="dropdown-link" href="outgoing.html">Traineeship Mobility</a>
-                                    <a class="dropdown-link" href="outgoing.html">Short-term Mobility</a>
-                                    <a class="dropdown-link" href="outgoing.html">PhD Short-term Mobility</a>
-                                </div>
+                      <div class="nav-dropdown dropdown-wide" aria-label="Outgoing submenu">
+                        <div class="dropdown-grid">
 
-                                <div class="dropdown-section">
-                                    <span class="dropdown-title">Staff</span>
-                                    <a class="dropdown-link" href="outgoing-staff.html">Teaching Mobility</a>
-                                    <a class="dropdown-link" href="outgoing-staff.html">Training Mobility</a>
-                                    <a class="dropdown-link" href="outgoing-staff.html">KA171 Teaching Mobility</a>
-                                    <a class="dropdown-link" href="outgoing-staff.html">KA171 Training Mobility</a>
-                                </div>
+                          <!-- Students -->
+                          <div class="dropdown-section">
+                            <span class="dropdown-title">Students</span>
 
-                            </div>
+                            <a class="dropdown-link" href="outgoing.html?section=study">
+                              Study Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing.html?section=traineeship">
+                              Traineeship Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing.html?section=shortterm">
+                              Short-term Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing.html?section=phdshort">
+                              PhD Short-term Mobility
+                            </a>
+                          </div>
+
+                          <!-- Staff -->
+                          <div class="dropdown-section">
+                            <span class="dropdown-title">Staff</span>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=teaching">
+                              Teaching Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=training">
+                              Training Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=ka171teaching">
+                              KA171 Teaching Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=ka171training">
+                              KA171 Training Mobility
+                            </a>
+                          </div>
+
                         </div>
+                      </div>
                     </li>
 
                     <li class="nav-item">
@@ -1177,15 +1203,6 @@
 
         renderSection("institutional");
 
-        menuItems.forEach(btn => {
-            btn.addEventListener("click", () => {
-                menuItems.forEach(b => b.classList.remove("active"));
-                btn.classList.add("active");
-                aboutDetails.innerHTML = "";
-                renderSection(btn.getAttribute("data-section"));
-            });
-        });
-
         const aboutDetails = document.getElementById("aboutDetails");
 
         function attachCardEvents() {
@@ -1205,9 +1222,30 @@
             });
         }
 
+        function setActiveMenu(sectionKey) {
+          menuItems.forEach(btn => {
+            btn.classList.remove("active");
+
+            if (btn.getAttribute("data-section") === sectionKey) {
+              btn.classList.add("active");
+            }
+          });
+        }
+
+        menuItems.forEach(btn => {
+          btn.addEventListener("click", () => {
+            const section = btn.getAttribute("data-section");
+
+            setActiveMenu(section);
+            aboutDetails.innerHTML = "";
+            renderSection(section);
+          });
+        });
+
         const params = new URLSearchParams(window.location.search);
         const sectionFromURL = params.get("section") || "institutional";
 
+        setActiveMenu(sectionFromURL);
         renderSection(sectionFromURL);
     </script>
 
