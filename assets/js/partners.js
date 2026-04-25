@@ -108,8 +108,6 @@
       '  <div class="partner-card-body">' +
       '    <span class="partner-card-country">' + escHtml(u.country || '') + '</span>' +
       '    <h2 class="partner-card-name">'    + escHtml(u.name    || '') + '</h2>' +
-      '    <p class="partner-card-id">'       + escHtml(u.erasmusId || '') + '</p>' +
-      '    <div class="partner-area-tags">'   + areaTagsHtml + '</div>' +
       '  </div>' +
       '</a>';
 

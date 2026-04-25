@@ -52,43 +52,10 @@
       z-index: 0;
     }
 
-    /* ── Header ─────────────────────────────────── */
-    .site-header {
-      position: sticky; top: 0; z-index: 100;
-      background: rgba(255,255,255,.96);
-      backdrop-filter: blur(16px);
-      border-bottom: 1px solid var(--mist);
-    }
-    .header-inner {
-      max-width: 1280px; margin: auto;
-      padding: .9rem 2rem;
-      display: flex; align-items: center; gap: 2rem;
-    }
-    .brand { color: var(--ink); }
-    .brand-logo { height: 36px; filter: none; }
-    .nav { margin-left: auto; }
-    .nav-list { list-style: none; display: flex; gap: .25rem; }
-    .nav-link {
-      font-size: .85rem; font-weight: 500; letter-spacing: .02em;
-      color: var(--ink); text-decoration: none;
-      padding: .4rem .8rem; border-radius: 6px;
-      transition: color .2s, background .2s;
-    }
-    .nav-link:hover, .nav-link.active {
-      color: var(--primary); background: rgba(14,76,146,.12);
-    }
-    .btn-contact {
-      font-size: .8rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase;
-      color: #ffffff; background: var(--primary);
-      text-decoration: none; padding: .5rem 1.1rem; border-radius: 6px;
-      transition: background .2s, transform .15s;
-    }
-    .btn-contact:hover { background: var(--secondary); transform: translateY(-1px); }
-
     /* ── Main layout ─────────────────────────────── */
     .detail-main {
       position: relative; z-index: 1;
-      max-width: 1000px; margin: 0 auto;
+      max-width: 1000px; margin: 65px auto 0;
       padding: 3rem 2rem 6rem;
     }
 
@@ -164,7 +131,7 @@
     }
 
     .partner-name-title {
-      font-family: 'Cormorant Garamond', serif;
+      font-family: 'Montserrat', 'Segoe UI', Tahoma, Arial, sans-serif;
       font-size: clamp(1.6rem, 3vw, 2.4rem);
       font-weight: 600; line-height: 1.15;
       color: var(--ink);
@@ -290,7 +257,7 @@
   </style>
 </head>
 
-<body>
+<body class="about-body partners-body">
   <!-- ── Header ── -->
   <header class="site-header" id="top">
     <div class="container header-inner">
@@ -396,14 +363,10 @@
             <a class="nav-link" href="javascript:void(0)">Projects</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)">Events</a>
-          </li>
-
         </ul>
       </nav>
 
-      <a class="btn btn-contact" href="#contact">Contact</a>
+      <a class="btn btn-contact" href="contact.html">Contact</a>
     </div>
   </header>
 
@@ -422,7 +385,6 @@
       <div class="hero-text">
         <span class="partner-country-badge" id="countryBadge">Loading…</span>
         <h1 class="partner-name-title" id="partnerName">Loading university…</h1>
-        <p class="partner-erasmus-id" id="partnerErasmusId"></p>
         <a class="hero-cta" id="erasmusPageLink" href="#" target="_blank" rel="noopener noreferrer" style="display:none">
           Visit Erasmus Page
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -541,12 +503,6 @@
       }
       if (uni.erasmusId) {
         blocks.push({ label: 'Erasmus ID Code', html: '<span class="detail-value">' + esc(uni.erasmusId) + '</span>' });
-      }
-      if (uni.erasmusWebpage) {
-        blocks.push({
-          label: 'Erasmus Webpage',
-          html: '<a class="detail-link" href="' + esc(uni.erasmusWebpage) + '" target="_blank" rel="noopener noreferrer">' + esc(uni.erasmusWebpage) + '</a>'
-        });
       }
       var areas = (uni.studyAreas || []).filter(Boolean);
       if (areas.length) {
