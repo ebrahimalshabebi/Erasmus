@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Erasmus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+  <!-- Animated Background -->
+ <div class="animated-bg">
+  <i class="bg-icon" data-lucide="mail"></i>
+  <i class="bg-icon" data-lucide="graduation-cap"></i>
+  <i class="bg-icon" data-lucide="map-pin"></i>
+  <i class="bg-icon" data-lucide="book"></i>
+  <i class="bg-icon" data-lucide="plane"></i>
+</div>
+
+  <!-- Cursor Gradient Effect -->
+  <div class="cursor-gradient" id="cursorGradient"></div>
+
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+
+            <!-- Logo -->
+            <a class="brand" href="index.html" aria-label="Erasmus Home">
+                <img src="imgs/logos/logo.png" alt="Erasmus Logo" class="brand-logo" />
+            </a>
+
+            <!-- Mobile menu button -->
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+            <!-- Navigation -->
+            <nav class="nav" id="primary-nav" aria-label="Main navigation">
+                <ul class="nav-list">
+
+                    <!-- About -->
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">About</a>
+                        <div class="nav-dropdown dropdown-wide" aria-label="About submenu">
+                            <div class="dropdown-grid">
+                                <div class="dropdown-section">
+                                    <a class="dropdown-link" href="about.html?section=institutional">Institutional</a>
+                                    <a class="dropdown-link" href="about.html?section=erasmus">Erasmus+</a>
+                                    <a class="dropdown-link" href="about.html?section=semp">Swiss-EM</a>
+                                </div>
+                                <div class="dropdown-section">
+                                    <a class="dropdown-link" href="about.html?section=studentclub">Student Club</a>
+                                    <a class="dropdown-link" href="about.html?section=legislation">Legislation</a>
+                                    <a class="dropdown-link" href="about.html?section=media">Media Center</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Incoming -->
+                    <li class="nav-item has-dropdown">
+                      <a class="nav-link" href="incoming.html" aria-haspopup="true" aria-expanded="false">Incoming</a>
+
+                      <div class="nav-dropdown dropdown-wide" aria-label="Incoming submenu">
+                        <div class="dropdown-grid">
+
+                          <!-- Students -->
+                          <div class="dropdown-section">
+                            <span class="dropdown-title">Students</span>
+
+                            <a class="dropdown-link" href="incoming.html?section=study">
+                              Study Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="incoming.html?section=traineeship">
+                              Traineeship Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="incoming.html?section=shortterm">
+                              Short-term Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="incoming.html?section=phdshort">
+                              PhD Short-term Mobility
+                            </a>
+                          </div>
+
+                          <!-- Staff -->
+                          <div class="dropdown-section">
+                            <span class="dropdown-title">Staff</span>
+
+                            <a class="dropdown-link" href="incoming-staff.html?section=teaching">
+                              Teaching Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="incoming-staff.html?section=training">
+                              Training Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="incoming-staff.html?section=ka171teaching">
+                              KA171 Teaching Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="incoming-staff.html?section=ka171training">
+                              KA171 Training Mobility
+                            </a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Outgoing -->
+                    <li class="nav-item has-dropdown">
+                      <a class="nav-link" href="outgoing.html" aria-haspopup="true" aria-expanded="false">Outgoing</a>
+
+                      <div class="nav-dropdown dropdown-wide" aria-label="Outgoing submenu">
+                        <div class="dropdown-grid">
+
+                          <!-- Students -->
+                          <div class="dropdown-section">
+                            <span class="dropdown-title">Students</span>
+
+                            <a class="dropdown-link" href="outgoing.html?section=study">
+                              Study Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing.html?section=traineeship">
+                              Traineeship Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing.html?section=shortterm">
+                              Short-term Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing.html?section=phdshort">
+                              PhD Short-term Mobility
+                            </a>
+                          </div>
+
+                          <!-- Staff -->
+                          <div class="dropdown-section">
+                            <span class="dropdown-title">Staff</span>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=teaching">
+                              Teaching Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=training">
+                              Training Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=ka171teaching">
+                              KA171 Teaching Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=ka171training">
+                              KA171 Training Mobility
+                            </a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">BIPs</a>
+                    </li>
+
+                    <!-- Partners -->
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="partners.html" aria-haspopup="true" aria-expanded="false">Partners</a>
+                        <div class="nav-dropdown" aria-label="Partners submenu">
+                            <div class="dropdown-section">
+                                <a class="dropdown-link" href="partners.html">List of Partners</a>
+                                <a class="dropdown-link" href="PartnerWithUs.html">Partner with us!</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Events</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <!-- Right CTA -->
+            <a class="btn btn-contact" href="contact.html">Contact</a>
+
+        </div>
+    </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="heroSection">
+        <img src="Istanbul_Aydın_University_logo.svg.png" class="hero-logo" alt="Aydın University Logo">
+    <!-- Interactive Mouse Effects Container -->
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-cursor-light" id="heroCursorLight"></div>
+  <div class="hero-content">
+      <h1>Contact Us</h1>
+      <p class="hero-subtitle">
+        <span class="typing-text" id="typingText"></span>
+      </p>
+    </div>
+    <a href="#contact-info" class="hero-scroll">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5v14M19 12l-7 7-7-7"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- Contact Information Section -->
+   <section class="section" id="contact-info">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Reach out to us</h2>
+        <p class="section-desc">Connect with our dedicated international office team for all your Erasmus+ inquiries and support.</p>
+      </div>
+
+      <div class="contact-cards">
+        <a href="mailto:erasmus@aydin.edu.tr" class="contact-card reveal reveal-delay-1">
+          <div class="card-icon">
+            <i data-lucide="mail"></i>
+          </div>
+          <h3 class="card-title">General Email</h3>
+          <div class="card-info">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            erasmus@aydin.edu.tr
+          </div>
+        </a>
+
+        <a href="mailto:erasmus@aydin.edu.tr" class="contact-card reveal reveal-delay-2">
+          <div class="card-icon">
+            <i data-lucide="mail"></i>
+          </div>
+          <h3 class="card-title">Incoming Students Email</h3>
+          <div class="card-info">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            erasmusincoming@aydin.edu.tr
+          </div>
+        </a>
+
+        <a href="mailto:erasmus@aydin.edu.tr" class="contact-card reveal reveal-delay-2">
+          <div class="card-icon">
+            <i data-lucide="mail"></i>
+          </div>
+          <h3 class="card-title">Outgoing Students Email</h3>
+          <div class="card-info">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            erasmusoutgoing@aydin.edu.tr
+          </div>
+        </a>
+
+        <a href="tel:+902124441428" class="contact-card reveal reveal-delay-3">
+          <div class="card-icon">
+            <i data-lucide="phone"></i>
+          </div>
+          <h3 class="card-title">Phone Support</h3>
+          <p class="card-role">International Relations Office</p>
+          <div class="card-info">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            0090 212 444 1 428
+          </div>
+        </a>
+
+        <a href="https://maps.google.com/?q=Istanbul+Aydin+University" target="_blank" class="contact-card reveal reveal-delay-4">
+          <div class="card-icon">
+            <i data-lucide="map-pin"></i>
+          </div>
+          <h3 class="card-title">Visit Our Campus</h3>
+          <p class="card-role">Istanbul Aydin University</p>
+          <div class="card-info">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            Beşyol Mah., Küçükçekmece, Istanbul
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section" id="contact-info">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Erasmus+ Coordinators</h2>
+        <p class="section-desc">Connect with our dedicated international office team for all your Erasmus+ inquiries and support.</p>
+      </div>
+
+      <div class="contact-cards-2">
+        <!-- Institutional Coordinator -->
+        <a href="mailto:erasmus@aydin.edu.tr" class="contact-card reveal reveal-delay-1">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Mariana ASTEFANOAIE</h3>
+          <p class="card-role">Erasmus+ Institutional Coordinator</p>
+          <div class="card-info">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            mariana@aydin.edu.tr
+          </div>
+        </a>
+
+        <!-- General Coordinator -->
+        <a href="mailto:erasmus@aydin.edu.tr" class="contact-card reveal reveal-delay-1">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Yazid Yahya Salem Munsari</h3>
+          <p class="card-role">Erasmus+ Incoming Students Coordinator</p>
+          <div class="card-info">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            erasmus@aydin.edu.tr
+          </div>
+        </a>
+
+        <!-- Phone Contact -->
+        <a href="mailto:erasmus@aydin.edu.tr" class="contact-card reveal reveal-delay-1">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h3 class="card-title">İREM ERGÜNAY</h3>
+          <p class="card-role">Erasmus+ Outgoing Students Assistant</p>
+          <div class="card-info">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            erasmusoutgoing@aydin.edu.tr
+          </div>
+        </a>
+
+        <!-- Location -->
+        <a href="mailto:erasmus@aydin.edu.tr" class="contact-card reveal reveal-delay-1">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h3 class="card-title">RUDAINAH ABDULLAH SALEM HASAN AL-ABDALI</h3>
+          <p class="card-role">Erasmus+ Outgoing Students Assistant</p>
+          <div class="card-info">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            erasmusoutgoing@aydin.edu.tr
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="section" style="background: white;">
+    <div class="container">
+      <div class="form-section">
+        <div class="form-info reveal">
+          <h3>Send us a Message</h3>
+          <p>Have questions about Erasmus+ programs, applications, or partnerships? Fill out the form and our team will get back to you as soon as possible.</p>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4>Office Hours</h4>
+              <p>Monday - Friday: 09:00 - 17:00</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4>Email Us</h4>
+              <p><a href="mailto:erasmus@aydin.edu.tr">erasmus@aydin.edu.tr</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4>Website</h4>
+              <p><a href="https://www.aydin.edu.tr/en-us/international/erasmus" target="_blank">aydin.edu.tr/erasmus</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form reveal reveal-delay-1" id="contactFormContainer">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="fullName">Full Name <span>*</span></label>
+              <div class="input-wrapper">
+                <input type="text" id="fullName" class="form-input" placeholder="Enter your full name" required>
+                <span class="error-message">Please enter your name</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address <span>*</span></label>
+              <div class="input-wrapper">
+                <input type="email" id="email" class="form-input" placeholder="Enter your email address" required>
+                <span class="error-message">Please enter a valid email</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject <span>*</span></label>
+              <div class="input-wrapper">
+                <select id="subject" class="form-input" required>
+                  <option value="" disabled selected>Select a subject</option>
+                  <option value="student-mobility">Student Mobility (Study)</option>
+                  <option value="student-traineeship">Student Mobility (Traineeship)</option>
+                  <option value="staff-mobility">Staff Mobility</option>
+                  <option value="incoming-students">Incoming Students</option>
+                  <option value="partnership">Partnership Inquiry</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="error-message">Please select a subject</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span>*</span></label>
+              <div class="input-wrapper">
+                <textarea id="message" class="form-input" placeholder="Write your message here..." required></textarea>
+                <span class="error-message">Please enter your message</span>
+              </div>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <span class="btn-text">Send Message</span>
+              <span class="spinner"></span>
+            </button>
+          </form>
+
+          <div class="success-message" id="successMessage">
+            <div class="success-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <h3>Message Sent Successfully!</h3>
+            <p>Thank you for reaching out. Our team will get back to you within 1-2 business days.</p>
+            <button onclick="resetForm()">Send Another Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+            <line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+          FAQ
+        </span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Find quick answers to common questions about Erasmus+ programs and applications.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I apply for an Erasmus+ exchange program?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              To apply for an Erasmus+ exchange program, you need to: 1) Check your eligibility with your home university, 2) Find partner universities through our agreements list, 3) Complete the online application form, 4) Submit required documents including academic transcripts and language certificates, 5) Wait for the selection results. Applications typically open twice a year for fall and spring semesters.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            What funding is available for Erasmus+ students?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Erasmus+ provides grants to cover travel and subsistence costs. Grant amounts vary depending on the destination country (grouped into three categories). Students receive monthly grants between €300-€450 for studies and €450-€600 for traineeships. Additional top-ups are available for students with fewer opportunities or those using green travel options.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            What language requirements do I need to meet?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Language requirements vary by host university and program. Most programs require at least B1-B2 level in the instruction language (typically English). You can demonstrate proficiency through TOEFL, IELTS, or institutional certificates. Erasmus+ also provides free Online Linguistic Support (OLS) for language preparation before and during your exchange.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How long can I participate in an Erasmus+ mobility?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              For study exchanges, the mobility period ranges from 3 to 12 months per study cycle (Bachelor&apos;s, Master&apos;s, Doctorate). Traineeships can last from 2 to 12 months. You can participate multiple times as long as the total doesn&apos;t exceed 12 months per study cycle. Short-term blended programs (BIPs) are also available, combining virtual and physical mobility.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Will my credits be recognized at my home university?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Yes! Academic recognition is a fundamental principle of Erasmus+. Before your exchange, you&apos;ll sign a Learning Agreement approved by both universities. This document guarantees that credits earned abroad will be fully recognized. The ECTS (European Credit Transfer System) ensures transparent credit conversion across European institutions.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Erasmus+ IAU</h3>
+          <p>Istanbul Aydin University&apos;s Erasmus+ Office supports international academic mobility and fosters global partnerships for students and staff.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">About Erasmus+</a></li>
+            <li><a href="#">Partner Universities</a></li>
+            <li><a href="#">How to Apply</a></li>
+            <li><a href="#">Student Stories</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#">Student Mobility</a></li>
+            <li><a href="#">Staff Mobility</a></li>
+            <li><a href="#">Traineeships</a></li>
+            <li><a href="#">Summer Schools</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Application Forms</a></li>
+            <li><a href="#">Grant Information</a></li>
+            <li><a href="#">Academic Calendar</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Istanbul Aydin University - Erasmus+ Office. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chat Bubble -->
+  <!-- <div class="chat-bubble" id="chatBubble">
+    <button class="chat-btn" id="chatBtn" aria-label="Open chat">
+      <svg class="chat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+      </svg>
+      <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+    <div class="chat-tooltip">Ask us anything!</div>
+    <div class="chat-window">
+      <div class="chat-header">
+        <h4>Need Help?</h4>
+        <p>We typically reply within minutes</p>
+      </div>
+      <div class="chat-body">
+        <div class="chat-message">
+          Hi there! 👋 How can we help you with your Erasmus+ journey today?
+        </div>
+        <div class="quick-replies">
+          <button class="quick-reply" onclick="handleQuickReply('How do I apply?')">How do I apply?</button>
+          <button class="quick-reply" onclick="handleQuickReply('Funding info')">Funding info</button>
+          <button class="quick-reply" onclick="handleQuickReply('Partner universities')">Partners</button>
+          <button class="quick-reply" onclick="handleQuickReply('Contact coordinator')">Contact</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="assets/js/app.js"></script>
+    <script src="assets/js/contact.js"></script>
+</body> 
+</html>
