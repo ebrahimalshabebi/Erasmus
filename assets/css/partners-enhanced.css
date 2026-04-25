@@ -1,0 +1,265 @@
+/* ═══════════════════════════════════════════════════════════
+   partners-enhanced.css — Partner grid & card styles
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── Design tokens (mirrors partner-detail.html) ── */
+:root {
+  --ink:        #0c1b2a;
+  --paper:      #f7f8fb;
+  --mist:       #e6edf7;
+  --primary:    #0E4C92;
+  --primary-lt: #e6effc;
+  --secondary:  #0a325b;
+  --accent:     #ff8a1f;
+  --muted:      #5f6b7a;
+  --radius:     12px;
+  --ease:       cubic-bezier(.25,.46,.45,.94);
+}
+
+/* ── Page shell ── */
+.partners-body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.partners-shell {
+  padding: 3rem 1.5rem 6rem;
+}
+
+/* ── Section head ── */
+.partners-head {
+  margin-bottom: 2.5rem;
+}
+
+/* ── Toolbar ── */
+.partners-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.partners-search-container {
+  position: relative;
+  flex: 1 1 260px;
+}
+
+.partners-search {
+  width: 100%;
+  padding: .6rem 2.4rem .6rem 1rem;
+  border: 1.5px solid var(--mist);
+  border-radius: 8px;
+  font-size: .9rem;
+  background: #fff;
+  color: var(--ink);
+  transition: border-color .2s;
+}
+.partners-search:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.search-icon {
+  position: absolute;
+  right: .75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  pointer-events: none;
+  opacity: .55;
+}
+
+.partners-filter {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  min-width: 160px;
+}
+.partners-filter span {
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.partners-filter select,
+.partners-filter input[type="text"] {
+  padding: .55rem .9rem;
+  border: 1.5px solid var(--mist);
+  border-radius: 8px;
+  font-size: .88rem;
+  background: #fff;
+  color: var(--ink);
+  transition: border-color .2s;
+  cursor: pointer;
+}
+.partners-filter select:focus,
+.partners-filter input[type="text"]:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+/* ── Result count ── */
+.partners-count {
+  font-size: .82rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+/* ── Partner grid ── */
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-auto-rows: 1fr;   /* ← every row same height */
+  gap: 1.25rem;
+}
+
+/* ── Partner card ── */
+.partner-card {
+  /* stretch to fill the equal-height grid cell */
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform .25s var(--ease), box-shadow .25s var(--ease);
+}
+.partner-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 36px rgba(14,76,146,.12);
+}
+
+.partner-card-inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;               /* ← fill the card height */
+  background: #fff;
+  border: 1px solid var(--mist);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  transition: border-color .2s;
+}
+.partner-card-inner:hover {
+  border-color: var(--primary);
+}
+
+/* ── Logo area — fixed height, never grows ── */
+.partner-logo-wrap {
+  height: 110px;
+  min-height: 110px;
+  max-height: 110px;
+  background: var(--primary-lt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--mist);
+  padding: 1rem;
+}
+
+.partner-logo-img {
+  max-width: 72px;
+  max-height: 72px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.partner-logo-initials {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  opacity: .35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+/* ── Card body ── */
+.partner-card-body {
+  padding: 1.1rem 1.25rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;               /* ← fills remaining card space */
+  gap: .35rem;
+  min-height: 0;
+}
+
+.partner-card-country {
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  background: var(--primary-lt);
+  padding: .2rem .6rem;
+  border-radius: 99px;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+
+.partner-card-name {
+  font-size: .92rem;
+  font-weight: 700;
+  /* clamp to exactly 3 lines so all names take the same vertical space */
+  line-height: 1.35;
+  height: calc(1.35em * 3);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  color: var(--ink);
+  margin-top: .15rem;
+  flex-shrink: 0;
+}
+
+.partner-card-id {
+  font-size: .72rem;
+  color: var(--muted);
+  letter-spacing: .03em;
+  flex-shrink: 0;
+}
+
+/* ── Study area tags — pushed to bottom ── */
+.partner-area-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin-top: auto;      /* ← pins tags to bottom of every card */
+  padding-top: .6rem;
+}
+
+.partner-area-tag {
+  font-size: .67rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  background: #f0f4fa;
+  color: var(--secondary);
+  border: 1px solid var(--mist);
+  padding: .2rem .55rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.partner-area-tag.partner-area-more {
+  background: var(--primary-lt);
+  color: var(--primary);
+  border-color: rgba(14,76,146,.15);
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .partners-toolbar { flex-direction: column; }
+  .partners-filter  { min-width: 100%; }
+  .partners-grid    { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,4571 @@
+[
+  {
+    "country": "AUSTRIA",
+    "erasmusId": "A KLAGENF01",
+    "name": "UNIVERSITAET KLAGENFURT",
+    "erasmusWebpage": "https://www.aau.at/en/international/study-abroad/erasmus/",
+    "domain": "aau.at",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=aau.at&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "AUSTRIA",
+    "erasmusId": "A INNSBRU01",
+    "name": "UNIVERSITY OF INNSBRUCK",
+    "erasmusWebpage": "https://www.uibk.ac.at/en/international-relations-office/",
+    "domain": "uibk.ac.at",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uibk.ac.at&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "PRESCHOOL TEACHER EDUCATION",
+      "SPECIAL EDUCATION"
+    ]
+  },
+  {
+    "country": "AUSTRIA",
+    "erasmusId": "A KLAGENF02",
+    "name": "PADAGOGISCHE HOCHSCHULE KARNET",
+    "erasmusWebpage": "https://www.phk.ac.at/studium/praxis/erasmus-plus-praktika",
+    "domain": "www.phk.ac.at",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.phk.ac.at&sz=256",
+    "studyAreas": [
+      "PRESCHOOL TEACHER TRAINING"
+    ]
+  },
+  {
+    "country": "AUSTRIA",
+    "erasmusId": "A KREMS03",
+    "name": "IMC FACHHOCHSCHULE KREMS GMBH",
+    "erasmusWebpage": "https://www.imc.ac.at/en/international/studying-at-imc-krems/exchange-semester-at-imc-krems/",
+    "domain": "phk.ac.at",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=phk.ac.at&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INTERNATIONAL TRADE AND FINANCE"
+    ]
+  },
+  {
+    "country": "AUSTRIA",
+    "erasmusId": "A KUFSTEI01",
+    "name": "FHS KUFSTEIN TIROL BILDUNGS GMBH",
+    "erasmusWebpage": "https://www.fh-kufstein.ac.at/en/international/exchange-students",
+    "domain": "fh-kufstein.ac.at",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fh-kufstein.ac.at&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "JOURNALISM",
+      "GRAPHIC DESIGN",
+      "ADVERTISEMENT",
+      "VISUAL COMMUNICATION DESIGN",
+      "SOFTWARE DEVELOPMENT",
+      "INTERNET AND NETWORK TECHNOLOGIES",
+      "INDUSTRIAL ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "AUSTRIA",
+    "erasmusId": "A SALZBUR18",
+    "name": "PRIVATUNIVERSITAT SCHLOSS SEEBURG GMBH",
+    "erasmusWebpage": "https://www.uni-seeburg.at/universitaet/international/",
+    "domain": "uni-seeburg.at",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uni-seeburg.at&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "AUSTRIA",
+    "erasmusId": "A WIEN02",
+    "name": "TECHNISCHE UNIVERSITAET WIEN",
+    "erasmusWebpage": "https://www.tuwien.at/en/studies/international/incoming-exchange-students/contact",
+    "domain": "tuwien.at",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tuwien.at&sz=256",
+    "studyAreas": [
+      "MECHANICAL ENGINEERING",
+      "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "INDUSTRIAL ENGINEERING"
+    ]
+  },
+  {
+    "country": "AUSTRIA",
+    "erasmusId": "A WIEN21",
+    "name": "FHW FACHHOCHSCHUL-STUDIENGANGE BETRIBS-UND FORSCHUNGSEİNRİCHTUNGEN DER WİENER WİRTSCHAFT GMBH",
+    "erasmusWebpage": "https://www.fh-wien.ac.at/en/study/international/",
+    "domain": "fh-wien.ac.at",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fh-wien.ac.at&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "BELGIUM",
+    "erasmusId": "B BRUXEL82",
+    "name": "ECOLE PRATIQUE DES HAUTES ETUDES COMMERCIALES",
+    "erasmusWebpage": "https://www.ephec.be/international",
+    "domain": "ephec.be",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ephec.be&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "LAW"
+    ]
+  },
+  {
+    "country": "BELGIUM",
+    "erasmusId": "B GEEL07",
+    "name": "THOMAS MORE KEMPEN VZW",
+    "erasmusWebpage": "https://thomasmore.be/en/study/programme-types/exchange-programmes",
+    "domain": "thomasmore.be",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=thomasmore.be&sz=256",
+    "studyAreas": [
+      "ORTHOPEDIC PROSTHETICS AND ORTHOTICS"
+    ]
+  },
+  {
+    "country": "BELGIUM",
+    "erasmusId": "B GENT39",
+    "name": "ARTEVELDEHOGESCHOOL",
+    "erasmusWebpage": "https://www.arteveldehogeschool.be/en/programmes/type/international-semester-programme-611",
+    "domain": "thomasmore.be",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=thomasmore.be&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "BELGIUM",
+    "erasmusId": "B HASSELT20",
+    "name": "UC LIMBURG",
+    "erasmusWebpage": "https://www.ucll.be/en/exchange-application",
+    "domain": "ucll.be",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ucll.be&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "BELGIUM",
+    "erasmusId": "B HASSELT22",
+    "name": "HOGESCHOOL PXL",
+    "erasmusWebpage": "https://www.hogeschoolpxl.be/Pub/International/International-Students/Programmes.html",
+    "domain": "hogeschoolpxl.be",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hogeschoolpxl.be&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "BELGIUM",
+    "erasmusId": "B LEUVEN18",
+    "name": "UC LEUVEN",
+    "erasmusWebpage": "https://www.ucll.be/en/exchange-application",
+    "domain": "ucll.be",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ucll.be&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG ALBENA01",
+    "name": "VISSHE UCHILISHTE PO MENIDZHMANT",
+    "erasmusWebpage": "https://erasmusapp.eu/",
+    "domain": "erasmusapp.eu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmusapp.eu&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ACCOUNTING and TAX PRACTISES",
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "SOFTWARE DEVELOPMENT",
+      "SOFTWARE ENGINEERING",
+      "TOURISM AND HOTEL MANAGMENT",
+      "TOURISM GUIDANCE",
+      "ADVERTISEMENT",
+      "HUMAN RESOURCE MANAGEMENT",
+      "ECONOMICS AND FINANCE",
+      "GASTRONOMY AND CULINARY ARTS"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG GABROVO01",
+    "name": "TECHNICAL UNIVERSITY - GABROVO",
+    "erasmusWebpage": "https://www.tugab.bg/en/international-cooperation/erasmus-programme",
+    "domain": "tugab.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tugab.bg&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "MECHANICAL ENGINEERING"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG PLOVDIV02",
+    "name": "MEDITCINSKY UNIVERSITET-PLOVDIV",
+    "erasmusWebpage": "https://mu-plovdiv.bg/en/erasmus/general-information/",
+    "domain": "mu-plovdiv.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=mu-plovdiv.bg&sz=256",
+    "studyAreas": [
+      "DENTISTRY"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG PLOVDIV04",
+    "name": "PLOVDIVSKI UNIVERSITET PAISIY HILENDARSKI",
+    "erasmusWebpage": "https://iro.uni-plovdiv.bg/language/en/",
+    "domain": "mu-plovdiv.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=mu-plovdiv.bg&sz=256",
+    "studyAreas": [
+      "TRANSLATION and INTERPRETING (ENGLISH)",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "APPLIED RUSSIAN-TURKISH TRANSLATION",
+      "ENGLISH LANGUAGE and LITERATURE"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG PLOVDIV07",
+    "name": "AKADEMIYA ZA MUZIKALNO, TANTZOVO I IZOBRAZITELNO IZKUSTVO \"PROF. ASEN DIAMANDIEV\" - PLOVDIV",
+    "erasmusWebpage": "https://try.artacademyplovdiv.com/EN/cooperation/erasmus_incoming.htm",
+    "domain": "try.artacademyplovdiv.com",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=try.artacademyplovdiv.com&sz=256",
+    "studyAreas": [
+      "ART AND CULTURE MANAGEMENT",
+      "TEXTILE and FASHION DESIGN",
+      "FASHION DESIGN",
+      "GRAPHIC DESIGN"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG PLOVDIV09",
+    "name": "VU PO AGROBIZNES I RAZVITIE NA REGIONITE - PLOVDIV",
+    "erasmusWebpage": "https://uard.bg/en/pages/view/167",
+    "domain": "uard.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uard.bg&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG ROUSSE01",
+    "name": "UNIVERSITY OF RUSE ANGEL KANCHEV",
+    "erasmusWebpage": "https://erasmus.uni-ruse.bg/bg/?cmd=gsIndex",
+    "domain": "erasmus.uni-ruse.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus.uni-ruse.bg&sz=256",
+    "studyAreas": [
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "COMPUTER and INSTRUCTIONAL TECHNOLOGIES EDUCATION",
+      "COMPUTER PROGRAMMING",
+      "COMPUTER TECHNOLOGIES",
+      "SOFTWARE ENGINEERING / DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG SHOUMEN01",
+    "name": "SHUMENSKI UNIVERSITET EPISKOP KONSTANTIN PRESLAVSKI",
+    "erasmusWebpage": "https://erasmus-en.shu.bg/",
+    "domain": "erasmus-en.shu.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus-en.shu.bg&sz=256",
+    "studyAreas": [
+      "TRANSLATION and INTERPRETING (English)",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "STATISTICS",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "ACCOUNTING and TAX PRACTISES",
+      "MARKETING",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG SOFIA08",
+    "name": "NAZİONALNA HUDOJESTVENA AKADEMİA",
+    "erasmusWebpage": "https://nha.bg/en/category/erasmus-28",
+    "domain": "nha.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=nha.bg&sz=256",
+    "studyAreas": [
+      "GRAPHIC DESIGN",
+      "TEXTILE and FASHION DESIGN"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG SOFIA11",
+    "name": "MEDICAL UNIVERSITY SOFIA",
+    "erasmusWebpage": "https://mu-sofia.bg/en/international-activities/erasmus-programme/ka131/",
+    "domain": "nha.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=nha.bg&sz=256",
+    "studyAreas": [
+      "DENTISTRY",
+      "NUTRITION AND DIETETICS",
+      "NURSING",
+      "HEALTH CARE MANAGEMENT",
+      "MEDICINE"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG SOFIA16",
+    "name": "TECHNICAL UNIVERSITY OF SOFIA",
+    "erasmusWebpage": "https://tu-sofia.bg/",
+    "domain": "tu-sofia.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tu-sofia.bg&sz=256",
+    "studyAreas": [
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "ELECTRICAL TECHNOLOGY",
+      "ELECTRICITY",
+      "SOFTWARE ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "COMPUTER TECHNOLOGIES"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG SOFIA28",
+    "name": "VISHE UCHILISHTE PO TELEKOMUNIKATSI I POSHTI",
+    "erasmusWebpage": "https://www.utp.bg/international-activities/mobility/erasmus/",
+    "domain": "utp.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=utp.bg&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG VARNA04",
+    "name": "IKONOMICHESKI UNIVERSITET - VARNA",
+    "erasmusWebpage": "https://www.ue-varna.bg/en/",
+    "domain": "ue-varna.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ue-varna.bg&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER PROGRAMMING",
+      "COMPUTER TECHNOLOGIES",
+      "COMPUTER ENGINEERING"
+    ]
+  },
+  {
+    "country": "BULGARIA",
+    "erasmusId": "BG VELIKO01",
+    "name": "VELIKOTARNOVSKI UNIVERSITET SV SV KIRIL I METODIY",
+    "erasmusWebpage": "https://erasmus-vtu.bg/en/",
+    "domain": "erasmus-vtu.bg",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus-vtu.bg&sz=256",
+    "studyAreas": [
+      "HISTORY",
+      "APPLIED RUSSIAN-TURKISH TRANSLATION",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "APPLIED SPANISH-TURKISH TRANSLATION",
+      "TRANSLATION and INTERPRETING (English)",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "erasmusId": "HR OSIJEK01",
+    "name": "SVEUCILISTE JOSIPA JURJA STROSSMAYERA U OSIJEKU",
+    "erasmusWebpage": "https://www.unios.hr/suradnja/medunarodna-suradnja/erasmus-incoming-students/",
+    "domain": "unios.hr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unios.hr&sz=256",
+    "studyAreas": [
+      "MECHANICAL",
+      "MECHANICAL ENGINEERING",
+      "NUTRITION AND DIETETICS",
+      "FOOD QUALITY CONTROL ANALYSIS",
+      "FOOD ENGINEERING",
+      "FOOD TECHNOLOGY"
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "erasmusId": "HR RIJEKA01",
+    "name": "SVEUCILISTE U RIJECI",
+    "erasmusWebpage": "https://uniri.hr/en/about-university/international-relations-and-erasmus/erasmus_plus/",
+    "domain": "uniri.hr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uniri.hr&sz=256",
+    "studyAreas": [
+      "MEDICINE"
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "erasmusId": "HR SPLIT02",
+    "name": "VISOKA SKOLA ZA MENADZMENT I DIZAJN ASPIRA",
+    "erasmusWebpage": "https://erasmusapp.eu/",
+    "domain": "uniri.hr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uniri.hr&sz=256",
+    "studyAreas": [
+      "TOURISM AND HOTEL MANAGMENT",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "GASTRONOMY AND CULINARY ARTS",
+      "COMPUTER ENGINEERING"
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "erasmusId": "HR ZAGREB01",
+    "name": "SVEUCILISTE U ZAGREBU",
+    "erasmusWebpage": "https://www.unizg.hr/homepage/international-exchange/exchange-students/",
+    "domain": "www.unizg.hr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.unizg.hr&sz=256",
+    "studyAreas": [
+      "TEXTILE and FASHION DESIGN"
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "erasmusId": "HR ZAGREB06",
+    "name": "ZAGREBACKA SKOLA EKONOMIJE I MANAGEMENTA",
+    "erasmusWebpage": "https://zsem.hr/medunarodni-partneri/erasmus/",
+    "domain": "unizg.hr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unizg.hr&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "erasmusId": "HR ZAGREB10",
+    "name": "SVEUCILISTE VERN",
+    "erasmusWebpage": "https://vern.hr/erasmus-2/",
+    "domain": "vern.hr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vern.hr&sz=256",
+    "studyAreas": [
+      "TOURISM AND HOTEL MANAGMENT",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "JOURNALISM"
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "erasmusId": "HR ZAGREB16",
+    "name": "VISOKA SKOLA ZAINFORMACIJSKE TEHNOLOGIJE",
+    "erasmusWebpage": "https://www.vsite.hr/en/study-it/international-relations-and-mobility",
+    "domain": "vsite.hr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vsite.hr&sz=256",
+    "studyAreas": [
+      "COMPUTER PROGRAMMING",
+      "COMPUTER ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INFORMATION TECHNOLOGY"
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "erasmusId": "HR ZAGREB21",
+    "name": "POSLOVNO VELEUCILISTE ZAGREB (ZAGREB SCHOOL OF BUSINESS)",
+    "erasmusWebpage": "https://pvzg.hr/en/erasmus/",
+    "domain": "pvzg.hr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pvzg.hr&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "erasmusId": "HR ZAGREB23",
+    "name": "EDWARD BERNAYS UNIVERSITY COLLEGE OF COMMUNICATION MANAGEMENT",
+    "erasmusWebpage": "https://erasmusprogramme.com/review/edward-bernays-university-college-of-communication-management/#google_vignette",
+    "domain": "erasmusprogramme.com",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmusprogramme.com&sz=256",
+    "studyAreas": [
+      "TOURISM GUIDANCE",
+      "JOURNALISM",
+      "PUBLIC RELATIONS and PUBLICITY"
+    ]
+  },
+  {
+    "country": "CROATIA",
+    "erasmusId": "HR ZAPRESI01",
+    "name": "VELEUCILISTE S PRAVOM JAVNOSTI BALTAZAR ZAPRESIC",
+    "erasmusWebpage": "https://www.bak.hr/erasmus-1/",
+    "domain": "bak.hr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=bak.hr&sz=256",
+    "studyAreas": [
+      "COMPUTER TECHNOLOGIES",
+      "COMPUTER PROGRAMMING",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "COMPUTER and INSTRUCTIONAL TECHNOLOGIES EDUCATION"
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "erasmusId": "CZ BRNO02",
+    "name": "MENDELOVA UNIVERZITA V BRNE",
+    "erasmusWebpage": "https://international.mendelu.cz/en/exchange-student/exchange-programs/erasmus/",
+    "domain": "international.mendelu.cz",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.mendelu.cz&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "erasmusId": "CZ BRNO05",
+    "name": "MASARYKOVA UNIVERZITA",
+    "erasmusWebpage": "https://czs.muni.cz/en/student-from-abroad/exchange-non-degree-studies/erasmus-europe",
+    "domain": "czs.muni.cz",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=czs.muni.cz&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE TEACHER EDUCATION"
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "erasmusId": "CZ CESKE04",
+    "name": "VYSOKA SKOLA TECHNICKA A EKONOMICKA V CESKYCH BUDEJOVICICH",
+    "erasmusWebpage": "https://www.vstecb.cz/en/incoming-students-1227-htm/",
+    "domain": "czs.muni.cz",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=czs.muni.cz&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "CIVIL ENGINEERING",
+      "CONSTRUCTION TECHONOGIES",
+      "INDUSTRIAL ENGINEERING",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "MECHANICAL ENGINEERING"
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "erasmusId": "CZ HRADEC01",
+    "name": "UNIVERZITA HRADEC KRALOVE",
+    "erasmusWebpage": "https://www.lfhk.cuni.cz/LFHK-98.html#:~:text=Program%20Erasmus%20umo%C5%BE%C5%88uje%20student%C5%AFm%20bu%C4%8F,i%20v%C3%ADc%20ne%C5%BE%20jednou%20(nap%C5%99.",
+    "domain": "lfhk.cuni.cz",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=lfhk.cuni.cz&sz=256",
+    "studyAreas": [
+      "ENGLISH TEACHER TRAINING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DEVELOPMENT",
+      "SOFTWARE ENGINEERING",
+      "COMPUTER ENGINEERING"
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "erasmusId": "CZ LIBEREC01",
+    "name": "TECHNICKA UNIVERZITA V LIBERCI",
+    "erasmusWebpage": "https://www.tul.cz/erasmus/",
+    "domain": "www.tul.cz",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.tul.cz&sz=256",
+    "studyAreas": [
+      "TEXTILE and FASHION DESIGN"
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "erasmusId": "CZ OLOMOUC03",
+    "name": "MORAVSKA VYSOKA SKOLA OLOMOUC O.P.S",
+    "erasmusWebpage": "https://www.mvso.cz/en/erasmusmvso",
+    "domain": "tul.cz",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tul.cz&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "erasmusId": "CZ OPAVA01",
+    "name": "SLEZSKA UNIVERZITA V OPAVE",
+    "erasmusWebpage": "https://www.slu.cz/slu/cz/oprogramuerasmusplus",
+    "domain": "slu.cz",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=slu.cz&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "SOFTWARE ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "RADIO TELEVISION and CINEMA"
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "erasmusId": "CZ OSTRAVA01",
+    "name": "VSB - TECHNICAL UNIVERSITY OF OSTRAVA",
+    "erasmusWebpage": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/",
+    "domain": "vsb.cz",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vsb.cz&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DEVELOPMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "CIVIL TECHONOLOGY",
+      "CIVIL ENGINEERING"
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "erasmusId": "CZ PRAHA18",
+    "name": "METROPOLITNI UNIVERZITA PRAHA OPS",
+    "erasmusWebpage": "https://www.mup.cz/en/international-cooperation/erasmus-student-exchange/",
+    "domain": "mup.cz",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=mup.cz&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "TRANSLATION and INTERPRETING (English)",
+      "APPLIED ENGLISH-TURKISH TRANSLATION"
+    ]
+  },
+  {
+    "country": "CZECHIA",
+    "erasmusId": "CZ ZLIN01",
+    "name": "UNIVERZITA TOMASE BATI VE ZLINE",
+    "erasmusWebpage": "https://www.utb.cz/en/university/international/students/exchange-students/outgoing-students/erasmus/short-term-mobilities/",
+    "domain": "utb.cz",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=utb.cz&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION and INTERPRETING (English)",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "PHYSIOTHERAPY AND REHABILITATION",
+      "NURSING"
+    ]
+  },
+  {
+    "country": "DENMARK",
+    "erasmusId": "DKKOBENHA55",
+    "name": "KOBENHAVNS PROFESSIONSHOJSKOLE",
+    "erasmusWebpage": "https://www.kp.dk/en/",
+    "domain": "www.kp.dk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.kp.dk&sz=256",
+    "studyAreas": [
+      "SPECIAL EDUCATION",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE"
+    ]
+  },
+  {
+    "country": "DENMARK",
+    "erasmusId": "DK KOBENHA58",
+    "name": "KOBENHAVNS ERHVERVSAKADEMI",
+    "erasmusWebpage": "https://uniclub.dk/danske-universiteter/kea-copenhagen-school-of-design-and-technology#:~:text=Udvekslingsmuligheder%20p%C3%A5%20KEA%20%E2%80%93%20K%C3%B8benhavns%20Erhvervsakademi&text=Vil%20du%20have%20et%20%C3%B8konomisk,som%20til%20st%C3%B8tte%20for%20rejsen.",
+    "domain": "kp.dk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=kp.dk&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "ESTONIA",
+    "erasmusId": "EE TALLINN15",
+    "name": "EESTI ETTEVÕTLUSKÕRGKOOL MAINOR",
+    "erasmusWebpage": "https://www.eek.ee/?pg=2529",
+    "domain": "eek.ee",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=eek.ee&sz=256",
+    "studyAreas": [
+      "BANKING AND INSURANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "BUSINESS MANAGEMENT",
+      "CARTOON and ANIMATION",
+      "DIGITAL GAME DESIGN",
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "ESTONIA",
+    "erasmusId": "EE TARTU02",
+    "name": "TARTU ULIKOOL",
+    "erasmusWebpage": "https://ut.ee/et/erasmus",
+    "domain": "ut.ee",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ut.ee&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "FINLAND",
+    "erasmusId": "SF KAUNIAI03",
+    "name": "SUOMEN HUMANISTINEN AMMATTIKORKEAKOULU OY HUMAK",
+    "erasmusWebpage": "https://www.humak.fi/en/erasmus/",
+    "domain": "www.humak.fi",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.humak.fi&sz=256",
+    "studyAreas": [
+      "ART AND CULTURE MANAGEMENT"
+    ]
+  },
+  {
+    "country": "FRANCE",
+    "erasmusId": "F CAEN01",
+    "name": "UNIVERSITE DE CAEN NORMANDIE",
+    "erasmusWebpage": "https://www.unicaen.fr/international/partir-a-letranger/en-sejour-detudes/",
+    "domain": "ut.ee",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ut.ee&sz=256",
+    "studyAreas": [
+      "ECONOMY AND FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "FRANCE",
+    "erasmusId": "F LILLE11",
+    "name": "UNIVERSITE CATHOLIQUE DE LILLE (FÉDÉRATION UNIVERSITAIRE ET PLURIDISCIPLINAIRE DE LILLE)",
+    "erasmusWebpage": "https://www.univ-catholille.fr/venir-etudier/venir-en-echange/",
+    "domain": "www.univ-catholille.fr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.univ-catholille.fr&sz=256",
+    "studyAreas": [
+      "ECONOMY AND FINANCE",
+      "INTERNATIONAL ECONOMY"
+    ]
+  },
+  {
+    "country": "FRANCE",
+    "erasmusId": "F NANCY43",
+    "name": "UNIVERSITE DE LORRAINE",
+    "erasmusWebpage": "https://www.univ-lorraine.fr/en/education/international-mobility/",
+    "domain": "univ-catholille.fr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=univ-catholille.fr&sz=256",
+    "studyAreas": [
+      "SOFTWARE ENGINEERING"
+    ]
+  },
+  {
+    "country": "FRANCE",
+    "erasmusId": "F PARIS013",
+    "name": "UNIVERSITE PARIS 13",
+    "erasmusWebpage": "https://www.univ-spn.fr/programmes-dechanges/",
+    "domain": "univ-lorraine.fr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=univ-lorraine.fr&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "FRANCE",
+    "erasmusId": "F PARIS056",
+    "name": "CONSERVATOIRE NATIONAL DES ARTS ET METIERS",
+    "erasmusWebpage": "https://www.cnam.eu/mobility/eu-and-international-mobility-for-students-and-staff-1150196.kjsp",
+    "domain": "cnam.eu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=cnam.eu&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS AND FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "CARTOON and ANIMATION",
+      "GRAPHIC DESIGN",
+      "VISUAL COMMUNICATION DESIGN",
+      "NEW MEDIA and COMMUNICATION",
+      "DIGITAL GAME DESIGN"
+    ]
+  },
+  {
+    "country": "FRANCE",
+    "erasmusId": "F ROUEN01",
+    "name": "UNIVERSITE DE ROUEN NORMANDIE",
+    "erasmusWebpage": "https://www.univ-rouen.fr/international/venir-a-luniversite-de-rouen-normandie-2/",
+    "domain": "univ-rouen.fr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=univ-rouen.fr&sz=256",
+    "studyAreas": [
+      "LAW",
+      "INTERNATIONAL TRADE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "FRANCE",
+    "erasmusId": "F ST-ETIE01",
+    "name": "UNIVERSITE JEAN MONNET SAINT-ETIENNE",
+    "erasmusWebpage": "https://www.univ-st-etienne.fr/en/studies/exchange-programs.html",
+    "domain": "univ-st-etienne.fr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=univ-st-etienne.fr&sz=256",
+    "studyAreas": [
+      "LAW",
+      "BANKING AND INSURANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "FRANCE",
+    "erasmusId": "F TARBES03",
+    "name": "ECOLE NATIONALE D'INGENIEURS DE TARBES",
+    "erasmusWebpage": "https://www.enit.fr/fr/relations-internationales.html",
+    "domain": "enit.fr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=enit.fr&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "INDUSTRIAL ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "SOFTWARE ENGINEERING"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D ALFTER01",
+    "name": "ALANUS HOCHSCHULE GGMBH",
+    "erasmusWebpage": "https://www.alanus.edu/de/service/internationales/exchange-students",
+    "domain": "www.alanus.edu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.alanus.edu&sz=256",
+    "studyAreas": [
+      "DRAMA and ACTING"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D ANSBACH01",
+    "name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN - FACHHOCHSCHULE ANSBACH",
+    "erasmusWebpage": "https://www.hs-ansbach.de/en/info/international-office/erasmus",
+    "domain": "alanus.edu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=alanus.edu&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INDUSTRIAL ENGINEERING"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D ASCHAFF01",
+    "name": "TECHNISCHE HOCHSCHULE ASCHAFFENBURG",
+    "erasmusWebpage": "https://www.th-ab.de/internationales/auslandssemester/kurzzeitprogramme/erasmus/",
+    "domain": "th-ab.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=th-ab.de&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INDUSTRIAL ENGINEERING"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D BERLIN38",
+    "name": "MSB MEDICAL SCHOOL BERLIN GMBH",
+    "erasmusWebpage": "https://www.medicalschool-berlin.de/files/msb/inhalt-msb/Dokumente/MSB-Fact-Sheet-Exchange-Students23-Online.pdf",
+    "domain": "www.medicalschool-berlin.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.medicalschool-berlin.de&sz=256",
+    "studyAreas": [
+      "SOCIAL WORK"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D BIELEFE01",
+    "name": "UNIVERSITAET BIELEFELD",
+    "erasmusWebpage": "https://www.uni-bielefeld.de/international/go-out/studium/erasmus/",
+    "domain": "www.uni-bielefeld.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.uni-bielefeld.de&sz=256",
+    "studyAreas": [
+      "LAW"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D BIELEFE02",
+    "name": "FACHHOCHSCHULE BIELEFELD",
+    "erasmusWebpage": "https://www.hsbi.de/internationales/internationales-profil-hsbi/erasmus",
+    "domain": "medicalschool-berlin.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=medicalschool-berlin.de&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "SOCIAL WORK"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D BOCHUM01",
+    "name": "RUHR-UNIVERSITAET BOCHUM",
+    "erasmusWebpage": "https://international.ruhr-uni-bochum.de/de/erasmus-studium-europa",
+    "domain": "hsbi.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hsbi.de&sz=256",
+    "studyAreas": [
+      "PSYCHOLOGY",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D BRANDEN01",
+    "name": "TECHNISCHE HOCHSCHULE BRANDENBURG",
+    "erasmusWebpage": "https://zis.th-brandenburg.de/en/auslandsaufenthalte/erasmus/",
+    "domain": "international.ruhr-uni-bochum.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.ruhr-uni-bochum.de&sz=256",
+    "studyAreas": [
+      "INDUSTRIAL ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "COMPUTER ENGINEERING"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D CLAUSTH01",
+    "name": "TECHNISCHE UNIVERSITAT CLAUSTHAL",
+    "erasmusWebpage": "https://www.wiwi.tu-clausthal.de/en/study/study-abroad/erasmus",
+    "domain": "www.wiwi.tu-clausthal.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.wiwi.tu-clausthal.de&sz=256",
+    "studyAreas": [
+      "SOFTWARE ENGINEERING"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D DORTMUN02",
+    "name": "FACHHOCHSCHULE DORTMUND",
+    "erasmusWebpage": "https://www.fh-dortmund.de/international/foerderprogramme/erasmus/index.php",
+    "domain": "wiwi.tu-clausthal.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=wiwi.tu-clausthal.de&sz=256",
+    "studyAreas": [
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE",
+      "SOCIAL WORK"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D DUSSELD03",
+    "name": "HOCHSCHULE DUSSELDORF",
+    "erasmusWebpage": "https://www.hs-duesseldorf.de/erasmusplus-studium",
+    "domain": "fh-dortmund.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fh-dortmund.de&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D ERLANGE01",
+    "name": "FRIEDRICH-ALEXANDER-UNIVERSITAET ERLANGEN-NUERNBERG",
+    "erasmusWebpage": "https://www.fau.eu/education/international/going-abroad/studying-abroad/the-erasmus-programme/",
+    "domain": "www.fau.eu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.fau.eu&sz=256",
+    "studyAreas": [
+      "ELEMENTARY EDUCATION"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D FRANKFU08",
+    "name": "STIFTUNG EUROPA UNIVERSITAT VIADRINA FRANKFURT",
+    "erasmusWebpage": "https://www.europa-uni.de/en/studium/index.html",
+    "domain": "fau.eu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fau.eu&sz=256",
+    "studyAreas": []
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D ESSEN04",
+    "name": "UNIVERSITAET DUISBURG-ESSEN",
+    "erasmusWebpage": "https://www.uni-due.de/international/outgoings_erasmus.php",
+    "domain": "uni-due.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uni-due.de&sz=256",
+    "studyAreas": [
+      "TRANSLATION and INTERPRETING (English)",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "TURKISH LANGUAGE and LITERATURE"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D FRANKFU04",
+    "name": "FRANKFURT UNIVERSITY OF APPLIED SCIENCES",
+    "erasmusWebpage": "https://www.frankfurt-university.de/en/studies/international-office/outgoings/study-abroad/erasmus-program-information/",
+    "domain": "frankfurt-university.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=frankfurt-university.de&sz=256",
+    "studyAreas": [
+      "ARCHITECTURE",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE",
+      "SOCIAL WORK"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D FREIBUR01",
+    "name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG",
+    "erasmusWebpage": "https://www.international.uni-freiburg.de/en/erasmus/studies-outgoing",
+    "domain": "www.international.uni-freiburg.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.international.uni-freiburg.de&sz=256",
+    "studyAreas": [
+      "TURKISH LANGUAGE and LITERATURE",
+      "HISTORY"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D GIESSEN02",
+    "name": "TECHNISCHE HOCHSCHULE MITTELHESSEN",
+    "erasmusWebpage": "https://www.thm.de/site/international/outgoing-wege-ins-ausland/auslandsstudium-outgoing/programme-und-foerdermoeglichkeiten-auslandsstudium-outgoing/erasmus-plus-studium-auslandsstudium-outgoing.html",
+    "domain": "international.uni-freiburg.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.uni-freiburg.de&sz=256",
+    "studyAreas": [
+      "MECHANICAL ENGINEERING",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "HEALTH CARE MANAGEMENT"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D GOTTING02",
+    "name": "GESELLSCHAFT FUR PRAXISBEZOGENE FORSCHUNG UND WISSENSCHAFTLICHE LEHREGGMBH",
+    "erasmusWebpage": "https://www.pfh.de/en/consultation/erasmus-programme",
+    "domain": "pfh.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pfh.de&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D HAMBURG01",
+    "name": "UNIVERSITAET HAMBURG",
+    "erasmusWebpage": "https://www.uni-hamburg.de/en/internationales/kontakt.html",
+    "domain": "www.uni-hamburg.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.uni-hamburg.de&sz=256",
+    "studyAreas": [
+      "SPECIAL EDUCATION"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D ISERLOH02",
+    "name": "UNIVERSİTY OF EUROPE FOR APPLIED SCIENCES",
+    "erasmusWebpage": "https://www.ue-germany.com/students/student-departments/international/ways-abroad",
+    "domain": "uni-hamburg.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uni-hamburg.de&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "DIGITAL GAME DESIGN",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER ENGINEERING",
+      "RADIO TELEVISION PROGRAMMING"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D KIEL03",
+    "name": "FACHHOCHSCHULE KIEL",
+    "erasmusWebpage": "https://www.fh-kiel.de/international/ins-ausland/auslandsaufenthalt/studium-im-ausland/studium-in-europa/",
+    "domain": "www.fh-kiel.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.fh-kiel.de&sz=256",
+    "studyAreas": [
+      "PSYCHOLOGY",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D KOLN12",
+    "name": "CBS COLOGNE BUSINESS SCHOOL GMBH",
+    "erasmusWebpage": "https://www.cbs.de/en/international/erasmusplus",
+    "domain": "fh-kiel.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fh-kiel.de&sz=256",
+    "studyAreas": [
+      "VISUAL COMMUNICATION DESIGN",
+      "GRAPHIC DESIGN",
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS AND FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "NEW MEDIA and COMMUNICATION"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D KREFELD01",
+    "name": "HOCHSCHULE NIEDERRHEIN",
+    "erasmusWebpage": "https://www.hs-niederrhein.de/textil-bekleidungstechnik/studierende/praxis-/auslandssemester/auslandssemester/",
+    "domain": "www.hs-niederrhein.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.hs-niederrhein.de&sz=256",
+    "studyAreas": [
+      "INDUSTRIAL ENGINEERING",
+      "TEXTILE ENGINEERING"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D LANDSHU01",
+    "name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN LANDSHUT",
+    "erasmusWebpage": "https://www.haw-landshut.de/en/international/outgoing/erasmus-information",
+    "domain": "hs-niederrhein.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hs-niederrhein.de&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "INDUSTRIAL ENGINEERING",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOCIAL WORK"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D LUNEBUR01",
+    "name": "LEUPHANA UNIVERSITAT LUNEBURG",
+    "erasmusWebpage": "https://www.leuphana.de/einrichtungen/international-center/erasmus.html",
+    "domain": "www.leuphana.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.leuphana.de&sz=256",
+    "studyAreas": [
+      "PRIMARY MATHEMATICS EDUCATION"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D MAINZ01",
+    "name": "JOHANNES GUTENBERG-UNIVERSITAT MAINZ",
+    "erasmusWebpage": "https://www.international.uni-mainz.de/erasmus/",
+    "domain": "leuphana.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=leuphana.de&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "ELEMENTARY EDUCATION"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D MAINZ08",
+    "name": "HOCHSCHULE MAINZ UNIVERSITY OF APPLIED SCIENCES",
+    "erasmusWebpage": "https://www.hs-mainz.de/en/international/profile/erasmus/",
+    "domain": "international.uni-mainz.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.uni-mainz.de&sz=256",
+    "studyAreas": [
+      "CIVIL ENGINEERING",
+      "CIVIL ENGINEERING CONSTRUCTION AND PROJECT MANAGEMENT",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "CIVIL TECHONOLOGY"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D MANNHEI10",
+    "name": "HOCHSCHULE DER WIRTSCHAFT FUR MANAGEMENT GGMBH",
+    "erasmusWebpage": "https://www.hdwm.de/international/erasmus/",
+    "domain": "hdwm.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hdwm.de&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D MULHEIM01",
+    "name": "HOCHSCHULE RUHR WEST",
+    "erasmusWebpage": "https://www.hochschule-ruhr-west.de/studium/internationales/wege-ins-ausland",
+    "domain": "hochschule-ruhr-west.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hochschule-ruhr-west.de&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "COMPUTER TECHNOLOGIES",
+      "INDUSTRIAL ENGINEERING",
+      "CIVIL ENGINEERING",
+      "CIVIL TECHONOLOGY",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "MECHANICAL ENGINEERING",
+      "CONSTRUCTION TECHONOGIES"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D MUNCHEN11",
+    "name": "SPRACHEN- UND DOLMETSCHER-INSTITUTMUNCHEN EV",
+    "erasmusWebpage": "https://www.sdi-muenchen.de/service/international-office",
+    "domain": "sdi-muenchen.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=sdi-muenchen.de&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "APPLIED SPANISH-TURKISH TRANSLATION",
+      "APPLIED RUSSIAN-TURKISH TRANSLATION"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D MARBURG01",
+    "name": "PHILIPPS-UNIVERSITÄT MARBURG",
+    "erasmusWebpage": "https://www.uni-marburg.de/de/international/ins-ausland",
+    "domain": "www.uni-marburg.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.uni-marburg.de&sz=256",
+    "studyAreas": []
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D MUNSTER01",
+    "name": "WESTFAELISCHE WILHELMS-UNIVERSITAET MUENSTER",
+    "erasmusWebpage": "https://www.uni-muenster.de/studium/outgoing/erasmus/index.html",
+    "domain": "www.uni-muenster.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.uni-muenster.de&sz=256",
+    "studyAreas": [
+      "LAW"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D NURTING01",
+    "name": "HOCHSCHULE FUER WIRTSCHAFT UND UMWELT NUERTINGEN-GEISLINGEN",
+    "erasmusWebpage": "https://www.hfwu.de/hfwu-scout/anlaufstellen/international-office/erasmus/",
+    "domain": "uni-marburg.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uni-marburg.de&sz=256",
+    "studyAreas": [
+      "BANKING AND INSURANCE",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ACCOUNTING and TAX PRACTISES",
+      "INTERNATIONAL TRADE AND FINANCE"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D OFFENBA01",
+    "name": "HOCHSCHULE FUR GESTALTUNG OFFENGACH AM MAİN",
+    "erasmusWebpage": "https://www.hfg-offenbach.de/en/pages/international-office-1#about",
+    "domain": "www.hfg-offenbach.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.hfg-offenbach.de&sz=256",
+    "studyAreas": [
+      "DRAMA and ACTING"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D POTSDAM01",
+    "name": "UNIVERSITAET POTSDAM",
+    "erasmusWebpage": "https://www.uni-potsdam.de/en/international/outgoing/studium/erasmus",
+    "domain": "hfg-offenbach.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hfg-offenbach.de&sz=256",
+    "studyAreas": [
+      "LAW",
+      "FOOD ENGINEERING",
+      "FOOD SAFETY"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D SAARBRU03",
+    "name": "HOCHSCHULE FUR TECHNIK UND WIRTSCHAFT DES SAARLANDES",
+    "erasmusWebpage": "https://www.htwsaar.de/sowi/international/die-erasmus-partnerhochschulen-der-fakultat-fur-sozialwissenschaften",
+    "domain": "htwsaar.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=htwsaar.de&sz=256",
+    "studyAreas": [
+      "ARCHITECTURE",
+      "COMPUTER TECHNOLOGIES",
+      "COMPUTER ENGINEERING",
+      "COMPUTER  PROGRAMMING",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "SOCIAL WORK",
+      "PRESCHOOL TEACHER TRAINING",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D SIGMARI01",
+    "name": "FACHHOCHSCHULE ALBSTADT-SIGMARINGEN",
+    "erasmusWebpage": "https://www.hs-albsig.de/hochschule/organisation/international-office/#:~:text=Die%20Hochschule%20Albstadt%2DSigmaringen%20nimmt%20am%20ERASMUS%2B%20%2D%20Programm%20teil.&text=Erasmus%2B%20ist%20das%20EU%2DProgramm,Vorl%C3%A4uferprogramm%20(2014%E2%80%932020).",
+    "domain": "hs-albsig.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hs-albsig.de&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT FOR BUSINESS MANAGERS",
+      "FOOD ENGINEERING",
+      "FOOD QUALITY CONTROL ANALYSIS",
+      "FOOD TECHNOLOGY"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D STUTTGA05",
+    "name": "HOCHSCHULE FUR TECHNIK STUTTGART",
+    "erasmusWebpage": "https://www.hft-stuttgart.de/international",
+    "domain": "www.hft-stuttgart.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.hft-stuttgart.de&sz=256",
+    "studyAreas": [
+      "ARCHITECTURE",
+      "CIVIL ENGINEERING"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D TRIER02",
+    "name": "HOCHSCHULE TRIER",
+    "erasmusWebpage": "https://www.hochschule-trier.de/international/wege-ins-ausland/studierende/erasmus-studium-oder-praktikum",
+    "domain": "hft-stuttgart.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hft-stuttgart.de&sz=256",
+    "studyAreas": [
+      "GRAPHIC DESIGN",
+      "MECHANICAL",
+      "ARCHITECTURAL DESIGN",
+      "ARCHITECTURE",
+      "FASHION DESIGN",
+      "TEXTILE and FASHION DESIGN",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "INDUSTRIAL ENGINEERING",
+      "VISUAL COMMUNICATION DESIGN"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D WORMS01",
+    "name": "HOCHSCHULE WORMS",
+    "erasmusWebpage": "https://www.hs-worms.de/international/incoming-students/exchange-students",
+    "domain": "hs-worms.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hs-worms.de&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "TOURISM GUIDANCE",
+      "TOURISM AND HOTEL MANAGMENT"
+    ]
+  },
+  {
+    "country": "GERMANY",
+    "erasmusId": "D WURZBUR01",
+    "name": "JULIUS-MAXIMILIANS-UNIVERSITAT WURZBURG",
+    "erasmusWebpage": "https://www.uni-wuerzburg.de/en/international/studying-in-wuerzburg/exchange-students/",
+    "domain": "uni-wuerzburg.de",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uni-wuerzburg.de&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "ELEMENTARY EDUCATION",
+      "PRESCHOOL TEACHER TRAINING",
+      "GIFTED EDUCATION",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE",
+      "EDUCATION OF MENTALLY DISABLED",
+      "SPECIAL EDUCATION"
+    ]
+  },
+  {
+    "country": "GREECE",
+    "erasmusId": "G ATHINE02",
+    "name": "NATIONAL TECHNICAL UNIVERSITY OF ATHENS - NTUA",
+    "erasmusWebpage": "http://erasmus.ntua.gr/en/",
+    "domain": "erasmus.ntua.gr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus.ntua.gr&sz=256",
+    "studyAreas": [
+      "CIVIL ENGINEERING",
+      "CONSTRUCTION TECHNOLOGIES",
+      "MECHANICAL ENGINEERING"
+    ]
+  },
+  {
+    "country": "GREECE",
+    "erasmusId": "G KRITIS04",
+    "name": "TECH.EDUÇ.İNSTİTUTE (TEİ) OF CRETE",
+    "erasmusWebpage": "https://www.teicrete.gr/ie/en/%CF%83%CE%B5%CE%BB%CE%AF%CE%B4%CE%B5%CF%82-%CF%84%CE%BC%CE%AE%CE%BC%CE%B1%CF%84%CE%BF%CF%82/erasmus-program",
+    "domain": "teicrete.gr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=teicrete.gr&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "COMPUTER ENGINEERING",
+      "COMPUTER TECHNOLOGIES"
+    ]
+  },
+  {
+    "country": "GREECE",
+    "erasmusId": "G KRITIS05",
+    "name": "HELLENIC MEDITERRANEAN UNİVERSITY",
+    "erasmusWebpage": "https://iro.hmu.gr/incoming-students/",
+    "domain": "iro.hmu.gr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=iro.hmu.gr&sz=256",
+    "studyAreas": [
+      "NUTRITION AND DIETETICS",
+      "SOCIAL WORK"
+    ]
+  },
+  {
+    "country": "GREECE",
+    "erasmusId": "G PIREAS01",
+    "name": "UNIVERSITY OF PIRAEUS RESEARCH CENTER",
+    "erasmusWebpage": "https://www.unipi.gr/en/international-relations-office/erasmus-2-2/",
+    "domain": "iro.hmu.gr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=iro.hmu.gr&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "GREECE",
+    "erasmusId": "G THESSAL14",
+    "name": "DIETHNES PANEPISTIMIO ELLADOS",
+    "erasmusWebpage": "https://www.ba.ihu.gr/en/incoming-students/",
+    "domain": "unipi.gr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unipi.gr&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "GREECE",
+    "erasmusId": "G VOLOS01",
+    "name": "PANEPISTIMIO THESSALIAS",
+    "erasmusWebpage": "https://erasmus.uth.gr/en/",
+    "domain": "erasmus.uth.gr",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus.uth.gr&sz=256",
+    "studyAreas": [
+      "NUTRITION AND DIETETICS",
+      "PRESCHOOL TEACHER TRAINING",
+      "ENGLISH LANGUAGE TEACHER EDUCATION"
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "erasmusId": "HU BUDAPES01",
+    "name": "EÖTVÖS LORAND UNİVERSİTY",
+    "erasmusWebpage": "https://www.elte.hu/en/incoming-mobility/erasmus",
+    "domain": "www.elte.hu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.elte.hu&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "HISTORY"
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "erasmusId": "HU BUDAPES20",
+    "name": "BUDAPESTI GAZDASAGI EGYETEM",
+    "erasmusWebpage": "https://uni-bge.hu/en/admission/erasmus",
+    "domain": "elte.hu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=elte.hu&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "erasmusId": "HU BUDAPES45",
+    "name": "BUDAPESTI METROPOLITAN EGYETEM",
+    "erasmusWebpage": "https://www.metropolitan.hu/hu/erasmus",
+    "domain": "metropolitan.hu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=metropolitan.hu&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "erasmusId": "HU DUNAUJ01",
+    "name": "UNIVERSITY OF DUNAUJVAROS",
+    "erasmusWebpage": "https://www.uniduna.hu/en/component/tags/tag/erasmus",
+    "domain": "uniduna.hu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uniduna.hu&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER and INSTRUCTIONAL TECHNOLOGIES EDUCATION",
+      "Physical Education and Sports Teaching"
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "erasmusId": "HU EGER02",
+    "name": "ESZTERHAZY KAROLY KATOLIKUS EGYETEM",
+    "erasmusWebpage": "https://uni-eszterhazy.hu/nemzetkozikapcsolatok/m/hallgatoknak/erasmus-",
+    "domain": "uni-eszterhazy.hu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uni-eszterhazy.hu&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "GRAPHIC DESIGN",
+      "JOURNALISM",
+      "VISUAL COMMUNICATION DESIGN",
+      "PUBLIC RELATIONS and PUBLICITY",
+      "ADVERTISEMENT",
+      "TV NEWS AND TV PROGRAM MAKING",
+      "RADIO TELEVISION and CINEMA",
+      "NEW MEDIA and COMMUNICATION",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION and INTERPRETING (English)",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "COMPUTER PROGRAMMING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "FOREIGN TRADE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "TOURISM GUIDANCE",
+      "TOURISM AND HOTEL MANAGMENT"
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "erasmusId": "HU GODOLLO01",
+    "name": "MATE HUNGARIAN UNİVERSITY OF AGRICULTURE AND LIFE SCIENCES - MATE",
+    "erasmusWebpage": "https://en.uni-mate.hu/erasmusplus",
+    "domain": "en.uni-mate.hu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=en.uni-mate.hu&sz=256",
+    "studyAreas": [
+      "FOREIGN TRADE",
+      "ECONOMY AND FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MECHANICAL",
+      "MECHANICAL ENGINEERING",
+      "INDUSTRIAL ENGINEERING",
+      "BUSINESS MANAGEMENT",
+      "BUSINESS MANAGEMENT FOR BUSINESS MANAGERS",
+      "FOOD SAFETY",
+      "FOOD QUALITY CONTROL ANALYSIS",
+      "FOOD ENGINEERING",
+      "FOOD TECHNOLOGY",
+      "MEDICAL BIOLOGY"
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "erasmusId": "HU KALOCSA01",
+    "name": "TOMORİ PAL COLLEGE",
+    "erasmusWebpage": "https://en.tpfk.hu/erasmus/",
+    "domain": "en.tpfk.hu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=en.tpfk.hu&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "erasmusId": "HU KECSKEM03",
+    "name": "NEUMANN JANOS EGYETEM",
+    "erasmusWebpage": "https://nje.hu/egyetemunk/nemzetkozi-kapcsolatok/erasmus",
+    "domain": "nje.hu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=nje.hu&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "INDUSTRIAL ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "erasmusId": "HU PECS01",
+    "name": "UNIVERSITY OF PECS",
+    "erasmusWebpage": "https://international.pte.hu/mobility-programs/erasmus",
+    "domain": "international.pte.hu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.pte.hu&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "PRESCHOOL TEACHER TRAINING",
+      "SOCIOLOGY",
+      "HEALTH CARE MANAGEMENT",
+      "DENTISTRY",
+      "PHYSIOTHERAPY AND REHABILITATION",
+      "NUTRITION AND DIETETICS"
+    ]
+  },
+  {
+    "country": "HUNGARY",
+    "erasmusId": "HU SZEGED01",
+    "name": "SZEGEDI TUDOMANYEGYETEM",
+    "erasmusWebpage": "http://www2.u-szeged.hu/erasmus/",
+    "domain": "www2.u-szeged.hu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www2.u-szeged.hu&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "COMPUTER TECHNOLOGIES",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "FOOD QUALITY CONTROL ANALYSIS",
+      "FOOD ENGINEERING",
+      "FOOD TECHNOLOGY",
+      "FOOD SAFETY",
+      "MECHANICAL ENGINEERING",
+      "BANKING AND INSURANCE",
+      "BUSINESS MANAGEMENT",
+      "AUTOMOTIVE TECHNOLOGY",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT FOR BUSINESS MANAGERS",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION and INTERPRETING (ENGLISH)",
+      "TRANSLATION and INTERPRETING (SPANISH)",
+      "APPLIED SPANISH-TURKISH TRANSLATION"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I ANCONA02",
+    "name": "SRL POLIARTE POLITECNICO DELLE ARTI",
+    "erasmusWebpage": "https://www.poliarte.net/pagina.php?idPagina=44",
+    "domain": "poliarte.net",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=poliarte.net&sz=256",
+    "studyAreas": [
+      "TEXTILE and FASHION DESIGN",
+      "CARTOON AND ANIMATION",
+      "VISUAL COMMUNICATION DESIGN",
+      "INTERIOR DESIGN",
+      "VISUAL ARTS",
+      "GRAPHIC DESIGN",
+      "DIGITAL GAME DESIGN",
+      "RADIO TELEVISION and CINEMA",
+      "TELEVISION AND FILM"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I BENEVEN04",
+    "name": "UNIVERSITA DELGI STUDI GİUSTINO FORTUNATO",
+    "erasmusWebpage": "https://www.unifortunato.eu/servizi-studenti/erasmus-plus/",
+    "domain": "unifortunato.eu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unifortunato.eu&sz=256",
+    "studyAreas": [
+      "LAW",
+      "AVIATION MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "CLINICAL PSYCHOLOGY",
+      "PSYCHOLOGY",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE",
+      "INTERNATIONAL ECONOMICS"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I CASAMAS01",
+    "name": "LUM GIUSEPPE DEGENNARO",
+    "erasmusWebpage": "https://www.lum.it/en/international-mobility/incoming-students/",
+    "domain": "lum.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=lum.it&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "LAW"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I CHIETI01",
+    "name": "UNIVERSITA DEGLI STUDI GABRIELE D'ANNUNZIO DI CHIETI-PESCARA",
+    "erasmusWebpage": "https://www.unich.it/international/erasmus-incoming-students",
+    "domain": "unich.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unich.it&sz=256",
+    "studyAreas": [
+      "LAW",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "FOREIGN TRADE",
+      "ECONOMY AND FINANCE",
+      "INTERNATIONAL ECONOMICS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I COSENZA01",
+    "name": "UNIVERSITA DELLA CALABRIA",
+    "erasmusWebpage": "https://www.unical.it/internazionale/studiare-all-estero/erasmus/",
+    "domain": "unical.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unical.it&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "ELECTRONIC TECHNOLOGY",
+      "COMPUTER ENGINEERING",
+      "COMPUTER TECHNOLOGIES",
+      "COMPUTER and INSTRUCTIONAL TECHNOLOGIES EDUCATION",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I FOGGIA03",
+    "name": "UNIVERSITA DEGLI STUDI DI FOGGIA",
+    "erasmusWebpage": "https://www.unifg.it/it/internazionale/cooperazione-internazionale/erasmus-eche",
+    "domain": "unifg.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unifg.it&sz=256",
+    "studyAreas": [
+      "DENTISTRY",
+      "NUTRITION AND DIETETICS",
+      "MEDICINE"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I L-AQUIL01",
+    "name": "UNIVERSITA DEGLI STUDI DELL'AQUILA",
+    "erasmusWebpage": "https://www.univaq.it/section.php?id=545",
+    "domain": "www.univaq.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.univaq.it&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I LECCE02",
+    "name": "ACCADEMIA DI BELLE ARTI DI LECCE",
+    "erasmusWebpage": "https://www.accademialecce.edu.it/erasmus/",
+    "domain": "univaq.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=univaq.it&sz=256",
+    "studyAreas": [
+      "NEW MEDIA and COMMUNICATION",
+      "VISUAL COMMUNICATION DESIGN",
+      "GRAPHIC DESIGN",
+      "FASHION DESIGN",
+      "TEXTILE AND FASHION DESIGN",
+      "ADVERTISEMENT",
+      "ART AND CULTURE MANAGEMENT",
+      "RADIO TELEVISION and CINEMA",
+      "TELEVISION AND FILM"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I NAPOLI09",
+    "name": "UNIVERSITA DEGLI STUDI DELLA CAMPANIA LUIGI VANVITELLI",
+    "erasmusWebpage": "https://www.unicampania.it/index.php/international/studiare-all-estero/bando-erasmus-2025-2026",
+    "domain": "www.unicampania.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.unicampania.it&sz=256",
+    "studyAreas": [
+      "DENTISTRY"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I PARMA01",
+    "name": "UNIVERSITA DEGLI STUDI DI PARMA",
+    "erasmusWebpage": "https://www.unipr.it/programma-erasmus-0",
+    "domain": "www.unipr.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.unipr.it&sz=256",
+    "studyAreas": [
+      "ARCHITECTURE"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I PAVIA01",
+    "name": "UNIVERSITA DEGLI STUDI DI PAVIA",
+    "erasmusWebpage": "https://portale.unipv.it/it/internazionale/andare-allestero/opportunita-di-mobilita-allestero/studiare-allestero/erasmus-studio",
+    "domain": "unicampania.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unicampania.it&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "HISTORY"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I PISA01",
+    "name": "UNIVERSITA DI PISA",
+    "erasmusWebpage": "https://erasmusmobility.unipi.it/erasmus/welcome/",
+    "domain": "portale.unipv.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=portale.unipv.it&sz=256",
+    "studyAreas": [
+      "MEDICINE"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I ROMA02",
+    "name": "UNIVERSITA DEGLI STUDI DI ROMA TOR VERGATA",
+    "erasmusWebpage": "https://web.uniroma2.it/en/percorso/international/sezione/erasmus_",
+    "domain": "erasmusmobility.unipi.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmusmobility.unipi.it&sz=256",
+    "studyAreas": [
+      "BANKING AND INSURANCE",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I ROMA14",
+    "name": "UNIVERSITA CAMPUS BIO MEDICO DI ROMA",
+    "erasmusWebpage": "https://www.unicampus.it/servizi/internazionale/mobilita-internazionale-per-gli-studenti/costruiamo-leuropa/",
+    "domain": "unicampus.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unicampus.it&sz=256",
+    "studyAreas": [
+      "NUTRITION AND DIETETICS",
+      "MEDICINE",
+      "FOOD ENGINEERING",
+      "FOOD SAFETY",
+      "FOOD TECHNOLOGY"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I ROMA16",
+    "name": "UNIVERSITA DEGLI STUDI ROMA TRE",
+    "erasmusWebpage": "https://portalestudente.uniroma3.it/en/international-mobility/programma-erasmus-incoming-students-eng/",
+    "domain": "portalestudente.uniroma3.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=portalestudente.uniroma3.it&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I ROMA21",
+    "name": "UNIVERSITA DEGLI STUDI GUGLIELMO MARCONI - TELEMATICA",
+    "erasmusWebpage": "https://www.unimarconi.it/programma-erasmus/",
+    "domain": "unimarconi.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unimarconi.it&sz=256",
+    "studyAreas": [
+      "COMPUTER TECHNOLOGIES",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "CIVIL ENGINEERING",
+      "CIVIL TECHNOLOGY",
+      "INDUSTRIAL ENGINEERING",
+      "FOREIGN TRADE",
+      "ECONOMY AND FINANCE",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL ECONOMICS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I SALERNO01",
+    "name": "UNIVERSITA DEGLI STUDI DI SALERNO",
+    "erasmusWebpage": "",
+    "domain": "",
+    "logoUrl": "",
+    "studyAreas": [
+      "MATHEMETICS-COMPUTER",
+      "PRIMARY MATHEMATICS EDUCATION"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I SASSARI01",
+    "name": "UNIVERSITA DEGLI STUDI DI SASSARI",
+    "erasmusWebpage": "https://www.uniss.it/it/internazionale/erasmus",
+    "domain": "www.uniss.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.uniss.it&sz=256",
+    "studyAreas": [
+      "ARCHITECTURE"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I SIENA02",
+    "name": "UNIVERSITA PER STRANIERI DI SIENA",
+    "erasmusWebpage": "https://www.unistrasi.it/1/160/676/ERASMUS_for_studies_incoming_students.htm",
+    "domain": "uniss.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uniss.it&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE and LITERATURE",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "TRANSLATION - INTERPRETING (ENGLISH)",
+      "TRANSLATION - INTERPRETING (ARABIC)",
+      "ARABIC LANGUAGE TEACHING EDUCATION"
+    ]
+  },
+  {
+    "country": "ITALY",
+    "erasmusId": "I TRENTO01",
+    "name": "UNIVERSITA DEGLI STUDI DI TRENTO",
+    "erasmusWebpage": "https://www.unitn.it/it/internazionale/andare-allestero/studio/erasmus-studio-di-lunga-durata",
+    "domain": "unitn.it",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unitn.it&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "LATVIA",
+    "erasmusId": "LV DAUGAVP01",
+    "name": "DAUGAVPILS UNIVERSITATE",
+    "erasmusWebpage": "https://du.lv/en/international-cooperation/erasmus-mobility/",
+    "domain": "du.lv",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=du.lv&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "TRANSLATION AND INTERPRETING (TURKISH - RUSSIAN)",
+      "TRANSLATION AND INTERPRETING (TURKISH - ENGLISH)",
+      "SPORTS MANAGEMENT",
+      "APPLIED RUSSIAN-TURKISH TRANSLATION",
+      "APPLIED ENGLISH-TURKISH TRANSLATION"
+    ]
+  },
+  {
+    "country": "LATVIA",
+    "erasmusId": "LV LIEPAJA01",
+    "name": "LIEPAJAS UNIVERSITATE",
+    "erasmusWebpage": "https://www.rtu.lv/en/liepaja/studies-6/erasmus--",
+    "domain": "rtu.lv",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rtu.lv&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "APPLIED RUSSIAN-TURKISH TRANSLATION",
+      "TRANSLATION AND INTERPRETING (TURKISH - RUSSIAN)",
+      "TRANSLATION AND INTERPRETING (TURKISH - ENGLISH)",
+      "APPLIED ENGLISH-TURKISH TRANSLATION"
+    ]
+  },
+  {
+    "country": "LATVIA",
+    "erasmusId": "LV RIGA08",
+    "name": "LATVIJAS KULTURAS AKADEMIJA",
+    "erasmusWebpage": "https://lka.edu.lv/en/international-cooperation/international-mobility/erasmus/",
+    "domain": "lka.edu.lv",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=lka.edu.lv&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "LATVIA",
+    "erasmusId": "LV RIGA28",
+    "name": "BALTIJAS STARPTAUTISKA AKADEMIJA",
+    "erasmusWebpage": "https://bsa.edu.lv/index.php/en/international/erasmus.html",
+    "domain": "bsa.edu.lv",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=bsa.edu.lv&sz=256",
+    "studyAreas": [
+      "LAW",
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "JOURNALISM",
+      "SOCIOLOGY",
+      "TRANSLATION AND INTERPRETING (TURKISH - ENGLISH)",
+      "TRANSLATION AND INTERPRETING (TURKISH - RUSSIAN)",
+      "FASHION DESIGN",
+      "BANKING and INSURANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE"
+    ]
+  },
+  {
+    "country": "LATVIA",
+    "erasmusId": "LV RIGA31",
+    "name": "AKCIJU SABIEDRIBA TRANSPORTA UN SAKARU INSTITUTS",
+    "erasmusWebpage": "https://tsi.lv/",
+    "domain": "tsi.lv",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tsi.lv&sz=256",
+    "studyAreas": [
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "INDUSTRIAL ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "AVIATION MANAGEMENT"
+    ]
+  },
+  {
+    "country": "LATVIA",
+    "erasmusId": "LV RIGA32",
+    "name": "INFORMACIJAS SISTEMU MENEDZMENTA AUGSTSKOLA SIA",
+    "erasmusWebpage": "https://rnu.lv/",
+    "domain": "rnu.lv",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rnu.lv&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT KAUNAS01",
+    "name": "VYTAUTO DIDZIOJO UNIVERSITETAS",
+    "erasmusWebpage": "https://www.vdu.lt/en/international-cooperation/for-students/erasmus-exchange-studies/",
+    "domain": "vdu.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vdu.lt&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "POLITICAL SCIENCE AND INTERNATIONAL RELATIONS",
+      "ELEMENTARY EDUCATION"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT KAUNAS02",
+    "name": "KAUNO TECHNOLOGIJOS UNIVERSITETAS",
+    "erasmusWebpage": "https://ktu.edu/erasmus/",
+    "domain": "ktu.edu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ktu.edu&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER ENGINEERING",
+      "AEROSPACE ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "TEXTILE and FASHION DESIGN / TEXTILE TECHNOLOGIES",
+      "INDUSTRIAL DESIGN",
+      "INDUSTRIAL ENGINEERING"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT KAUNAS08",
+    "name": "KAUNO KOLEGIJA",
+    "erasmusWebpage": "https://www.kaunokolegija.lt/en/international-kk-erasmus/",
+    "domain": "kaunokolegija.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=kaunokolegija.lt&sz=256",
+    "studyAreas": [
+      "TOURISM, CATERING, HOTEL MANAGEMENT",
+      "FASHION DESIGN",
+      "INTERIOR DESIGN",
+      "NEW MEDIA and COMMUNICATION",
+      "VISUAL COMMUNICATION DESIGN",
+      "GRAPHIC DESIGN",
+      "ADVERTISEMENT",
+      "ART AND CULTURE MANAGEMENT",
+      "RADIO TELEVISION and CINEMA",
+      "TELEVISION AND FILM",
+      "FOOD ENGINEERING",
+      "FOOD SAFETY",
+      "NURSING",
+      "PHYSIOTHERAPY AND REHABILITATION",
+      "NUTRITION AND DIETETICS",
+      "PHARMACY SERVICES",
+      "ORAL AND DENTAL HEALTH",
+      "OCCUPATIONAL THERAPY",
+      "FIRST AND EMERGENCY AID TECHNICIAN",
+      "RADIOLOGY",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER ENGINEERING"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT KAUNAS14",
+    "name": "SV.IGNACO LOJOLOS KOLEGIA",
+    "erasmusWebpage": "https://www.ilk.lt/en/erasmus/",
+    "domain": "ilk.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ilk.lt&sz=256",
+    "studyAreas": [
+      "ORTHOPEDIC PROSTHETICS AND ORTHOTICS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "FASHION DESIGN",
+      "INTERIOR DESIGN",
+      "VISUAL COMMUNICATION DESIGN",
+      "GRAPHIC DESIGN",
+      "SOCIAL WORK",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE",
+      "GASTRONOMY AND CULINARY ARTS",
+      "FOOD ENGINEERING",
+      "FOOD TECHNOLOGY",
+      "TOURISM, CATERING, HOTEL MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT SIAULIA 01",
+    "name": "Vilnius University Šiauliai Academy",
+    "erasmusWebpage": "https://www.sa.vu.lt/en/about/exchange-programmes",
+    "domain": "sa.vu.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=sa.vu.lt&sz=256",
+    "studyAreas": []
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT KLAIPED01",
+    "name": "KLAIPEDOS UNIVERSITETAS",
+    "erasmusWebpage": "https://www.ku.lt/en/studies-admission/erasmus-mobility",
+    "domain": "ku.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ku.lt&sz=256",
+    "studyAreas": [
+      "FOREIGN TRADE",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT KLAIPED04",
+    "name": "VIESOJI ISTAIGA SOCIALINIU MOKSLU KOLEGIJA",
+    "erasmusWebpage": "https://www.smk.lt/lt/erasmus/",
+    "domain": "smk.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=smk.lt&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "JOURNALISM",
+      "TV NEWS AND TV PROGRAM MAKING",
+      "TELEVISION AND FILM",
+      "RADIO TELEVISION and CINEMA",
+      "ADVERTISEMENT",
+      "NEW MEDIA and COMMUNICATION",
+      "PUBLIC RELATIONS and PUBLICITY"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT VILNIUS01",
+    "name": "VILNIAUS UNIVERSITETAS (KAUNAS FACULTY & SIAULIAI ACADEMY)",
+    "erasmusWebpage": "https://www.sa.vu.lt/en/about/exchange-programmes",
+    "domain": "sa.vu.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=sa.vu.lt&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "FOREIGN TRADE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "COMPUTER PROGRAMMING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "TRANSLATION AND INTERPRETING (TURKISH - ENGLISH)",
+      "NEW MEDIA and COMMUNICATION",
+      "VISUAL COMMUNICATION DESIGN",
+      "GRAPHIC DESIGN",
+      "ADVERTISEMENT",
+      "ART AND CULTURE MANAGEMENT",
+      "RADIO TELEVISION and CINEMA",
+      "TELEVISION AND FILM",
+      "TV NEWS AND TV PROGRAM MAKING",
+      "RADIO TELEVISION and CINEMA"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT VILNIUS06",
+    "name": "MYKOLO ROMERIO UNIVERSITETAS",
+    "erasmusWebpage": "https://www.mruni.eu/en/university/internationalization/erasmus-and-exchange-studies-incoming/",
+    "domain": "mruni.eu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=mruni.eu&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS and FINANCE",
+      "GRAPHIC DESIGN",
+      "SOFTWARE DEVELOPMENT",
+      "VISUAL COMMUNICATION DESIGN",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "FOREIGN TRADE",
+      "GAME DESIGN",
+      "CARTOON AND ANIMATION"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT VILNIUS10",
+    "name": "VILNIUS KOLEGIJA",
+    "erasmusWebpage": "https://www.viko.lt/studentams/erasmus-d-u-k/",
+    "domain": "viko.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=viko.lt&sz=256",
+    "studyAreas": [
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "VISUAL COMMUNICATION DESIGN",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "GRAPHIC DESIGN",
+      "SOFTWARE DEVELOPMENT",
+      "ART AND CULTURE MANAGEMENT",
+      "DIGITAL GAME DESIGN",
+      "TEXTILE and FASHION DESIGN"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT VILNIUS 14",
+    "name": "VILNIAUS TECHNOLOGIJU IR DIZAINO KOLEGJIA",
+    "erasmusWebpage": "https://vtdko.lt/tarptautiniai-rysiai/erasmus-studentams/",
+    "domain": "vtdko.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vtdko.lt&sz=256",
+    "studyAreas": []
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT VILNIUS20",
+    "name": "VIESOJI ISTAIGA EUROPOS HUMANITARINIS UNIVERSITETAS",
+    "erasmusWebpage": "https://en.ehuniversity.lt/international/erasmus/",
+    "domain": "en.ehuniversity.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=en.ehuniversity.lt&sz=256",
+    "studyAreas": [
+      "JOURNALISM",
+      "BUSINESS MANAGEMENT",
+      "FOREIGN TRADE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE"
+    ]
+  },
+  {
+    "country": "LITHUANIA",
+    "erasmusId": "LT VILNIUS24",
+    "name": "KAZIMIERO SIMONAVICIAUS UNIVERSITETAS, UAB",
+    "erasmusWebpage": "https://ksu.lt/en/erasmus-students-2/",
+    "domain": "ksu.lt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ksu.lt&sz=256",
+    "studyAreas": [
+      "LAW",
+      "VISUAL COMMUNICATION DESIGN",
+      "GRAPHIC DESIGN",
+      "AVIATION MANAGEMENT",
+      "BUSINESS MANAGEMENT",
+      "FASHION DESIGN",
+      "TEXTILE and FASHION DESIGN",
+      "AVIATION GROUND SERVICES",
+      "CIVIL AVIATION CABIN SERVICES",
+      "CIVIL AVIATION MANAGEMENT",
+      "TOURISM GUIDANCE"
+    ]
+  },
+  {
+    "country": "NETHERLANDS",
+    "erasmusId": "NL EDE01",
+    "name": "CHRISTELIJKE HOGESCHOOL EDE, EDE CHRISTIAN OF APPLIED SCIENCES",
+    "erasmusWebpage": "https://www.che.nl/en/erasmus-policy-strategy",
+    "domain": "che.nl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=che.nl&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "JOURNALISM",
+      "NEW MEDIA and COMMUNICATION",
+      "VISUAL COMMUNICATION DESIGN",
+      "ADVERTISEMENT",
+      "RADIO TELEVISION and CINEMA",
+      "TELEVISION AND FILM",
+      "TV NEWS AND TV PROGRAM MAKING",
+      "PUBLIC RELATIONS and PUBLICITY"
+    ]
+  },
+  {
+    "country": "NETHERLANDS",
+    "erasmusId": "NL EINDHOV03",
+    "name": "STICHTING FONTYS",
+    "erasmusWebpage": "https://www.fontys.nl/en/Study-at-Fontys/Exchange-programmes.htm",
+    "domain": "fontys.nl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fontys.nl&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "NETHERLANDS",
+    "erasmusId": "NL GRONING03",
+    "name": "STICHTING HANZEHOGESCHOOL GRONINGEN",
+    "erasmusWebpage": "https://www.hanze.nl/nl",
+    "domain": "hanze.nl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hanze.nl&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "NETHERLANDS",
+    "erasmusId": "NL ROTTERD 03",
+    "name": "STITCHING HOGESCHOOL ROTTERDAM",
+    "erasmusWebpage": "https://www.rotterdamuas.com/collaboration/Erasmus/",
+    "domain": "www.rotterdamuas.com",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.rotterdamuas.com&sz=256",
+    "studyAreas": []
+  },
+  {
+    "country": "NETHERLANDS",
+    "erasmusId": "NL VLISSIN01",
+    "name": "STICHTING HZ UNIVERSITY OF APPLIED SCIENCES",
+    "erasmusWebpage": "https://hz.nl/en/erasmus",
+    "domain": "rotterdamuas.com",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rotterdamuas.com&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INDUSTRIAL ENGINEERING",
+      "CIVIL ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "COMPUTER ENGINEERING"
+    ]
+  },
+  {
+    "country": "NORTH MACEDONIA",
+    "erasmusId": "MK SKOPJE04",
+    "name": "INTERNATIONAL BALKAN UNIVERSITY",
+    "erasmusWebpage": "https://www.ibu.edu.mk/pages/international/erasmus-office",
+    "domain": "ibu.edu.mk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ibu.edu.mk&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "CIVIL ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "INDUSTRIAL ENGINEERING",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "TURKISH LANGUAGE TEACHER EDUCATION",
+      "DENTISTRY",
+      "PUBLIC RELATIONS and PUBLICITY (ONLY FOR STAFF)",
+      "ADVERTISEMENT (ONLY FOR STAFF)",
+      "TV NEWS AND TV PROGRAM MAKING (ONLY FOR STAFF)",
+      "NEW MEDIA AND COMMUNICATION (ONLY FOR STAFF)"
+    ]
+  },
+  {
+    "country": "NORTH MACEDONIA",
+    "erasmusId": "MK SKOPJE19",
+    "name": "MEGJUNARODEN SLAVJANSKI UNIVERZITET \"GAVRILO ROMANOVICH DERZHAVIN\" SVETI NIKOLE",
+    "erasmusWebpage": "https://msu.edu.mk/international/erasmus/students/?lang=en",
+    "domain": "msu.edu.mk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=msu.edu.mk&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS AND FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE",
+      "PSYCHOLOGY",
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "NORTH MACEDONIA",
+    "erasmusId": "MK TETOVO01",
+    "name": "UNIVERZITET VO TETOVO",
+    "erasmusWebpage": "https://unite.edu.mk/mk/erasmus/",
+    "domain": "unite.edu.mk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unite.edu.mk&sz=256",
+    "studyAreas": [
+      "MEDICINE",
+      "PHYSICAL EDUCATION AND SPORTS EDUCATION",
+      "PHYSIOTHERAPY AND REHABILITATION",
+      "FOREIGN TRADE",
+      "FOOD TECHNOLOGY",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION and INTERPRETING (English)",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "PSYCHOLOGY",
+      "FOOD ENGINEERING",
+      "FOOD SAFETY",
+      "TURKISH LANGUAGE and LITERATURE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "DENTISTRY"
+    ]
+  },
+  {
+    "country": "NORTH MACEDONIA",
+    "erasmusId": "MK TETOVO02",
+    "name": "SOUTH EAST EUROPEAN UNIVERSITY TETOVO",
+    "erasmusWebpage": "https://www.seeu.edu.mk/en/current-students/international-relation/erasmus",
+    "domain": "www.seeu.edu.mk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.seeu.edu.mk&sz=256",
+    "studyAreas": [
+      "ARCHITECTURE"
+    ]
+  },
+  {
+    "country": "NORWAY",
+    "erasmusId": "N ELVERUM02",
+    "name": "HOGSKOLEN I INNLANDET",
+    "erasmusWebpage": "https://www.inn.no/english/for-students/outgoing-exchange-students/erasmus/",
+    "domain": "seeu.edu.mk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=seeu.edu.mk&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "NORWAY",
+    "erasmusId": "N OSLO58",
+    "name": "HØYSKOLEN KRISTIANIA – ERNST G. MORTENSENS STIFTELSE (KRISTIANIA UNIVERSITY OF APPLIED SCIENCES )",
+    "erasmusWebpage": "https://www.kristiania.no/en/for-students/outgoing-exchange-students/overview-of-exchange-through-erasmus/",
+    "domain": "kristiania.no",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=kristiania.no&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "JOURNALISM",
+      "NEW MEDIA and COMMUNICATION",
+      "VISUAL COMMUNICATION DESIGN",
+      "ADVERTISEMENT",
+      "RADIO TELEVISION and CINEMA",
+      "TELEVISION AND FILM",
+      "TV NEWS AND TV PROGRAM MAKING",
+      "PUBLIC RELATIONS and PUBLICITY",
+      "ECONOMICS AND FINANCE",
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL BIALA01",
+    "name": "PANSTWOWA SZKOLA WYZSZA IM PAPIEZA JANA PAWLA II W BIALEJ PODLASKIEJ",
+    "erasmusWebpage": "https://international.akademiabialska.pl/en/o-programie/erasmus-incoming",
+    "domain": "international.akademiabialska.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.akademiabialska.pl&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE and LITERATURE",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "TRANSLATION AND INTERPRETING (TURKISH - ENGLISH)",
+      "SOCIOLOGY",
+      "COMPUTER PROGRAMMING",
+      "INFORMATION SECURITY TECHNOLOGY",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "SOFTWARER DEVELOPMENT",
+      "MECHANICAL ENGINEERING",
+      "CIVIL ENGINEERING",
+      "FOREIGN TRADE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "NUTRITION AND DIETETICS (FOR STAFF ONLY)",
+      "PRESCHOOL TEACHER EDUCATION",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL BIALYST01",
+    "name": "POLITECHNIKA BIALOSTOCKA",
+    "erasmusWebpage": "https://pb.edu.pl/iros/en/erasmus/students/",
+    "domain": "pb.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pb.edu.pl&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ECONOMICS and FINANCE",
+      "COMPUTER ENGINEERING",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "CIVIL ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "ARCHITECTURE",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL BIALYST04",
+    "name": "UNIWERSYTET W BIALYMSTOKU",
+    "erasmusWebpage": "https://uwb.edu.pl/en/exchange-students/erasmus-4669/information-about-the-erasmus-programme/erasmusis-a-programme-fo-1.html",
+    "domain": "uwb.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uwb.edu.pl&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "SPECIAL EDUCATION",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL BYDGOSZ08",
+    "name": "AKADEMIJA KUJAVSKO-POMORSKA",
+    "erasmusWebpage": "https://akp.bydgoszcz.pl/student/erasmus",
+    "domain": "akp.bydgoszcz.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=akp.bydgoszcz.pl&sz=256",
+    "studyAreas": [
+      "LAW",
+      "FOREIGN TRADE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "PRESCHOOL TEACHER EDUCATION",
+      "CIVIL ENGINEERING",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "JOURNALISM",
+      "NEW MEDIA and COMMUNICATION",
+      "VISUAL COMMUNICATION DESIGN",
+      "ADVERTISEMENT",
+      "RADIO TELEVISION and CINEMA",
+      "TELEVISION AND FILM",
+      "TV NEWS AND TV PROGRAM MAKING",
+      "PUBLIC RELATIONS and PUBLICITY",
+      "ECONOMICS AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "BUSINESS MANAGEMENT",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL CZESTOC01",
+    "name": "POLITECHNIKA CZESTOCHOWSKA",
+    "erasmusWebpage": "https://pcz.pl/en/erasmus",
+    "domain": "pcz.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pcz.pl&sz=256",
+    "studyAreas": [
+      "SOFTWARE DEVELOPMENT",
+      "SOFTWARE ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "INDUSTRIAL ENGINEERING",
+      "CIVIL ENGINEERING",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL CZESTOC02",
+    "name": "UNIWERSYTET HUMANISTYCZNO-PRZYRODNICZY IM. JANA DLUGOSZA W CZESTOCHOWIE",
+    "erasmusWebpage": "https://www.ujd.edu.pl/pl/artykuly/302/erasmus",
+    "domain": "ujd.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ujd.edu.pl&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "SOFTWARE ENGINEERING",
+      "NUTRITION AND DIETETICS (FOR STAFF ONLY)",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "FOREIGN TRADE",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "PRESCHOOL TEACHER TRAINING",
+      "SPECIAL EDUCATION"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL GDANSK11",
+    "name": "ATENEUM-SZKOŁA WYŻSZA W GDAŃSKU",
+    "erasmusWebpage": "https://ateneum.edu.pl/sites/erasmus",
+    "domain": "ateneum.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ateneum.edu.pl&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "NEW MEDIA and COMMUNICATION",
+      "VISUAL COMMUNICATION DESIGN",
+      "ADVERTISEMENT",
+      "RADIO TELEVISION and CINEMA",
+      "TELEVISION AND FILM",
+      "TV NEWS AND TV PROGRAM MAKING",
+      "PUBLIC RELATIONS and PUBLICITY",
+      "JOURNALISM"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL JAROSLA02",
+    "name": "PANSTWOWA WYZSZA SZKOLA TECHNICZNO - EKONOMICZNA IM. KS. BRONISLAWA MARKIEWICZA",
+    "erasmusWebpage": "https://international.pwste.edu.pl/en/",
+    "domain": "international.pwste.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.pwste.edu.pl&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "COMPUTER ENGINEERING (FOR STAFF ONLY)",
+      "NURSING (FOR STAFF ONLY)",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL KATOWIC01",
+    "name": "UNIWERSYTET SLASKI",
+    "erasmusWebpage": "https://us.edu.pl/wspolpraca/wspolpraca-miedzynarodowa/mobilnosc-miedzynarodowa/program-erasmus/",
+    "domain": "us.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=us.edu.pl&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "MATHEMATICS",
+      "STATISTICS",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL KATOWIC07",
+    "name": "GORNOSLASKA WYZSZA SZKOLA HANDLOWA IM. WOJCIECHA KORFANTEGO",
+    "erasmusWebpage": "https://www.gwsh.pl/erasmus",
+    "domain": "gwsh.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=gwsh.pl&sz=256",
+    "studyAreas": [
+      "PSYCHOLOGY",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL KRAKOW03",
+    "name": "POLITECHNIKA KRAKOWSKA",
+    "erasmusWebpage": "https://erasmus.pk.edu.pl/",
+    "domain": "erasmus.pk.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus.pk.edu.pl&sz=256",
+    "studyAreas": [
+      "ARCHITECTURE",
+      "MECHANICAL ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "COMPUTER PROGRAMMING",
+      "SOFTWARE ENGINEERING"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL KRAKOW04",
+    "name": "CRACOW UNIVERSITY OF ECONOMICS",
+    "erasmusWebpage": "https://bpz.uek.krakow.pl/en/outgoing-exchange-students/mobility-programs-overview/erasmus-ka131-period-2021-27/erasmus-programme-dissemination/",
+    "domain": "bpz.uek.krakow.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=bpz.uek.krakow.pl&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL KWIDZYN01",
+    "name": "POWIŚLAŃSKA AKADEMIA NAUK STOSOWANYCH (POWIŚLAŃSKA ACADEMY OF APPLIED SCIENCES)",
+    "erasmusWebpage": "https://powislanska.edu.pl/student/strefa-studenta/erasmus-plus/",
+    "domain": "powislanska.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=powislanska.edu.pl&sz=256",
+    "studyAreas": [
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT",
+      "NURSING",
+      "COMPUTER PROGRAMMING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL LEGNICA01",
+    "name": "COLLEGIUM WITELONA UCZELNIA PANSTWOWA",
+    "erasmusWebpage": "https://erasmus.collegiumwitelona.pl/",
+    "domain": "erasmus.collegiumwitelona.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus.collegiumwitelona.pl&sz=256",
+    "studyAreas": [
+      "FOREIGN TRADE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER PROGRAMMING",
+      "COMPUTER ENGINEERING",
+      "INTERNATIONAL TRADE AND FINANCE"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL LODZ01",
+    "name": "UNIWERSYTET LODZKI",
+    "erasmusWebpage": "https://www.uni.lodz.pl/wyjazdy-zagraniczne/erasmus-studia",
+    "domain": "uni.lodz.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uni.lodz.pl&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "APPLIED RUSSIAN-TURKISH TRANSLATION",
+      "TRANSLATION AND INTERPRETING (TURKISH-RUSSIAN)",
+      "FOREIGN TRADE",
+      "ECONOMICS and FINANCE",
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL LODZ09",
+    "name": "SPOLECZNA AKADEMIA NAUK",
+    "erasmusWebpage": "https://san.edu.pl/student/o-erasmus",
+    "domain": "san.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=san.edu.pl&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "TRANSLATION AND INTERPRETING(ENGLISH-TURKISH)",
+      "ENGLISH LANGUAGE AND LITERATURE",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "ACCOUNTING and FINANCIAL MANAGEMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL LOMZA03",
+    "name": "AKADEMIJA ŁOMŻYŃSKA",
+    "erasmusWebpage": "https://al.edu.pl/dwz/erasmus/o-programie",
+    "domain": "al.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=al.edu.pl&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "NURSING",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "NUTRITION AND DIETETICS",
+      "TRANSLATION AND INTERPRETING(ENGLISH-TURKISH)",
+      "ENGLISH LANGUAGE and LITERATURE"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL LUBLIN 02",
+    "name": "KATOLICKI UNIWERSYTET LUBELSKI JANA PAWLA",
+    "erasmusWebpage": "https://www.kul.pl/rekrutacja-na-wyjazdy-na-czesc-studiow-erasmus,art_5268.html",
+    "domain": "kul.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=kul.pl&sz=256",
+    "studyAreas": []
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL LUBLIN04",
+    "name": "UNIWERSYTET PRZYRODNICZY W LUBLINIE",
+    "erasmusWebpage": "https://up.lublin.pl/edukacja/erasmus/",
+    "domain": "up.lublin.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=up.lublin.pl&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "GASTRONOMY",
+      "NUTRITION AND DIETETICS",
+      "FOOD ENGINEERING",
+      "FOOD TECHNOLOGY",
+      "FOOD QUALITY CONTROL ANALYSIS"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL OSTROWI01",
+    "name": "AKADEMIA NAUK STOSOWANYCH IM JÓZEFA GOŁUCHOWSKIEGO",
+    "erasmusWebpage": "https://goluchowski.edu.pl/",
+    "domain": "goluchowski.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=goluchowski.edu.pl&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS and FINANCE",
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "BANKING AND INSURANCE",
+      "NURSING",
+      "SOCIAL WORK",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "PSYCHOLOGICAL COUNSELLING AND GUIDANCE"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL PILA02",
+    "name": "PAŃSTWOWA UCZELNIA STANISŁAWA STASZICA W PILE",
+    "erasmusWebpage": "https://erasmus.ans.pila.pl/",
+    "domain": "erasmus.ans.pila.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus.ans.pila.pl&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "BANKING AND INSURANCE",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "FOREIGN TRADE",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "NURSING",
+      "CIVIL ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "HAIR CARE and BEAUTY SERVICES (FOR STAFF ONLY)",
+      "FIRST AND EMERGENCY AID (FOR STAFF ONLY)",
+      "PHYSIOTHERAPY AND REHABILITATION (FOR STAFF ONLY)"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL POZNAN01",
+    "name": "UNIWERSYTET IM. ADAMA MICKIEWICZA W POZNANIU",
+    "erasmusWebpage": "https://erasmus.amu.edu.pl/en",
+    "domain": "erasmus.amu.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus.amu.edu.pl&sz=256",
+    "studyAreas": [
+      "LAW",
+      "BUSINESS MANAGEMENT",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ARABIC LANGUAGE TEACHING",
+      "TRANSLATION AND INTERPRETING (TURKISH-ARABIC)"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL POZNAN02",
+    "name": "POLITECHNIKA POZNANSKA",
+    "erasmusWebpage": "https://put.poznan.pl/en/ERASMUS",
+    "domain": "put.poznan.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=put.poznan.pl&sz=256",
+    "studyAreas": [
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "ELECTRONIC TECHONOLOGY"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WARSZAW02",
+    "name": "POLITECHNIKA WARSZAWSKA",
+    "erasmusWebpage": "https://erasmus.pw.edu.pl/",
+    "domain": "put.poznan.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=put.poznan.pl&sz=256",
+    "studyAreas": [
+      "CIVIL ENGINEERING"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL POZNAN13",
+    "name": "WSB MERITO UNIVERSITY",
+    "erasmusWebpage": "https://www.merito.pl/english/erasmus",
+    "domain": "erasmus.pw.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus.pw.edu.pl&sz=256",
+    "studyAreas": [
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL POZNAN17",
+    "name": "WYZSZA SZKOLA UMIEJETNOSCI SPOLECZNYCH",
+    "erasmusWebpage": "https://wsus.pl/erasmus-ru/",
+    "domain": "wsus.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=wsus.pl&sz=256",
+    "studyAreas": [
+      "LAW",
+      "JOURNALISM",
+      "GRAPHIC DESIGN",
+      "FASHION DESIGN",
+      "TEXTILE and FASHION DESIGN",
+      "PUBLIC RELATIONS and PUBLICTY",
+      "RADIO TELEVISION and CINEMA"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL RADOM04",
+    "name": "AKADEMIA HANDLOWA NAUK STOSOWANYCH W RADOMIU",
+    "erasmusWebpage": "https://ahns.pl/en/candidate-zone/erasmus-program/",
+    "domain": "ahns.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ahns.pl&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL TARNOW02",
+    "name": "PANSTWOWA WYZSZA SZKOLA ZAWODOWA W TARNOWIE",
+    "erasmusWebpage": "https://international.pwsztar.edu.pl/erasmus/",
+    "domain": "international.pwsztar.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.pwsztar.edu.pl&sz=256",
+    "studyAreas": [
+      "NURSING"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WALBRZY04",
+    "name": "PAŃSTWOWA UCZELNIA ANGELUSA SILESIUSA",
+    "erasmusWebpage": "https://www.ans.edu.pl/erasmus",
+    "domain": "ahns.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ahns.pl&sz=256",
+    "studyAreas": [
+      "NUTRITION AND DIETETICS (JUST INTERNSHIP AND STAFF MOBILITY )",
+      "GRAPHIC DESIGN  (JUST INTERNSHIP AND STAFF MOBILITY )",
+      "ENGLISH LANGUAGE and LITERATURE  (JUST INTERNSHIP AND STAFF MOBILITY )",
+      "INTERIOR DESIGN  (JUST INTERNSHIP AND STAFF MOBILITY )",
+      "BUSINESS MANAGEMENT",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)  (JUST INTERNSHIP AND STAFF MOBILITY )"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WARSZAW05",
+    "name": "SZKOLA GLOWNA GOSPODARSTWA WIEJSKIEGO",
+    "erasmusWebpage": "https://www.sggw.edu.pl/wspolpraca/wspolpraca-miedzynarodowa/erasmus/",
+    "domain": "sggw.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=sggw.edu.pl&sz=256",
+    "studyAreas": [
+      "NUTRITION AND DIETETICS",
+      "FOOD ENGINEERING",
+      "FOOD TECHNOLOGY"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WARSZAW12",
+    "name": "AKADEMIA WYCHOWANIA FIZYCZNEGO JOZEFA PILSUDSKIEGO W WARSZAWIE",
+    "erasmusWebpage": "https://www.awf.edu.pl/wspolpraca-z-zagranica/erasmus2",
+    "domain": "awf.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=awf.edu.pl&sz=256",
+    "studyAreas": [
+      "PHYSIOTHERAPY AND REHABILITATION",
+      "TOURISM GUIDANCE",
+      "TOURISM AND HOTEL MANAGEMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WARSZAW14",
+    "name": "UCZELNIA LAZARSKIEGO",
+    "erasmusWebpage": "https://www.lazarski.pl/pl/wspolpraca/erasmus",
+    "domain": "lazarski.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=lazarski.pl&sz=256",
+    "studyAreas": [
+      "FOREIGN TRADE",
+      "LAW",
+      "ECONOMICS and FINANCE",
+      "NURSING",
+      "BUSINESS MANAGEMENT",
+      "MEDICINE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "AVIATION MANAGEMENT (FOR STAFF ONLY)",
+      "CIVIL AIR TRANSPORT MANAGEMENT (FOR STAFF ONLY)",
+      "CIVIL AVIATION CABIN SERVICES (FOR STAFF ONLY)"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WARSZAW17",
+    "name": "UCZELNIA TECHNICZNO-HANDLOWA IM. HELENY CHODKOWSKIEJ",
+    "erasmusWebpage": "https://www.uth.edu.pl/o-uczelni/erasmus/o-programie-erasmus",
+    "domain": "uth.edu.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uth.edu.pl&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "BUSINESS MANAGEMENT",
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MARKETING",
+      "SOFTWARE ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WARSZAW37",
+    "name": "UNIWERSYTET SWPS",
+    "erasmusWebpage": "https://english.swps.pl/programs/review-our-programs/erasmus-incoming-students",
+    "domain": "english.swps.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=english.swps.pl&sz=256",
+    "studyAreas": [
+      "PSYCHOLOGY",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "FOREIGN TRADE",
+      "ECONOMICS and FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WARSZAW63",
+    "name": "VIZJA UNIVERSITY",
+    "erasmusWebpage": "https://erasmus.vizja.pl/incoming-students/",
+    "domain": "erasmus.vizja.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus.vizja.pl&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS and FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "PSYCHOLOGY",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WARSZAW97",
+    "name": "WYZSZA SZKOLA BANKOWA W WARSZAWIE",
+    "erasmusWebpage": "https://www.merito.pl/english/warszawa/erasmus/erasmus-incoming-students",
+    "domain": "merito.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=merito.pl&sz=256",
+    "studyAreas": [
+      "ECONOMICS and FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WROCLAW01",
+    "name": "UNIWERSYTET WROCLAWSKI",
+    "erasmusWebpage": "https://international.uni.wroc.pl/en/incoming-exchange-students/erasmus-exchange",
+    "domain": "international.uni.wroc.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.uni.wroc.pl&sz=256",
+    "studyAreas": [
+      "JOURNALISM",
+      "TV NEWS AND TV PROGRAM MAKING",
+      "RADIO TELEVISION and CINEMA",
+      "NEW MEDIA AND COMMUNICATION"
+    ]
+  },
+  {
+    "country": "POLAND",
+    "erasmusId": "PL WROCLAW15",
+    "name": "UNIWERSYTET WSB MERITO WE WROCŁAWIU",
+    "erasmusWebpage": "https://www.merito.pl/english/wroclaw/erasmus/incoming",
+    "domain": "merito.pl",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=merito.pl&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS and FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ACCOUNTING and FINANCIAL MANAGEMENT"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P ACORES01",
+    "name": "UNIVERSIDADE DOS ACORES",
+    "erasmusWebpage": "https://international.uac.pt/erasmus/",
+    "domain": "international.uac.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.uac.pt&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "JOURNALISM",
+      "RADIO TELEVISION and CINEMA",
+      "NEW MEDIA AND COMMUNICATION",
+      "TV NEWS AND TV PROGRAM MAKING"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P BRAGANC01",
+    "name": "INSTITUTO POLITECNICO DE BRAGANCA",
+    "erasmusWebpage": "https://ipb.pt/pt/internacionalizar/erasmus/mobilidade-estudantes",
+    "domain": "ipb.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ipb.pt&sz=256",
+    "studyAreas": [
+      "NUTRITION AND DIETETICS"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P CASTELO01",
+    "name": "INSTITUTO POLITECNICO DE CASTELO BRANCO",
+    "erasmusWebpage": "https://www.ipcb.pt/estudar/internacionais/",
+    "domain": "ipb.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ipb.pt&sz=256",
+    "studyAreas": [
+      "TEXTILE and FASHION DESIGN",
+      "CIVIL ENGINEERING",
+      "FOOD ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DEVELOPMENT",
+      "FOOD SAFETY",
+      "FOOD TECHNOLOGY",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "INDUSTRIAL ENGINEERING"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P EVORA01",
+    "name": "UNIVERSIDADE DE EVORA",
+    "erasmusWebpage": "https://www.uevora.pt/en/study/Mobility/Mobility-Out/Student-Mobility",
+    "domain": "uevora.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uevora.pt&sz=256",
+    "studyAreas": [
+      "TOURISM GUIDANCE",
+      "TOURISM AND HOTEL MANAGEMENT",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "FOREIGN TRADE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT",
+      "MUSIC TEACHER TRAINING"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P FAFE05",
+    "name": "INSTITUTO EUROPEU DE ESTUDOS SUPERIORES IEES LDA",
+    "erasmusWebpage": "https://iees.pt/internacional/",
+    "domain": "iees.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=iees.pt&sz=256",
+    "studyAreas": [
+      "PHYSICAL EDUCATION AND SPORTS EDUCATION",
+      "BUSINESS MANAGEMENT",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "PRIMARY EDUCATION"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P GUARDA01",
+    "name": "INSTITUTO POLITECNICO DA GUARDA",
+    "erasmusWebpage": "https://politecnicoguarda.pt/en/learning/mobility-programs/",
+    "domain": "politecnicoguarda.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=politecnicoguarda.pt&sz=256",
+    "studyAreas": [
+      "CIVIL ENGINEERING",
+      "CIVIL TECHONOLOGY",
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "COMPUTER TECHNOLOGY",
+      "ELEMENTARY EDUCATION",
+      "SOFTWARE DEVELOPMENT",
+      "PRESCHOOL TEACHER EDUCATION",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE ENGINEERING"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P LISBOA 11",
+    "name": "C.E.U- COOPERATIVA DE ENSINO SUPERIOR E INVESTIGACAO CIENTIFICA CRL",
+    "erasmusWebpage": "https://www.ceu.edu/academics/non-degree/erasmus",
+    "domain": "ceu.edu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ceu.edu&sz=256",
+    "studyAreas": []
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P LISBOA104",
+    "name": "UNIVERSIDADE TÉCNICA DE LISBOA",
+    "erasmusWebpage": "https://www.iseclisboa.pt/index.php/en/erasmus-for-studies?highlight=WyJlcmFzbXVzIl0=",
+    "domain": "iseclisboa.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=iseclisboa.pt&sz=256",
+    "studyAreas": [
+      "AVIATION MANAGEMENT",
+      "CIVIL AVIATION MANAGEMENT",
+      "CIVIL AIR TRANSPORT MANAGEMENT"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P LISBOA109",
+    "name": "UNIVERSIDADE DE LISBOA",
+    "erasmusWebpage": "https://www.ulisboa.pt/en/info/erasmus",
+    "domain": "www.ulisboa.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.ulisboa.pt&sz=256",
+    "studyAreas": [
+      "PRESCHOOL TEACHER EDUCATION",
+      "ELEMENTARY EDUCATION"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P LISBOA52",
+    "name": "COFAC COOPERATIVA DE FORMACAO E ANIMACAO CULTURAL CRL",
+    "erasmusWebpage": "https://www.ulusofona.pt/erasmus-mundus",
+    "domain": "ulisboa.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ulisboa.pt&sz=256",
+    "studyAreas": [
+      "CARTOON AND ANIMATION",
+      "GRAPHIC DESIGN",
+      "RADIO TELEVISION and CINEMA",
+      "TV NEWS AND TV PROGRAM MAKING",
+      "NEW MEDIA AND COMMUNICATION",
+      "DIGITAL GAME DESIGN",
+      "CIVIL AIR TRANSPORT MANAGEMENT (FOR STAFF ONLY)",
+      "AVIATION MANAGEMENT (FOR STAFF ONLY)",
+      "SPORTS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P LEIRIA 01",
+    "name": "INSTITUTO POLITECHNICO DE LEIRIA",
+    "erasmusWebpage": "https://www.ipleiria.pt/internacional/programas-de-mobilidade/erasmus/",
+    "domain": "www.ipleiria.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.ipleiria.pt&sz=256",
+    "studyAreas": []
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P PORTO05",
+    "name": "INSTITUTO POLITECNICO DO PORTO INSTITUTO SUPERIOR DE CONTABILIDADE E ADMINISTRAÇÃO AND ESCOLA SUPERIOR DE TECNOLOGIA E GESTÃO",
+    "erasmusWebpage": "https://www.ipp.pt/international/erasmus-p-porto?set_language=en",
+    "domain": "ipleiria.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ipleiria.pt&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P PORTALE01",
+    "name": "INSTITUTO POLITECNICO DO PORTALEGRE",
+    "erasmusWebpage": "https://www.ipportalegre.pt/pt/internacionalizacao/cooperacao-e-mobilidade-internacional/programa-erasmus/",
+    "domain": "ipp.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ipp.pt&sz=256",
+    "studyAreas": [
+      "CIVIL ENGINEERING",
+      "NURSING",
+      "PHYSIOTHERAPY AND REHABILITATION",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT",
+      "COMPUTER ENGINEERING",
+      "DIGITAL GAME DESIGN",
+      "CARTOON AND ANIMATION",
+      "ADVERTISEMENT",
+      "VISUAL COMMUNICATION DESIGN",
+      "SPECIAL EDUCATION",
+      "PRESCHOOL TEACHER EDUCATION",
+      "ENERGY TECHNOLOGIES",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "SPORTS",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P PORTO57",
+    "name": "UNIVERSIDADE LUSÓFONA DO PORTO -- COFAC",
+    "erasmusWebpage": "https://www.ulusofona.pt/en/mobility/incoming",
+    "domain": "ulusofona.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ulusofona.pt&sz=256",
+    "studyAreas": [
+      "COACHING EDUCATION",
+      "PHYSICAL EDUCATION AND SPORTS EDUCATION",
+      "FASHION DESIGN",
+      "TEXTILE and FASHION DESIGN"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P SANTARE06",
+    "name": "ISLA-SANTARÉM, EDUCAÇÃO E CULTURA UNIPESSOAL, LDA.",
+    "erasmusWebpage": "https://www.islasantarem.pt/en/international/international-student/erasmus-incoming-students-staff",
+    "domain": "islasantarem.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=islasantarem.pt&sz=256",
+    "studyAreas": [
+      "SOFTWARE DEVELOPMENT",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P TOMAR01",
+    "name": "INSTITUTO POLITECNICO DE TOMAR",
+    "erasmusWebpage": "https://portal2.ipt.pt/pt/noticias/conferencias/abertura_solene_do_ano_letivo_2025_2026_2025_10_20",
+    "domain": "portal2.ipt.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=portal2.ipt.pt&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "GRAPHIC DESIGN",
+      "JOURNALISM",
+      "NEW MEDIA and COMMUNICATION",
+      "VISUAL COMMUNICATION DESIGN",
+      "HUMAN RESOURCE MANAGEMENT",
+      "CIVIL ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "PUBLIC RELATIONS and PUBLICTY",
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "RADIO TELEVISION and CINEMA",
+      "ADVERTISEMENT",
+      "TELEVISION AND FILM",
+      "TV NEWS AND TV PROGRAM MAKING"
+    ]
+  },
+  {
+    "country": "PORTUGAL",
+    "erasmusId": "P VILANOV01",
+    "name": "INSTITUTO POLITÉCNICO DE GESTÃO E TECNOLOGIA -- GAIA -- ENSIGAIA",
+    "erasmusWebpage": "https://int-islagaia.pt/incoming-student-mobility/",
+    "domain": "int-islagaia.pt",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=int-islagaia.pt&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "ECONOMICS and FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARER DEVELOPMENT",
+      "COMPUTER ENGINEERING",
+      "TRANSLATION AND INTERPRETING (FOR STAFF ONLY)",
+      "EDUCATION STUDIES (FOR STAFF ONLY)"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO ALBAIU01",
+    "name": "UNIVERSITATEA 1 DECEMBRIE 1918",
+    "erasmusWebpage": "http://erasmus.uab.ro/",
+    "domain": "erasmus.uab.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmus.uab.ro&sz=256",
+    "studyAreas": [
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT",
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "HISTORY",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "PRESCHOOL TEACHER EDUCATION",
+      "PRIMARY EDUCATION",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "FOREIGN TRADE",
+      "CIVIL ENGINEERING",
+      "ELECTRIC AND ELECTRONICS ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DEVELOPMENT"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO ARAD02",
+    "name": "UNIVERSITATEA DE VEST „VASILE GOLDIȘ” DIN ARAD",
+    "erasmusWebpage": "https://www.uvvg.ro/studenti/erasmus/",
+    "domain": "uvvg.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uvvg.ro&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "MEDICINE",
+      "COMPUTER ENGINEERING (FOR STAFF ONLY)",
+      "COMPUTER PROGRAMMING (FOR STAFF ONLY)",
+      "COMPUTER TECHNOLOGY (FOR STAFF ONLY)",
+      "DENTISTRY (FOR STAFF ONLY)",
+      "ORAL AND DENTAL HEALTH PROGRAMME (FOR STAFF ONLY)",
+      "DENTAL PROSTHESIS TECHNOLOGY PROGRAMME (FOR STAFF ONLY)"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO BRASOV01",
+    "name": "UNIVERSITATEA TRANSILVANIA DIN BRASOV",
+    "erasmusWebpage": "https://www.unitbv.ro/en/erasmus-students/incoming-students",
+    "domain": "unitbv.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unitbv.ro&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "ELECTRICITY",
+      "MECHANICAL ENGINEERING",
+      "AEROSPACE ENGINEERING",
+      "INDUSTRIAL ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "AUTOMOTIVE TECHNOLOGY"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO BUCURES04",
+    "name": "ACADEMIA DE STUDII ECONOMICE DIN BUCURESTI",
+    "erasmusWebpage": "https://international.ase.ro/21/erasmus/",
+    "domain": "international.ase.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.ase.ro&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "FOREIGN TRADE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO BUCURES09",
+    "name": "UNIVERSITATEA DIN BUCURESTI",
+    "erasmusWebpage": "https://unibuc.ro/international/programul-erasmus/",
+    "domain": "unibuc.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unibuc.ro&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO BUCURES18",
+    "name": "UNIVERSITATEA ROMANO AMERICANA",
+    "erasmusWebpage": "https://www.rau.ro/erasmus/",
+    "domain": "rau.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rau.ro&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "ECONOMICS and FINANCE",
+      "COMPUTER ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER PROGRAMMING",
+      "COMPUTER TECHNOLOGY",
+      "SPORTS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO BUCURES25",
+    "name": "UNIVERSITATEA ECOLOGICA DIN BUCURESTI",
+    "erasmusWebpage": "https://www.ueb.ro/erasmus/",
+    "domain": "ueb.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ueb.ro&sz=256",
+    "studyAreas": [
+      "LAW",
+      "FOREIGN TRADE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "PSYCHOLOGY",
+      "INDUSTRIAL ENGINEERING",
+      "NEW MEDIA and COMMUNICATION",
+      "RADIO TELEVISION and CINEMA",
+      "PUBLIC RELATIONS and PUBLICTY",
+      "TV NEWS AND TV PROGRAM MAKING"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO BUCURES43",
+    "name": "UNIVERSITY POLITEHICA OF BUCHAREST (UPB)",
+    "erasmusWebpage": "https://upb.ro/erasmus/",
+    "domain": "upb.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=upb.ro&sz=256",
+    "studyAreas": [
+      "ELECTRICITY",
+      "ELECTRICAL and ELECTRONICS ENGINEERING"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO CLUJNAP01",
+    "name": "UNIVERSITATEA BABES BOLYAI",
+    "erasmusWebpage": "https://cci.ubbcluj.ro/erasmus/incoming-students/",
+    "domain": "upb.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=upb.ro&sz=256",
+    "studyAreas": [
+      "JOURNALISM",
+      "ADVERTISEMENT",
+      "NEW MEDIA and COMMUNICATION",
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO CONSTAN02",
+    "name": "UNIVERSITATEA OVIDIUS DIN CONSTANTA",
+    "erasmusWebpage": "https://dri.univ-ovidius.ro/en/erasmus-plus-office",
+    "domain": "dri.univ-ovidius.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=dri.univ-ovidius.ro&sz=256",
+    "studyAreas": [
+      "MEDICINE"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO CRAIOVA01",
+    "name": "UNIVERSITATEA DIN CRAIOVA",
+    "erasmusWebpage": "https://www.ucv.ro/en/international/programe/programe_europene/erasmus.php",
+    "domain": "dri.univ-ovidius.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=dri.univ-ovidius.ro&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "ENGLISH LANGUAGE TEACHER EDUCATION"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO GALATI01",
+    "name": "UNIVERSITATEA DUNAREA DE JOS DIN GALATI",
+    "erasmusWebpage": "https://en.ugal.ro/studies/erasmus-programme",
+    "domain": "en.ugal.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=en.ugal.ro&sz=256",
+    "studyAreas": [
+      "SPORTS MANAGEMENT",
+      "FOOD ENGINEERING",
+      "FOOD SAFETY",
+      "FOOD TECHNOLOGY",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "FOREIGN TRADE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "MANAGEMENT INFORMATION SYSTEMS (FOR STAFF ONLY)",
+      "SOFTWARE DEVELOPMENT (FOR STAFF ONLY)",
+      "SOFTWARE ENGINEERING (FOR STAFF ONLY)",
+      "COMPUTER ENGINEERING (FOR STAFF ONLY)",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "PHYSIOTHERAPY AND REHABILITATION",
+      "MEDICINE",
+      "DENTISTRY"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO IASI01",
+    "name": "UNIVERSITATEA NATIONALA DE ARTE GEORGE ENESCU DIN IASI",
+    "erasmusWebpage": "https://www.arteiasi.ro/international/erasmus/",
+    "domain": "www.arteiasi.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.arteiasi.ro&sz=256",
+    "studyAreas": [
+      "GRAPHIC DESIGN",
+      "TEXTILE and FASHION DESIGN"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO IASI02",
+    "name": "UNIVERSITATEA ALEXANDRU IOAN CUZA DIN IASI",
+    "erasmusWebpage": "https://www.uaic.ro/international/programul-erasmus/",
+    "domain": "arteiasi.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=arteiasi.ro&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION UNIVERSITY",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO IASI05",
+    "name": "UNIVERSITATEA TEHNICA GHEORGHE ASACHI DIN IASI",
+    "erasmusWebpage": "https://www.tuiasi.ro/erasmus/?lang=en",
+    "domain": "www.tuiasi.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.tuiasi.ro&sz=256",
+    "studyAreas": [
+      "CIVIL ENGINEERING"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO ORADEA01",
+    "name": "UNIVERSITATEA DIN ORADEA",
+    "erasmusWebpage": "https://www.uoradea.ro/international/erasmus-mobilitati/erasmus-plus-mobilitati-acorduri/",
+    "domain": "tuiasi.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tuiasi.ro&sz=256",
+    "studyAreas": [
+      "ARCHITECTURE",
+      "GRAPHIC DESIGN",
+      "FASHION DESIGN",
+      "VISUAL COMMUNICATION DESIGN"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO ORADEA02",
+    "name": "UNIVERSITATEA CREȘTINĂ PARTIUM",
+    "erasmusWebpage": "https://partium.ro/ro/international-ro/erasmus-ro/documente_ro",
+    "domain": "partium.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=partium.ro&sz=256",
+    "studyAreas": [
+      "GRAPHIC DESIGN",
+      "VISUAL COMMUNICATION DESIGN",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "FOREIGN TRADE",
+      "SOCIOLOGY",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "PRIMARY EDUCATION",
+      "PRESCHOOL TEACHER EDUCATION",
+      "PSYCHOLOGICAL COUNSELLING AND GUIDANCE",
+      "SOCIAL WORK"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO PETROSA01",
+    "name": "UNIVERSITATEA DIN PETROSANI",
+    "erasmusWebpage": "https://www.upet.ro/erasmus/",
+    "domain": "upet.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=upet.ro&sz=256",
+    "studyAreas": [
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "COMPUTER TECHNOLOGY",
+      "MECHANICAL ENGINEERING",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "INDUSTRIAL ENGINEERING",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO SIBIU01",
+    "name": "UNIVERSITATEA LUCIAN BLAGA DIN SIBIU",
+    "erasmusWebpage": "https://international.ulbsibiu.ro/erasmus/",
+    "domain": "international.ulbsibiu.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.ulbsibiu.ro&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING",
+      "DENTISTRY",
+      "BUSINESS MANAGEMENT",
+      "MECHANICAL ENGINEERING",
+      "MEDICINE",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO TARGU02",
+    "name": "UNIVERSITATEA DE MEDICINA, FARMACIE, STIINTE SI TEHNOLOGIE \"GEORGE EMIL PALADE\" DIN TARGU MURES",
+    "erasmusWebpage": "https://umfst.ro/en/university/international-relations/erasmus-plus/eu-mobilities/studenti/incoming/",
+    "domain": "umfst.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=umfst.ro&sz=256",
+    "studyAreas": [
+      "MEDICINE",
+      "DENTISTRY",
+      "NUTRITION AND DIETETICS (JUST INTERNSHIP AND STAFF MOBILITY )",
+      "PHARMACY (FOR STAFF ONLY)"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO TARGU04",
+    "name": "UNIVERSITATEA CONSTANTIN BRANCUSI TARGU JIU",
+    "erasmusWebpage": "https://www.utgjiu.ro/studenti/burse-si-taxe/burse-internationale/",
+    "domain": "utgjiu.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=utgjiu.ro&sz=256",
+    "studyAreas": [
+      "SPORTS MANAGEMENT",
+      "NURSING",
+      "PHYSIOTHERAPY AND REHABILITATION",
+      "MECHANICAL ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DEVELOPMENT",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "FOREIGN TRADE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "ACCOUNTING and FINANCIAL MANAGEMENT",
+      "BUSINESS MANAGEMENT",
+      "APPLIED TRANSLATION AND INTERPRETING (ENGLISH TURKISH)",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "LAW",
+      "SOFTWARE ENGINEERING"
+    ]
+  },
+  {
+    "country": "ROMANIA",
+    "erasmusId": "RO BUCURES06",
+    "name": "UNIVERSITATEA NATIONALA DE EDUCATIE FIZICA SI SPORT DIN BUCURESTI",
+    "erasmusWebpage": "https://unefs.ro/erasmus",
+    "domain": "unefs.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unefs.ro&sz=256",
+    "studyAreas": [
+      "PHYSİOTHERAPY AND REHABİLİTATİON",
+      "SPORTS"
+    ]
+  },
+  {
+    "country": "SERBIA",
+    "erasmusId": "RS BELGRAD02",
+    "name": "UNIVERZITET U BEOGRADU",
+    "erasmusWebpage": "https://www.bg.ac.rs/mobilnost-i-razmena/",
+    "domain": "unefs.ro",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unefs.ro&sz=256",
+    "studyAreas": [
+      "MANAGEMENT INFORMATION SYSTEM",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "SERBIA",
+    "erasmusId": "RS NIS01",
+    "name": "UNIVERZITET U NISU",
+    "erasmusWebpage": "https://www.ni.ac.rs/en/international-cooperation/international-programs/erasmus-plus",
+    "domain": "ni.ac.rs",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ni.ac.rs&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DEVELOPMENT",
+      "SOFTWARE ENGINEERING",
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "MECHANICAL ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "APPLIED RUSSIAN-TURKISH TRANSLATION",
+      "TRANSLATION AND INTERPRETING (TURKISH-RUSSIAN)"
+    ]
+  },
+  {
+    "country": "SERBIA",
+    "erasmusId": "RS NOVISAD01",
+    "name": "VISOKA POSLOVNA SKOLA STRUKOVNIH STUDIJA U NOVOM SADU",
+    "erasmusWebpage": "https://www.vps.ns.ac.rs/en/international-affairs/mobility/outgoing-mobility/",
+    "domain": "vps.ns.ac.rs",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vps.ns.ac.rs&sz=256",
+    "studyAreas": []
+  },
+  {
+    "country": "SERBIA",
+    "erasmusId": "RS NOVIPAZ01",
+    "name": "UNIVERZITET U NOVOM PAZARU",
+    "erasmusWebpage": "https://uninp.edu.rs/srp/erasmus/",
+    "domain": "uninp.edu.rs",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uninp.edu.rs&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "SOFTWARE ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "PSYCHOLOGY",
+      "GRAPHIC DESIGN",
+      "FASHION DESIGN",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "LAW"
+    ]
+  },
+  {
+    "country": "SLOVAKIA",
+    "erasmusId": "SK BRATISL01",
+    "name": "SLOVENSKA TECHNICKA UNIVERZITA V BRATISLAVE",
+    "erasmusWebpage": "https://www.stuba.sk/english/exchange-students/application-procedure-for-erasmus-incoming-students.html?page_id=10319",
+    "domain": "www.stuba.sk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.stuba.sk&sz=256",
+    "studyAreas": [
+      "MECHANICAL ENGINEERING",
+      "ARCHITECTURE"
+    ]
+  },
+  {
+    "country": "SLOVAKIA",
+    "erasmusId": "SK BRATISL02",
+    "name": "UNIVERZITA KOMENSKEHO V BRATISLAVE",
+    "erasmusWebpage": "https://uniba.sk/erasmus/",
+    "domain": "stuba.sk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=stuba.sk&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "BUSINESS MANAGEMENT",
+      "TRANSLATION AND INTERPRETING (TURKISH-ENGLISH)",
+      "APPLIED ENGLISH - TURKISH TRANSLATION",
+      "ENGLISH LANGUAGE ANd LITERATURE"
+    ]
+  },
+  {
+    "country": "SLOVAKIA",
+    "erasmusId": "SK BRATISL08",
+    "name": "PAN-EUROPEAN UNIVERSITY",
+    "erasmusWebpage": "https://www.paneurouni.com/en/international-relations/erasmus/",
+    "domain": "paneurouni.com",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=paneurouni.com&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "MANAGEMENT and INFORMATION SYSTEM",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "SLOVAKIA",
+    "erasmusId": "SK KOMARNO01",
+    "name": "UNIVERZITA J. SELYEHO",
+    "erasmusWebpage": "https://pf.ujs.sk/en/interantional-relations/mobility-programmes/erasmus.html",
+    "domain": "pf.ujs.sk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pf.ujs.sk&sz=256",
+    "studyAreas": [
+      "ENGLISH LANGUAGE ANd LITERATURE",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "SLOVAKIA",
+    "erasmusId": "SK KOSICE02",
+    "name": "UNIVERZITA PAVLA JOZEFA SAFARIKA V KOSICIACH",
+    "erasmusWebpage": "https://www.upjs.sk/en/information/international-relations/erasmus/ka131/",
+    "domain": "pf.ujs.sk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pf.ujs.sk&sz=256",
+    "studyAreas": [
+      "SPORTS MANAGEMENT",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "SLOVAKIA",
+    "erasmusId": "SK NITRA01",
+    "name": "UNIVERZITA KONSTANTINA FILOZOFA VNITRE",
+    "erasmusWebpage": "https://www.ukf.sk/en/international-relations/erasmus",
+    "domain": "upjs.sk",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=upjs.sk&sz=256",
+    "studyAreas": [
+      "ADVERTISEMENT",
+      "NEW MEDIA and COMMUNICATION",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "JOURNALISM"
+    ]
+  },
+  {
+    "country": "SLOVENIA",
+    "erasmusId": "SI KOPER03",
+    "name": "UNIVERZA NA PRIMORSKEM UNIVERSITA DEL LITORALE",
+    "erasmusWebpage": "https://www.upr.si/en/up--environment/global-partnership/erasmus/",
+    "domain": "upr.si",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=upr.si&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "SLOVENIA",
+    "erasmusId": "SI LJUBLJA30",
+    "name": "B2 VISOKA ŠOLA ZA POSLOVNE VEDE, ZAVOD",
+    "erasmusWebpage": "https://www.vspv.si/en/mobilities",
+    "domain": "vspv.si",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vspv.si&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "COMPUTER PROGRAMMING"
+    ]
+  },
+  {
+    "country": "SLOVENIA",
+    "erasmusId": "SI MARIBOR01",
+    "name": "UNIVERZA V MARIBORU",
+    "erasmusWebpage": "https://www.erasmusplus.um.si/international-students/",
+    "domain": "erasmusplus.um.si",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=erasmusplus.um.si&sz=256",
+    "studyAreas": [
+      "COMPUTER PROGRAMMING",
+      "COMPUTER ENGINEERING",
+      "COMPUTER TECHNOLOGY",
+      "SOFTWARE ENGINEERING",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DEVELOPMENT",
+      "FOREIGN TRADE",
+      "ECONOMICS AND FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "SLOVENIA",
+    "erasmusId": "SI NOVA-GO04",
+    "name": "NOVA UNIVERZA, EVROPSKA PRAVNA FAKULTETA",
+    "erasmusWebpage": "https://epf.nova-uni.si/en/international-cooperation/",
+    "domain": "epf.nova-uni.si",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=epf.nova-uni.si&sz=256",
+    "studyAreas": [
+      "LAW"
+    ]
+  },
+  {
+    "country": "SLOVENIA",
+    "erasmusId": "SI PORTORO02",
+    "name": "GEA COLLEGE - FAKULTETA ZA PODJETNISTVO",
+    "erasmusWebpage": "https://gea-college.si/en/international-office/erasmus-programme/",
+    "domain": "epf.nova-uni.si",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=epf.nova-uni.si&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "SLOVENIA",
+    "erasmusId": "SI PORTORO03",
+    "name": "EVRO-SREDOZEMSKA UNIVERZA",
+    "erasmusWebpage": "https://emuni.si/projects/erasmus-mobility/",
+    "domain": "emuni.si",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=emuni.si&sz=256",
+    "studyAreas": [
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E ALICANT01",
+    "name": "UNIVERSIDAD DE ALICANTE",
+    "erasmusWebpage": "https://sri.ua.es/es/movilidad/erasmus-ka131.html",
+    "domain": "sri.ua.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=sri.ua.es&sz=256",
+    "studyAreas": [
+      "CIVIL ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "SOFTWARE ENGINEERING",
+      "ECONOMICS AND FINANCE",
+      "SOFTWARE DEVELOPMENT",
+      "ARCHITECTURE"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E BARCELO01",
+    "name": "UNIVERSITAT DE BARCELONA",
+    "erasmusWebpage": "https://www.ub.edu/uri/ka107/",
+    "domain": "ub.edu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ub.edu&sz=256",
+    "studyAreas": [
+      "ACCOUNTING AND FINANCE MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "FOREIGN TRADE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "BUSINESS MANAGEMENT",
+      "SOCIOLOGY"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E BARCELO33",
+    "name": "ESCUELA SUPERIOR DE DISEÑO Y MODA, S.L.",
+    "erasmusWebpage": "https://www.sevillademoda.es/escuela/oficina-erasmus/",
+    "domain": "sevillademoda.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=sevillademoda.es&sz=256",
+    "studyAreas": [
+      "FASHION DESIGN",
+      "TEXTILE and FASHION DESIGN",
+      "INTERIOR DESIGN",
+      "GRAPHIC DESIGN",
+      "VISUAL COMMUNICATION DESIGN",
+      "DIGITAL GAME DESIGN",
+      "CARTOON and ANIMATION",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E BARCELO45",
+    "name": "FUNDACIO PER A LA UNIVERSITAT OBERTA DE CATALUNYA",
+    "erasmusWebpage": "https://www.uoc.edu/portal/en/universitat/internacional/mobilitat/estudiants/index.html",
+    "domain": "uoc.edu",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uoc.edu&sz=256",
+    "studyAreas": [
+      "FOOD TECHNOLOGY",
+      "FOOD ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "COMPUTER  PROGRAMMING",
+      "BUSINESS MANAGEMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "SOFTWARE DESIGN",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "SOFTWARE ENGINEERING"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E CADIZ01",
+    "name": "UNIVERSIDAD DE CADIZ",
+    "erasmusWebpage": "https://www.uca.es/category/erasmus/",
+    "domain": "uca.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uca.es&sz=256",
+    "studyAreas": [
+      "ARABIC LANGUAGE TEACHING",
+      "TRANSLATION and INTERPRETING (English)",
+      "TRANSLATION and INTERPRETING (Arabic)"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E CIUDA-R01",
+    "name": "UNIVERSIDAD DE CASTILLA - LA MANCHA",
+    "erasmusWebpage": "https://www.uclm.es/misiones/internacional/movilidad/programa-erasmus",
+    "domain": "www.uclm.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=www.uclm.es&sz=256",
+    "studyAreas": [
+      "ELECTRICAL and ELECTRONICS ENGINEERING"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E CORDOBA01",
+    "name": "UNIVERSIDAD DE CORDOBA",
+    "erasmusWebpage": "https://www.uco.es/internacional/extranjeros/en/erasmus",
+    "domain": "uclm.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uclm.es&sz=256",
+    "studyAreas": [
+      "TRANSLATION and INTERPRETING (English)",
+      "ENGLISH LANGUAGE AND LITERATURE",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "APPLIED SPANISH-TURKISH TRANSLATION"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E HUELVA01",
+    "name": "UNIVERSIDAD DE HUELVA",
+    "erasmusWebpage": "https://www.uhu.es/internacionalizacion/erasmus",
+    "domain": "uhu.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uhu.es&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "TRANSLATION and INTERPRETING (English)",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "APPLIED SPANISH-TURKISH TRANSLATION"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E ELCHE01",
+    "name": "MIGUEL HERNÁNDEZ UNIVERSITY OF ELCHE.",
+    "erasmusWebpage": "https://internacional.umh.es/en/movilidad/estudiantes/erasmus/",
+    "domain": "internacional.umh.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=internacional.umh.es&sz=256",
+    "studyAreas": []
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E LA-CORU01",
+    "name": "UNIVERSIDADE DA CORUNA",
+    "erasmusWebpage": "https://www.udc.es/en/ori/entrantes/",
+    "domain": "internacional.umh.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=internacional.umh.es&sz=256",
+    "studyAreas": [
+      "INTERIOR DESIGN",
+      "ARCHITECTURE"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E LAS-PAL43",
+    "name": "UNIVERSIDAD FERNANDO PESSOA CANARIAS (MASTER DEL CONOCIMIENTO S.L.)",
+    "erasmusWebpage": "https://ufpcanarias.es/movilidad/",
+    "domain": "udc.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=udc.es&sz=256",
+    "studyAreas": [
+      "DENTISTRY",
+      "JOURNALISM",
+      "NEW MEDIA and COMMUNICATION",
+      "VISUAL COMMUNICATION DESIGN",
+      "MEDICINE"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E MADRID238",
+    "name": "UNIVERSIDAD UNIE",
+    "erasmusWebpage": "https://www.universidadunie.com/en/unie-community/erasmus",
+    "domain": "universidadunie.com",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=universidadunie.com&sz=256",
+    "studyAreas": [
+      "PRESCHOOL TEACHER TRAINING",
+      "ELEMENTARY EDUCATION",
+      "SPECIAL EDUCATION",
+      "PSYCHOLOGICAL COUNSELING and GUIDANCE",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "BUSINESS MANAGEMENT",
+      "INDUSTRIAL ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "CYBER SECURITY",
+      "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E MADRID12",
+    "name": "UNIVERSITAS NEBRISSENSIS SA",
+    "erasmusWebpage": "https://www.nebrija.com/en/international-programmes/go-abroad-from-nebrija/erasmus-charter.php",
+    "domain": "nebrija.com",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=nebrija.com&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ECONOMICS and FINANCE",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E MALAGA01",
+    "name": "UNIVERSIDAD DE MALAGA",
+    "erasmusWebpage": "https://www.uma.es/relaciones-internacionales/cms/menu/erasmus/",
+    "domain": "uma.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uma.es&sz=256",
+    "studyAreas": [
+      "ELECTRICAL and ELECTRONICS ENGINEERING",
+      "ELECTRONIC TECHNOLOGY",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "BUSINESS MANAGEMENT",
+      "MECHANICAL"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E MURCIA04",
+    "name": "UNIVERSIDAD POLITECNICA DE CARTAGENA",
+    "erasmusWebpage": "https://international.upct.es/incoming",
+    "domain": "international.upct.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=international.upct.es&sz=256",
+    "studyAreas": [
+      "COMPUTER ENGINEERING",
+      "SOFTWARE ENGINEERING",
+      "SOFTWARE DEVELOPMENT",
+      "MANAGEMENT INFORMATION SYSTEMS"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E SALAMAN02",
+    "name": "UNIVERSIDAD DE SALAMANCA",
+    "erasmusWebpage": "https://rel-int.usal.es/en/students/incoming-students/erasmus-student-mobility-for-studies",
+    "domain": "rel-int.usal.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rel-int.usal.es&sz=256",
+    "studyAreas": [
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E SANTIAG09",
+    "name": "FUNDACIÓN UNIVERSIDAD INTERCONTINENTAL DE LA EMPRESA",
+    "erasmusWebpage": "https://uie.edu/movilidad-internacional-que-beneficios-tiene-para-tus-estudios/",
+    "domain": "rel-int.usal.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rel-int.usal.es&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "ECONOMICS and FINANCE",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+      "SOFTWARE DEVELOPMENTS",
+      "SOFTWARE ENGINEERING",
+      "COMPUTER ENGINEERING",
+      "COMPUTER PROGRAMMING"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E VALENCI11",
+    "name": "FUNDACION UNIVERSIDAD CATOLICA DE VALENCIA SAN VICENTE MARTIR",
+    "erasmusWebpage": "https://www.ucv.es/international/ucv-students-studying-abroad/programa-erasmus/erasmus-estudios",
+    "domain": "ucv.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ucv.es&sz=256",
+    "studyAreas": [
+      "PHYSIOTHERAPY AND REHABILITATION",
+      "BUSINESS MANAGEMENT",
+      "LAW",
+      "DENTISTRY (FOR STAFF ONLY)"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E VALENCI91",
+    "name": "UNIVERSIDAD EUROPEA DE VALENCIA, S.L.",
+    "erasmusWebpage": "https://universidadeuropea.com/tu-experiencia/movilidad-internacional/",
+    "domain": "universidadeuropea.com",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=universidadeuropea.com&sz=256",
+    "studyAreas": [
+      "BUSINESS MANAGEMENT",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "ECONOMICS and FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "FOREIGN TRADE",
+      "POLITICAL SCIENCE and INTERNATIONAL RELATIONS",
+      "TOURISM",
+      "ARCHITECTURE",
+      "MARKETING"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E VALLADO01",
+    "name": "UNIVERSIDAD DE VALLADOLID",
+    "erasmusWebpage": "https://relint.uva.es/inicio/internacional/english/students/international-mobility-for-studies-at-the-university-of-valladolid/",
+    "domain": "relint.uva.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=relint.uva.es&sz=256",
+    "studyAreas": [
+      "APPLIED SPANISH-TURKISH TRANSLATION",
+      "TRANSLATION and INTERPRETING (English)",
+      "APPLIED ENGLISH-TURKISH TRANSLATION",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "ECONOMICS and FINANCE",
+      "BUSINESS MANAGEMENT"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E VIGO01",
+    "name": "UNIVERSIDAD DE VIGO",
+    "erasmusWebpage": "https://www.uvigo.gal/en/international/mobility-programmes",
+    "domain": "uvigo.gal",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=uvigo.gal&sz=256",
+    "studyAreas": [
+      "PRIMARY MATHEMATICS EDUCATION",
+      "ENGLISH LANGUAGE TEACHER EDUCATION",
+      "PRESCHOOL TEACHER TRAINING",
+      "PSYCHOLOGICAL",
+      "ELEMENTARY EDUCATION",
+      "ENGLISH LANGUAGE and LITERATURE",
+      "SOCIAL WORK",
+      "BUSINESS MANAGEMENT",
+      "SOFTWARE DEVELOPMENT",
+      "SOFTWARE ENGINEERING",
+      "ECONOMICS and FINANCE",
+      "MANAGEMENT INFORMATION SYSTEMS",
+      "COMPUTER ENGINEERING",
+      "RADIO and TELEVISION PROGRAMMING",
+      "TV NEWS AND TV PROGRAM MAKING",
+      "NEW MEDIA and COMMUNICATION",
+      "RADIO TELEVISION and CINEMA",
+      "INTERNATIONAL TRADE AND FINANCE",
+      "SPORTS MANAGEMENT",
+      "ADVERTISEMENT",
+      "GRAPHIC DESIGN",
+      "VISUAL COMMUNICATION DESIGN"
+    ]
+  },
+  {
+    "country": "SPAIN",
+    "erasmusId": "E ZARAGOZ01",
+    "name": "UNIVERSIDAD DE ZARAGOZA",
+    "erasmusWebpage": "https://internacional.unizar.es/programas-movilidad-estudiantes/erasmus-estudiantes/programa-erasmus",
+    "domain": "internacional.unizar.es",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=internacional.unizar.es&sz=256",
+    "studyAreas": [
+      "ELECTRICAL and ELECTRONICS ENGINEERING"
+    ]
+  }
+]

@@ -2007,6 +2007,13 @@ s.about-sidebar-sep {
     background: #eef4ff;
     text-transform: uppercase;
     letter-spacing: 0.6px;
+    overflow: hidden;
+}
+
+.partner-card-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .partner-card-name {
@@ -2015,6 +2022,29 @@ s.about-sidebar-sep {
     font-size: 0.95rem;
     line-height: 1.35;
     font-family: "Montserrat", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+.erasmus-webpage-link {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #0E4C92;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.erasmus-webpage-link:hover {
+    background-color: #0a325b;
+    transform: translateY(-1px);
+}
+
+.erasmus-webpage-link:active {
+    transform: translateY(0);
 }
 
 .partners-empty {
