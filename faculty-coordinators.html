@@ -7,154 +7,220 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" href="imgs/logos/head.png">
+  <link rel="stylesheet" href="assets/css/contact.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 
   <title>Faculty Coordinators | Erasmus</title>
 </head>
 
-<body class="about-body">
-  <!-- ================= HEADER ================= -->
+<body>
+  <!-- Animated Background -->
+ <div class="animated-bg">
+  <i class="bg-icon" data-lucide="mail"></i>
+  <i class="bg-icon" data-lucide="graduation-cap"></i>
+  <i class="bg-icon" data-lucide="map-pin"></i>
+  <i class="bg-icon" data-lucide="book"></i>
+  <i class="bg-icon" data-lucide="plane"></i>
+</div>
+
+  <!-- Cursor Gradient Effect -->
+  <div class="cursor-gradient" id="cursorGradient"></div>
+
   <header class="site-header" id="top">
-    <div class="container header-inner">
+        <div class="container header-inner">
 
-      <!-- Logo -->
-      <a class="brand" href="index.html" aria-label="Erasmus Home">
-        <img src="imgs/logos/logo.png" alt="Erasmus Logo" class="brand-logo" />
-      </a>
+            <!-- Logo -->
+            <a class="brand" href="index.html" aria-label="Erasmus Home">
+                <img src="imgs/logos/logo.png" alt="Erasmus Logo" class="brand-logo" />
+            </a>
 
-      <!-- Mobile menu button -->
-      <button
-        class="nav-toggle"
-        type="button"
-        aria-label="Open menu"
-        aria-expanded="false"
-        aria-controls="primary-nav"
-      >
+            <!-- Mobile menu button -->
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
       </button>
 
-      <!-- Navigation -->
-      <nav class="nav" id="primary-nav" aria-label="Main navigation">
-        <ul class="nav-list">
+            <!-- Navigation -->
+            <nav class="nav" id="primary-nav" aria-label="Main navigation">
+                <ul class="nav-list">
 
-          <!-- About -->
-          <li class="nav-item has-dropdown">
-            <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">About</a>
-            <div class="nav-dropdown dropdown-wide" aria-label="About submenu">
-              <div class="dropdown-grid">
-                <div class="dropdown-section">
-                  <a class="dropdown-link" href="about.html?section=institutional">Institutional</a>
-                  <a class="dropdown-link" href="about.html?section=erasmus">Erasmus+</a>
-                  <a class="dropdown-link" href="about.html?section=semp">Swiss-EM</a>
-                </div>
-                <div class="dropdown-section">
-                  <a class="dropdown-link" href="about.html?section=studentclub">Student Club</a>
-                  <a class="dropdown-link" href="about.html?section=legislation">Legislation</a>
-                  <a class="dropdown-link" href="about.html?section=media">Media Center</a>
-                </div>
-              </div>
-            </div>
-          </li>
+                    <!-- About -->
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">About</a>
+                        <div class="nav-dropdown dropdown-wide" aria-label="About submenu">
+                            <div class="dropdown-grid">
+                                <div class="dropdown-section">
+                                    <a class="dropdown-link" href="about.html?section=institutional">Institutional</a>
+                                    <a class="dropdown-link" href="about.html?section=erasmus">Erasmus+</a>
+                                    <a class="dropdown-link" href="about.html?section=semp">Swiss-EM</a>
+                                </div>
+                                <div class="dropdown-section">
+                                    <a class="dropdown-link" href="about.html?section=studentclub">Student Club</a>
+                                    <a class="dropdown-link" href="about.html?section=legislation">Legislation</a>
+                                    <a class="dropdown-link" href="about.html?section=media">Media Center</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
 
-          <!-- Incoming -->
-          <li class="nav-item has-dropdown">
-            <a class="nav-link" href="incoming.html" aria-haspopup="true" aria-expanded="false">Incoming</a>
-            <div class="nav-dropdown dropdown-wide" aria-label="Incoming submenu">
-              <div class="dropdown-grid">
+                    <!-- Incoming -->
+                    <li class="nav-item has-dropdown">
+                      <a class="nav-link" href="incoming.html" aria-haspopup="true" aria-expanded="false">Incoming</a>
 
-                <div class="dropdown-section">
-                  <span class="dropdown-title">Students</span>
-                  <a class="dropdown-link" href="incoming.html">Study Mobility</a>
-                  <a class="dropdown-link" href="incoming.html">Traineeship Mobility</a>
-                  <a class="dropdown-link" href="incoming.html">Short-term Mobility</a>
-                  <a class="dropdown-link" href="incoming.html">PhD Short-term Mobility</a>
-                </div>
+                      <div class="nav-dropdown dropdown-wide" aria-label="Incoming submenu">
+                        <div class="dropdown-grid">
 
-                <div class="dropdown-section">
-                  <span class="dropdown-title">Staff</span>
-                  <a class="dropdown-link" href="incoming-staff.html">Teaching Mobility</a>
-                  <a class="dropdown-link" href="incoming-staff.html">Training Mobility</a>
-                  <a class="dropdown-link" href="outgoing-staff.html">KA171 Teaching Mobility</a>
-                  <a class="dropdown-link" href="outgoing-staff.html">KA171 Training Mobility</a>
-                </div>
+                          <!-- Students -->
+                          <div class="dropdown-section">
+                            <span class="dropdown-title">Students</span>
 
-              </div>
-            </div>
-          </li>
+                            <a class="dropdown-link" href="incoming.html?section=study">
+                              Study Mobility
+                            </a>
 
-          <!-- Outgoing -->
-          <li class="nav-item has-dropdown">
-            <a class="nav-link" href="outgoing.html" aria-haspopup="true" aria-expanded="false">Outgoing</a>
-            <div class="nav-dropdown dropdown-wide" aria-label="Outgoing submenu">
-              <div class="dropdown-grid">
+                            <a class="dropdown-link" href="incoming.html?section=traineeship">
+                              Traineeship Mobility
+                            </a>
 
-                <div class="dropdown-section">
-                  <span class="dropdown-title">Students</span>
-                  <a class="dropdown-link" href="outgoing.html">Study Mobility</a>
-                  <a class="dropdown-link" href="outgoing.html">Traineeship Mobility</a>
-                  <a class="dropdown-link" href="outgoing.html">Short-term Mobility</a>
-                  <a class="dropdown-link" href="outgoing.html">PhD Short-term Mobility</a>
-                </div>
+                            <a class="dropdown-link" href="incoming.html?section=shortterm">
+                              Short-term Mobility
+                            </a>
 
-                <div class="dropdown-section">
-                  <span class="dropdown-title">Staff</span>
-                  <a class="dropdown-link" href="outgoing-staff.html">Teaching Mobility</a>
-                  <a class="dropdown-link" href="outgoing-staff.html">Training Mobility</a>
-                  <a class="dropdown-link" href="outgoing-staff.html">KA171 Teaching Mobility</a>
-                  <a class="dropdown-link" href="outgoing-staff.html">KA171 Training Mobility</a>
-                </div>
+                            <a class="dropdown-link" href="incoming.html?section=phdshort">
+                              PhD Short-term Mobility
+                            </a>
+                          </div>
 
-              </div>
-            </div>
-          </li>
+                          <!-- Staff -->
+                          <div class="dropdown-section">
+                            <span class="dropdown-title">Staff</span>
 
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)">BIPs</a>
-          </li>
+                            <a class="dropdown-link" href="incoming-staff.html?section=teaching">
+                              Teaching Mobility
+                            </a>
 
-          <!-- Partners -->
-          <li class="nav-item has-dropdown">
-            <a class="nav-link" href="partners.html" aria-haspopup="true" aria-expanded="false">Partners</a>
-            <div class="nav-dropdown" aria-label="Partners submenu">
-              <div class="dropdown-section">
-                <a class="dropdown-link" href="partners.html">List of Partners</a>
-                <a class="dropdown-link" href="javascript:void(0)">Partner with us!</a>
-              </div>
-            </div>
-          </li>
+                            <a class="dropdown-link" href="incoming-staff.html?section=training">
+                              Training Mobility
+                            </a>
 
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)">Projects</a>
-          </li>
+                            <a class="dropdown-link" href="incoming-staff.html?section=ka171teaching">
+                              KA171 Teaching Mobility
+                            </a>
 
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)">Events</a>
-          </li>
+                            <a class="dropdown-link" href="incoming-staff.html?section=ka171training">
+                              KA171 Training Mobility
+                            </a>
+                          </div>
 
-        </ul>
-      </nav>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Outgoing -->
+                    <li class="nav-item has-dropdown">
+                      <a class="nav-link" href="outgoing.html" aria-haspopup="true" aria-expanded="false">Outgoing</a>
 
-      <!-- Right CTA -->
-      <a class="btn btn-contact" href="#contact">Contact</a>
+                      <div class="nav-dropdown dropdown-wide" aria-label="Outgoing submenu">
+                        <div class="dropdown-grid">
 
-    </div>
-  </header>
+                          <!-- Students -->
+                          <div class="dropdown-section">
+                            <span class="dropdown-title">Students</span>
+
+                            <a class="dropdown-link" href="outgoing.html?section=study">
+                              Study Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing.html?section=traineeship">
+                              Traineeship Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing.html?section=shortterm">
+                              Short-term Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing.html?section=phdshort">
+                              PhD Short-term Mobility
+                            </a>
+                          </div>
+
+                          <!-- Staff -->
+                          <div class="dropdown-section">
+                            <span class="dropdown-title">Staff</span>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=teaching">
+                              Teaching Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=training">
+                              Training Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=ka171teaching">
+                              KA171 Teaching Mobility
+                            </a>
+
+                            <a class="dropdown-link" href="outgoing-staff.html?section=ka171training">
+                              KA171 Training Mobility
+                            </a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">BIPs</a>
+                    </li>
+
+                    <!-- Partners -->
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="partners.html" aria-haspopup="true" aria-expanded="false">Partners</a>
+                        <div class="nav-dropdown" aria-label="Partners submenu">
+                            <div class="dropdown-section">
+                                <a class="dropdown-link" href="partners.html">List of Partners</a>
+                                <a class="dropdown-link" href="PartnerWithUs.html">Partner with us!</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Events</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <!-- Right CTA -->
+            <a class="btn btn-contact" href="contact.html">Contact</a>
+
+        </div>
+    </header>
 
   <main>
-    <section class="hero-section coordinators-hero">
-      <div class="container">
-        <div class="hero-content">
-          <p class="hero-label">Erasmus Coordinators</p>
-          <h1 class="hero-title">Erasmus+ Faculty Coordinators 2025-2026</h1>
-          <p class="hero-subtitle">Connect with dedicated coordinators across all faculties to support your Erasmus+ journey.</p>
-        </div>
-      </div>
-    </section>
+     <section class="hero" id="heroSection">
+        <img src="Istanbul_Aydın_University_logo.svg.png" class="hero-logo" alt="Aydın University Logo">
+    <!-- Interactive Mouse Effects Container -->
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-cursor-light" id="heroCursorLight"></div>
+  <div class="hero-content">
+      <h1>Erasmus+ Faculty Coordinators 2025-2026</h1>
+      <p class="hero-subtitle">Connect with dedicated coordinators across all faculties to support your Erasmus+ journey.</p>
+    </div>
+    <a href="#contact-info" class="hero-scroll">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5v14M19 12l-7 7-7-7"/>
+      </svg>
+    </a>
+  </section>
+
 
     <section class="coordinators-section">
       <div class="container">
