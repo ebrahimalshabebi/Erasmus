@@ -21,7 +21,7 @@
   }
 
   function deriveProgram(erasmusId) {
-    return String(erasmusId || '').split(' ')[0] || '';
+    return "KA131";
   }
 
   /* ── Filter dropdowns ── */
@@ -30,10 +30,11 @@
     var countries = new Set();
     var areas     = new Set();
 
+    programs.add("KA131");
+    programs.add("KA171");
+
     universities.forEach(function (u) {
       if (u.country) countries.add(u.country);
-      var prog = deriveProgram(u.erasmusId);
-      if (prog) programs.add(prog);
       (u.studyAreas || []).forEach(function (a) { if (a) areas.add(a.trim()); });
     });
 
