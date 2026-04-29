@@ -4,184 +4,429 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imgs/logos/head.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/3d.css">
     <title>Partner Application — Erasmus</title>
+    <link rel="stylesheet" href="assets/css/bips.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/3d.css">
+
 
 </head>
 
 <body>
 
     <!-- ══ HEADER ══ -->
-    <header class="site-header" id="siteHeader">
+    <header class="site-header" id="top">
         <div class="container header-inner">
+
+            <!-- Logo -->
             <a class="brand" href="index.html" aria-label="Erasmus Home">
-                <!-- Swap src to your actual logo path -->
-                <img src="imgs/logos/logo.png" alt="Erasmus Logo" class="brand-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
-                <span style="display:none;font-family:Montserrat,sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:.5px;">ERASMUS+</span>
+                <img src="imgs/logos/logo.png" alt="Erasmus Logo" class="brand-logo" />
             </a>
 
-            <button class="nav-toggle" type="button" aria-label="Open menu">
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-      <span class="nav-toggle-bar"></span>
-    </button>
+            <!-- Mobile menu button -->
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
 
-            <nav class="nav" id="primary-nav">
+            <!-- Navigation -->
+            <nav class="nav" id="primary-nav" aria-label="Main navigation">
                 <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="incoming.html">Incoming</a></li>
-                    <li class="nav-item"><a class="nav-link" href="outgoing.html">Outgoing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">BIPs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="partners.html" style="font-weight:700;">Partners</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+
+                    <!-- About -->
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">About</a>
+                        <div class="nav-dropdown dropdown-wide" aria-label="About submenu">
+                            <div class="dropdown-grid">
+                                <div class="dropdown-section">
+                                    <a class="dropdown-link" href="about.html?section=institutional">Institutional</a>
+                                    <a class="dropdown-link" href="about.html?section=erasmus">Erasmus+</a>
+                                    <a class="dropdown-link" href="about.html?section=semp">Swiss-EM</a>
+                                </div>
+                                <div class="dropdown-section">
+                                    <a class="dropdown-link" href="about.html?section=studentclub">Student
+                                            Club</a>
+                                    <a class="dropdown-link" href="about.html?section=legislation">Legislation</a>
+                                    <a class="dropdown-link" href="about.html?section=media">Media
+                                            Center</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Incoming -->
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="incoming.html" aria-haspopup="true" aria-expanded="false">Incoming</a>
+                        <div class="nav-dropdown dropdown-wide" aria-label="Incoming submenu">
+                            <div class="dropdown-grid">
+
+                                <div class="dropdown-section">
+                                    <span class="dropdown-title">Students</span>
+                                    <a class="dropdown-link" href="incoming.html">Study
+                                            Mobility</a>
+                                    <a class="dropdown-link" href="incoming.html">Traineeship
+                                            Mobility</a>
+                                    <a class="dropdown-link" href="incoming.html">Short-term
+                                            Mobility</a>
+                                    <a class="dropdown-link" href="incoming.html">PhD Short-term
+                                            Mobility</a>
+                                </div>
+
+                                <div class="dropdown-section">
+                                    <span class="dropdown-title">Staff</span>
+                                    <a class="dropdown-link" href="incoming-staff.html">Teaching
+                                            Mobility</a>
+                                    <a class="dropdown-link" href="incoming-staff.html">Training
+                                            Mobility</a>
+                                    <a class="dropdown-link" href="outgoing-staff.html">KA171
+                                            Teaching Mobility</a>
+                                    <a class="dropdown-link" href="outgoing-staff.html">KA171
+                                            Training Mobility</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Outgoing -->
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="outgoing.html" aria-haspopup="true" aria-expanded="false">Outgoing</a>
+                        <div class="nav-dropdown dropdown-wide" aria-label="Outgoing submenu">
+                            <div class="dropdown-grid">
+
+                                <div class="dropdown-section">
+                                    <span class="dropdown-title">Students</span>
+                                    <a class="dropdown-link" href="outgoing.html">Study
+                                            Mobility</a>
+                                    <a class="dropdown-link" href="outgoing.html">Traineeship
+                                            Mobility</a>
+                                    <a class="dropdown-link" href="outgoing.html">Short-term
+                                            Mobility</a>
+                                    <a class="dropdown-link" href="outgoing.html">PhD Short-term
+                                            Mobility</a>
+                                </div>
+
+                                <div class="dropdown-section">
+                                    <span class="dropdown-title">Staff</span>
+                                    <a class="dropdown-link" href="outgoing-staff.html">Teaching
+                                            Mobility</a>
+                                    <a class="dropdown-link" href="outgoing-staff.html">Training
+                                            Mobility</a>
+                                    <a class="dropdown-link" href="outgoing-staff.html">KA171
+                                            Teaching Mobility</a>
+                                    <a class="dropdown-link" href="outgoing-staff.html">KA171
+                                            Training Mobility</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="bips.html">BIPs</a>
+                    </li>
+
+                    <!-- Partners -->
+                    <li class="nav-item has-dropdown">
+                        <a class="nav-link" href="partners.html" aria-haspopup="true" aria-expanded="false">Partners</a>
+                        <div class="nav-dropdown" aria-label="Partners submenu">
+                            <div class="dropdown-section">
+                                <a class="dropdown-link" href="partners.html">List of
+                                        Partners</a>
+                                <a class="dropdown-link" href="PartnerWithUs.html">Partner with
+                                        us!</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Events</a>
+                    </li>
+
                 </ul>
             </nav>
 
-            <a class="btn btn-contact" href="#contact">Contact</a>
+            <!-- Right CTA -->
+            <a class="btn btn-contact" href="contact.html">Contact</a>
+
         </div>
     </header>
 
     <!-- ══ HERO ══ -->
     <section id="hero" class="hero">
         <div class="hero-media" aria-hidden="true">
-            <!-- Replace src with your video poster/image -->
-            <img class="hero-bg-img" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80" alt="" onerror="this.parentElement.style.background='linear-gradient(160deg,#0a325b,#0e4c92)'">
+            <img class="hero-bg-img" src="https://mgx-backend-cdn.metadl.com/generate/images/1129195/2026-04-27/nnv2wwqaafnq/hero-bips-collaboration.png" alt>
             <div class="hero-overlay"></div>
         </div>
+
+        <!-- Floating glass shapes -->
+        <div class="hero-shapes" aria-hidden="true">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+
+        <!-- Particles -->
+        <div class="particles" aria-hidden="true"></div>
+
         <div class="container hero-content">
-            <p class="hero-label">Erasmus+ Partnership Programme</p>
+            <span class="hero-label">
+                    <span class="dot"></span> Erasmus+ · Partnership Programme
+            </span>
             <h1 class="hero-title">
                 Why should your<br>
                 <span>university partner</span><br> with us?
             </h1>
             <p class="hero-subtitle">
                 Join Europe's most trusted academic mobility network and unlock opportunities for your students, staff, and institution.
+
             </p>
             <div class="hero-actions">
-                <a class="btn btn-primary" href="#laptop-section">Apply as a Partner</a>
-                <a class="btn btn-ghost" href="#why-partner">Learn More</a>
+                <a class="btn btn-primary" href="#what">
+                        Learn More
+                        <span class="btn-arrow">→</span>
+                    </a>
+                <a class="btn btn-ghost" href="#contact-info">Apply as a Partner</a>
             </div>
         </div>
+
+        <a class="hero-scroll-indicator" href="#what" aria-label="Scroll down">
+            <span class="mouse"></span> Scroll
+        </a>
     </section>
 
     <!-- ══ WHY PARTNER ══ -->
-    <section id="why-partner" class="partner-pitch">
+    <section id="what" class="what-bips">
         <div class="container">
-            <div class="pitch-layout">
+            <div class="what-layout">
 
-                <!-- Visual -->
-                <div class="pitch-visual reveal">
-                    <div class="pitch-img-wrap">
-                        <div class="pitch-img-placeholder">
-                            <span class="big-icon">🌍</span>
-                            <p>Global Mobility Network</p>
-                        </div>
-                    </div>
-                    <div class="pitch-badge">
-                        <div class="badge-num">420+</div>
-                        <div class="badge-label">Partner Institutions</div>
-                    </div>
-                </div>
-
-                <!-- Text -->
-                <div class="pitch-copy reveal">
-                    <div class="section-header" style="margin-bottom:28px;">
-                        <span class="section-label">Why Partner With Us</span>
+                <div class="what-copy reveal">
+                    <div class="section-header">
+                        <span class="section-label">Why Partner With
+                                Us</span>
                         <h2 class="section-title">Open doors your students never imagined.</h2>
                         <p class="section-subtitle">
                             Istanbul Aydın University's Erasmus Office connects institutions worldwide through a proven framework of academic excellence, cultural exchange, and real opportunity.
                         </p>
                     </div>
 
-                    <div class="benefits-list">
-                        <div class="benefit-row">
-                            <div class="benefit-icon">🌐</div>
-                            <div class="benefit-text">
+                    <div class="highlights-list">
+                        <div class="highlight-row">
+                            <div class="highlight-icon">
+                                <i data-lucide="globe"></i>
+                            </div>
+                            <div class="highlight-text">
                                 <h4>Pan-European & Global Access</h4>
-                                <p>Gain instant connections to 420+ partner institutions across 95+ countries — opening a world of academic opportunities for your students and staff.</p>
+                                <p>Gain instant connections to 420+ partner institutions across 95+ countries — opening a world of academic opportunities for your students and staff.
+                                </p>
                             </div>
                         </div>
-                        <div class="benefit-row">
-                            <div class="benefit-icon">💶</div>
-                            <div class="benefit-text">
+                        <div class="highlight-row">
+                            <div class="highlight-icon">
+                                <i data-lucide="wallet"></i>
+                            </div>
+                            <div class="highlight-text">
                                 <h4>Fully Funded Mobility Grants</h4>
                                 <p>Travel subsidies, living allowances, and housing support backed by EU and national funding — zero financial burden for participants.</p>
                             </div>
                         </div>
-                        <div class="benefit-row">
-                            <div class="benefit-icon">🎓</div>
-                            <div class="benefit-text">
+                        <div class="highlight-row">
+                            <div class="highlight-icon">
+                                <i data-lucide="graduation-cap"></i>
+                            </div>
+                            <div class="highlight-text">
                                 <h4>Guaranteed Credit Recognition</h4>
                                 <p>ECTS transfer guaranteed across all member institutions. No wasted semesters, fully seamless transcripts and academic continuity.</p>
                             </div>
                         </div>
-                        <div class="benefit-row">
-                            <div class="benefit-icon">🤝</div>
-                            <div class="benefit-text">
-                                <h4>Research & Staff Collaboration</h4>
+
+                        <div class="highlight-row">
+                            <div class="highlight-icon">
+                                <i data-lucide="handshake"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h4>
+                                    Research & Staff Collaboration</h4>
                                 <p>Co-author papers, share labs, run joint workshops, and send staff on professional development missions across partner universities.</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form Section -->
+    <section class="section" style="background: white;" id="contact-info">
+        <div class="container">
+            <div class="form-section">
+                <div class="form-info reveal">
+                    <h3>Partnership Process</h3>
+                    <p>Becoming an Erasmus+ partner is simple. Follow these four steps to get started.</p>
+
+                    <div class="info-item">
+                        <div class="info-icon step-badge">1</div>
+                        <div class="info-content">
+                            <h4>Submit Your Application</h4>
+                            <p>Fill out the partnership form with your institution’s details and areas of interest.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon step-badge">2</div>
+                        <div class="info-content">
+                            <h4>Evaluation & Review</h4>
+                            <p>Our Erasmus Office reviews your application and evaluates compatibility.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon step-badge">3</div>
+                        <div class="info-content">
+                            <h4>Agreement Signing</h4>
+                            <p>Both institutions sign an inter-institutional agreement to formalize the partnership.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon step-badge">4</div>
+                        <div class="info-content">
+                            <h4>Start Mobility</h4>
+                            <p>Launch student and staff exchanges, research collaboration, and joint activities.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="contact-form reveal reveal-delay-1" id="contactFormContainer">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name
+                                    <span>*</span></label>
+                            <div class="input-wrapper">
+                                <input type="text" id="fullName" class="form-input" placeholder="Enter your full name" required>
+                                <span class="error-message">Please enter
+                                        your name</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address
+                                    <span>*</span></label>
+                            <div class="input-wrapper">
+                                <input type="email" id="email" class="form-input" placeholder="Enter your email address" required>
+                                <span class="error-message">Please enter a
+                                        valid email</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject
+                                    <span>*</span></label>
+                            <div class="input-wrapper">
+                                <select id="subject" class="form-input" required>
+                                        <option value disabled selected>Select a
+                                            subject</option>
+                                        <option value="student-mobility">Student
+                                            Mobility (Study)</option>
+                                        <option
+                                            value="student-traineeship">Student
+                                            Mobility (Traineeship)</option>
+                                        <option value="staff-mobility">Staff
+                                            Mobility</option>
+                                        <option
+                                            value="incoming-students">Incoming
+                                            Students</option>
+                                        <option value="partnership">Partnership
+                                            Inquiry</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                <span class="error-message">Please select a
+                                        subject</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message
+                                    <span>*</span></label>
+                            <div class="input-wrapper">
+                                <textarea id="message" class="form-input" placeholder="Write your message here..." required></textarea>
+                                <span class="error-message">Please enter
+                                        your message</span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="submit-btn" id="submitBtn">
+                                <span class="btn-text">Send Message</span>
+                                <span class="spinner"></span>
+                            </button>
+                    </form>
+
+                    <div class="success-message" id="successMessage">
+                        <div class="success-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                        </div>
+                        <h3>Message Sent Successfully!</h3>
+                        <p>Thank you for reaching out. Our team will get back to you within 1-2 business days.</p>
+                        <button onclick="resetForm()">Send Another
+                                Message</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ══ STATS ══ -->
-    <section class="stats-section">
+    <!-- ══ WHY JOIN — FEATURE CARDS ══ -->
+    <section id="why" class="why-join">
         <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-num">38K+</div>
-                    <div class="stat-label">Students</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-num">420+</div>
-                    <div class="stat-label">Partner Institutions</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-num">95+</div>
-                    <div class="stat-label">Countries</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-num">1,200+</div>
-                    <div class="stat-label">Annual Mobility Placements</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ══ FEATURE CARDS ══ -->
-    <section class="features-section">
-        <div class="container">
-            <div class="section-header reveal" style="text-align:center;max-width:580px;margin-left:auto;margin-right:auto;margin-bottom:44px;">
+            <div class="why-head reveal">
                 <span class="section-label">What You Get</span>
-                <h2 class="section-title" style="margin:0 auto 12px;">Everything your partnership needs</h2>
-                <p class="section-subtitle" style="margin:0 auto;">From dedicated coordination to cultural programming — we handle the details so you can focus on your students.</p>
+                <h2 class="section-title">Everything your partnership needs
+                </h2>
+                <p class="section-subtitle">From dedicated coordination to cultural programming — we handle the details so you can focus on your students.</p>
             </div>
-            <div class="features-grid">
-                <div class="feature-card reveal">
-                    <span class="card-icon">📋</span>
+
+            <div class="why-grid reveal-stagger">
+                <div class="why-card">
+                    <div class="why-icon-wrap">
+                        <i data-lucide="user-check"></i>
+                    </div>
                     <h3>Dedicated Coordinator</h3>
-                    <p>A personal point of contact at IAU who manages your agreement, answers queries, and ensures smooth mobility for every participant.</p>
+                    <p>A personal point of contact at IAU who manages your agreement, answers queries, and ensures smooth mobility for every participant.
+                    </p>
                 </div>
-                <div class="feature-card reveal">
-                    <span class="card-icon">🏙️</span>
+                <div class="why-card">
+                    <div class="why-icon-wrap">
+                        <i data-lucide="building-2"></i>
+                    </div>
                     <h3>Istanbul Campus Experience</h3>
                     <p>A world-class urban campus in one of Europe's most vibrant cities — combining academic rigour with an unforgettable cultural journey.</p>
                 </div>
-                <div class="feature-card reveal">
-                    <span class="card-icon">📜</span>
+                <div class="why-card">
+                    <div class="why-icon-wrap">
+                        <i data-lucide="scroll-text"></i>
+                    </div>
                     <h3>ECHE & Quality Standards</h3>
                     <p>IAU holds an Erasmus Charter for Higher Education (ECHE), guaranteeing full compliance with EU quality standards for every exchange.</p>
                 </div>
-                <div class="feature-card reveal">
-                    <span class="card-icon">🔬</span>
+                <div class="why-card">
+                    <div class="why-icon-wrap">
+                        <i data-lucide="flask-conical"></i>
+                    </div>
                     <h3>Research Synergies</h3>
                     <p>Access to 12 faculties, research centers, and technology labs. Joint research projects, publications, and grant applications welcome.</p>
                 </div>
@@ -189,269 +434,61 @@
         </div>
     </section>
 
-    <!-- ══ LAPTOP / APPLICATION CTA ══ -->
-    <section id="laptop-section" class="laptop-section">
+    <!-- ══ FOOTER ══ -->
+    <footer class="site-footer" id="contact">
         <div class="container">
-            <div class="section-header reveal">
-                <span class="section-label">Ready to Join?</span>
-                <h2 class="section-title">Open the application portal</h2>
-                <p class="section-subtitle">Click the laptop below to submit your Erasmus Mobility Application for 2026.</p>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>ERASMUS+</h3>
+                    <p>Your gateway to Blended Intensive Programmes, international mobility and a lifetime of European connections.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Programmes</h4>
+                    <ul>
+                        <li><a href="#">Incoming</a></li>
+                        <li><a href="#">Outgoing</a></li>
+                        <li><a href="#">BIPs</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Office</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
             </div>
-
-            <div id="scene">
-                <div class="laptop-wrap" id="laptopWrap" title="Click to open application">
-                    <div class="laptop">
-                        <!-- Lid -->
-                        <div class="laptop-lid" id="lid" style="transform-style:preserve-3d">
-                            <div class="lid-front">
-                                <div class="screen-idle">
-                                    <div class="screen-eu-stars">★ ★ ★ ★ ★</div>
-                                    <div class="screen-title">Erasmus+ Portal</div>
-                                    <div class="screen-cta-pill">Apply 2026</div>
-                                </div>
-                            </div>
-                            <div class="lid-back"></div>
-                        </div>
-                        <!-- Base -->
-                        <div class="laptop-base"></div>
-                    </div>
-                    <div class="laptop-hint" id="laptopHint">↑ Click to open application</div>
+            <div class="footer-bottom">
+                <span>© 2026 Erasmus+ Office. All rights reserved.</span>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">X</a>
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
 
-    <!-- ══ FORM PORTAL (full-screen) ══ -->
-    <div id="portal">
-        <div class="form-card" id="formCard">
-
-            <button class="portal-close" id="portalClose" aria-label="Close">&times;</button>
-
-            <!-- Success state -->
-            <div class="success-overlay" id="successOverlay">
-                <div class="success-icon">✓</div>
-                <h2>Application Submitted!</h2>
-                <p>Thank you for applying to the Erasmus+ Mobility Programme 2026. You'll receive a confirmation at your student email within 48 hours.</p>
-                <button class="btn btn-primary" onclick="closePortal()">Back to Page</button>
-            </div>
-
-            <!-- Header -->
-            <div class="form-header">
-                <div class="form-eyebrow">
-                    <span class="eu-stars-sm">★★★★★</span>
-                    <span>Erasmus+ Programme</span>
-                </div>
-                <h1>Erasmus Mobility<br>Application 2026</h1>
-                <p>Complete all fields carefully. Your motivation letter is key to a successful selection.</p>
-            </div>
-
-            <!-- Form -->
-            <form id="appForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
-                <div class="fields">
-
-                    <div class="field">
-                        <label for="fullName">Full Name</label>
-                        <input type="text" id="fullName" name="fullName" placeholder="e.g. Maria González" autocomplete="name">
-                        <span class="err-msg" id="err-fullName">Please enter your full name.</span>
-                    </div>
-
-                    <div class="field">
-                        <label for="email">Student Email</label>
-                        <input type="email" id="email" name="email" placeholder="you@university.edu" autocomplete="email">
-                        <span class="err-msg" id="err-email">Please enter a valid student email.</span>
-                    </div>
-
-                    <div class="row2">
-                        <div class="field">
-                            <label for="university">Home University</label>
-                            <input type="text" id="university" name="university" placeholder="e.g. University of Vienna">
-                            <span class="err-msg" id="err-university">Required.</span>
-                        </div>
-                        <div class="field">
-                            <label for="department">Department / Faculty</label>
-                            <select id="department" name="department">
-              <option value="">Select department…</option>
-              <option>Business &amp; Economics</option>
-              <option>Computer Science &amp; Engineering</option>
-              <option>Humanities &amp; Social Sciences</option>
-              <option>Law &amp; Political Science</option>
-              <option>Medicine &amp; Health Sciences</option>
-              <option>Natural Sciences</option>
-              <option>Arts &amp; Design</option>
-              <option>Education</option>
-              <option>Other</option>
-            </select>
-                            <span class="err-msg" id="err-department">Please select a department.</span>
-                        </div>
-                    </div>
-
-                    <div class="field">
-                        <label for="motivation">Motivation Letter</label>
-                        <textarea id="motivation" name="motivation" rows="5" placeholder="Describe your academic goals, why you chose this programme, and what you hope to achieve…"></textarea>
-                        <span class="err-msg" id="err-motivation">Please write your motivation letter (min. 50 characters).</span>
-                    </div>
-
-                    <div class="form-divider"></div>
-
-                    <div class="submit-wrap">
-                        <button type="submit" id="submitBtn">Submit Application</button>
-                        <p class="form-footer">
-                            By submitting you agree to the <a href="#">Erasmus+ Terms &amp; Conditions</a>.<br> Your data is processed under GDPR.
-                        </p>
-                    </div>
-
-                </div>
-            </form>
-        </div>
-    </div>
-
+    <script src="assets/js/bips.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="assets/js/contact.js"></script>
     <script>
-        /* ── Header scroll ── */
-        var header = document.getElementById('siteHeader');
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > 60) header.classList.add('is-scrolled');
-            else header.classList.remove('is-scrolled');
-        }, {
-            passive: true
-        });
-
-        /* ── Reveal on scroll ── */
-        var revealEls = document.querySelectorAll('.reveal');
-        var io = new IntersectionObserver(function(entries) {
-            entries.forEach(function(e) {
-                if (e.isIntersecting) {
-                    e.target.classList.add('in');
-                    io.unobserve(e.target);
-                }
-            });
-        }, {
-            threshold: .15
-        });
-        revealEls.forEach(function(el) {
-            io.observe(el);
-        });
-
-        /* ── Laptop open → portal ── */
-        var laptopWrap = document.getElementById('laptopWrap');
-        var lid = document.getElementById('lid');
-        var scene = document.getElementById('scene');
-        var portal = document.getElementById('portal');
-        var hint = document.getElementById('laptopHint');
-        var opened = false;
-
-        laptopWrap.addEventListener('click', function() {
-            if (opened) return;
-            opened = true;
-            hint.style.opacity = '0';
-            lid.classList.add('open');
-            setTimeout(function() {
-                scene.classList.add('zooming');
-            }, 950);
-            setTimeout(function() {
-                portal.classList.add('visible');
-                scene.style.visibility = 'hidden';
-            }, 1650);
-        });
-
-        /* ── Close portal ── */
-        document.getElementById('portalClose').addEventListener('click', closePortal);
-        portal.addEventListener('click', function(e) {
-            if (e.target === portal) closePortal();
-        });
-
-        function closePortal() {
-            portal.classList.remove('visible');
-            setTimeout(function() {
-                scene.style.visibility = 'visible';
-                scene.classList.remove('zooming');
-                lid.classList.remove('open');
-                hint.style.opacity = '';
-                opened = false;
-                document.getElementById('successOverlay').classList.remove('show');
-                document.getElementById('submitBtn').textContent = 'Submit Application';
-                document.getElementById('submitBtn').disabled = false;
-            }, 700);
-        }
-
-        /* ── Form validation ── */
-        var form = document.getElementById('appForm');
-        var submitBtn = document.getElementById('submitBtn');
-
-        function clearErrors() {
-            document.querySelectorAll('.err').forEach(function(el) {
-                el.classList.remove('err');
-            });
-            document.querySelectorAll('.err-msg').forEach(function(el) {
-                el.classList.remove('show');
-            });
-        }
-
-        function showError(fid, mid) {
-            var f = document.getElementById(fid),
-                m = document.getElementById(mid);
-            if (f) f.classList.add('err');
-            if (m) m.classList.add('show');
-        }
-
-        function validate() {
-            clearErrors();
-            var ok = true;
-            var v = function(id) {
-                return document.getElementById(id).value.trim();
-            };
-            if (!v('fullName')) {
-                showError('fullName', 'err-fullName');
-                ok = false;
-            }
-            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('email'))) {
-                showError('email', 'err-email');
-                ok = false;
-            }
-            if (!v('university')) {
-                showError('university', 'err-university');
-                ok = false;
-            }
-            if (!document.getElementById('department').value) {
-                showError('department', 'err-department');
-                ok = false;
-            }
-            if (v('motivation').length < 50) {
-                showError('motivation', 'err-motivation');
-                ok = false;
-            }
-            return ok;
-        }
-
-        form.addEventListener('submit', async function(e) {
-            e.preventDefault();
-            if (!validate()) return;
-            submitBtn.textContent = 'Submitting…';
-            submitBtn.disabled = true;
-            try {
-                var res = await fetch(form.action, {
-                    method: 'POST',
-                    body: new FormData(form),
-                    headers: {
-                        'Accept': 'application/json'
-                    }
-                });
-                if (res.ok) {
-                    document.getElementById('successOverlay').classList.add('show');
-                    return;
-                }
-            } catch (_) {}
-            document.getElementById('successOverlay').classList.add('show'); // demo fallback
-        });
-
-        ['fullName', 'email', 'university', 'department', 'motivation'].forEach(function(id) {
-            var el = document.getElementById(id);
-            if (!el) return;
-            el.addEventListener('input', function() {
-                el.classList.remove('err');
-                var m = document.getElementById('err-' + id);
-                if (m) m.classList.remove('show');
-            });
-        });
+        lucide.createIcons();
     </script>
 </body>
 
