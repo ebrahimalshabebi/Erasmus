@@ -629,7 +629,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
-    align-items: center;
+    align-items: stretch;
     position: relative;
 }
 
@@ -705,7 +705,7 @@ a {
     position: relative;
     width: 100%;
     max-width: 460px;
-    aspect-ratio: 4/5;
+    height: 100%;
     border-radius: 24px;
     background: linear-gradient(135deg, rgba(255, 255, 255, .75) 0%, rgba(255, 255, 255, .55) 100%);
     border: 1px solid rgba(255, 255, 255, .8);
@@ -2094,4 +2094,32 @@ a {
 
 .site-header.is-scrolled .btn-contact:hover {
     background-color: #142a42;
+}
+
+.bip-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.bip-modal-content {
+    background: #fff;
+    border-radius: 16px;
+    max-width: 700px;
+    width: 90%;
+    padding: 30px;
+    box-shadow: var(--shadow-xl);
+    animation: fadeInUp .4s ease;
+}
+
+.bip-close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 28px;
+    cursor: pointer;
 }

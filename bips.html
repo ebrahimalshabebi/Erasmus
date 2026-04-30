@@ -10,10 +10,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap"
         rel="stylesheet">
-    <title>BIPs — Blended Intensive Programmes | Erasmus+</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>BIPs</title>
     <link rel="stylesheet" href="assets/css/bips.css">
 </head>
-
+<div class="bip-modal" id="bipModal">
+  <div class="bip-modal-content">
+    <span class="bip-close">&times;</span>
+    <div id="bipModalBody"></div>
+  </div>
+</div>
 <body>
 
     <!-- ══ HEADER ══ -->
@@ -177,7 +183,6 @@
                     Explore BIPs
                     <span class="btn-arrow">→</span>
                 </a>
-                <a class="btn btn-ghost" href="#cta">Apply Now</a>
             </div>
         </div>
 
@@ -205,7 +210,7 @@
 
                     <div class="highlights-list">
                         <div class="highlight-row">
-                            <div class="highlight-icon">⏱️</div>
+                            <div class="highlight-icon"><i class="fa-solid fa-clock"></i></div>
                             <div class="highlight-text">
                                 <h4>Short & Focused</h4>
                                 <p>5–30 day on-site programmes combined with online modules — designed to fit around your
@@ -213,7 +218,7 @@
                             </div>
                         </div>
                         <div class="highlight-row">
-                            <div class="highlight-icon">🌐</div>
+                            <div class="highlight-icon"><i class="fa-solid fa-globe"></i></div>
                             <div class="highlight-text">
                                 <h4>Multicultural Teams</h4>
                                 <p>Work shoulder-to-shoulder with students from at least three European countries on
@@ -221,7 +226,7 @@
                             </div>
                         </div>
                         <div class="highlight-row">
-                            <div class="highlight-icon">💡</div>
+                        <div class="highlight-icon"><i class="fa-solid fa-lightbulb"></i></div>
                             <div class="highlight-text">
                                 <h4>Innovative Learning</h4>
                                 <p>Project-based labs, design thinking sprints, and field visits — powered by a blend of
@@ -242,7 +247,7 @@
                             <span class="glass-stars">★ ★ ★ ★ ★</span>
                         </div>
                         <div class="glass-card-center">
-                            <div class="glass-big-icon">🎓</div>
+                        <div class="glass-big-icon"><i class="fa-solid fa-graduation-cap"></i></div>
                             <h3>Europe in a few weeks</h3>
                             <p>Earn ECTS credits, build a European network, and dive into cutting-edge topics — all in
                                 one intensive programme.</p>
@@ -272,7 +277,7 @@
     <section id="available" class="available-bips">
         <div class="container">
             <div class="bips-section-head reveal">
-                <span class="section-label">Available BIPs 2026</span>
+                <span class="section-label">Available BIPs 2026 - 2027</span>
                 <h2 class="section-title">Choose your next European adventure.</h2>
                 <p class="section-subtitle">Six Blended Intensive Programmes across Europe — from digital innovation
                     in Berlin to sustainable design in Amsterdam. Applications open now.</p>
@@ -286,7 +291,7 @@
                         <img src="https://mgx-backend-cdn.metadl.com/generate/images/1129195/2026-04-27/nnv22nqaafna/bip-germany-digital.png"
                             alt="Digital Innovation BIP in Germany">
                         <div class="bip-img-overlay"></div>
-                        <span class="bip-country">🇩🇪 Berlin, Germany</span>
+                        <span class="bip-country">Berlin, Germany</span>
                         <span class="bip-duration">10 Days</span>
                     </div>
                     <div class="bip-body">
@@ -294,11 +299,10 @@
                         <p class="bip-desc">Prototype the next generation of digital products alongside startup
                             mentors from Berlin's vibrant tech ecosystem.</p>
                         <div class="bip-meta">
-                            <span class="bip-meta-item"><span class="ico">🎓</span> 6 ECTS</span>
-                            <span class="bip-meta-item"><span class="ico">📅</span> Jun 2026</span>
-                            <span class="bip-meta-item"><span class="ico">👥</span> 40 Seats</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-graduation-cap"></i></span> 6 ECTS</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-calendar"></i></span> Jun 2026 - Jul 2026</span>
                         </div>
-                        <a class="bip-cta" href="#cta">View Details <span class="arr">→</span></a>
+                        <a class="bip-cta open-modal" data-bip="germany">View Details <span class="arr">→</span></a>
                     </div>
                 </article>
 
@@ -308,7 +312,7 @@
                         <img src="https://mgx-backend-cdn.metadl.com/generate/images/1129195/2026-04-27/nnv2xfqaafla/bip-netherlands-sustainable.png"
                             alt="Sustainable Cities BIP in Netherlands">
                         <div class="bip-img-overlay"></div>
-                        <span class="bip-country">🇳🇱 Amsterdam, Netherlands</span>
+                        <span class="bip-country">Amsterdam, Netherlands</span>
                         <span class="bip-duration">14 Days</span>
                     </div>
                     <div class="bip-body">
@@ -316,11 +320,10 @@
                         <p class="bip-desc">Design low-carbon urban solutions for real municipalities through site
                             visits, labs and multidisciplinary teamwork.</p>
                         <div class="bip-meta">
-                            <span class="bip-meta-item"><span class="ico">🎓</span> 8 ECTS</span>
-                            <span class="bip-meta-item"><span class="ico">📅</span> May 2026</span>
-                            <span class="bip-meta-item"><span class="ico">👥</span> 35 Seats</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-graduation-cap"></i></span> 8 ECTS</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-calendar"></i></span> May 2026 - Jun 2026</span>
                         </div>
-                        <a class="bip-cta" href="#cta">View Details <span class="arr">→</span></a>
+                        <a class="bip-cta open-modal" data-bip="netherlands">View Details <span class="arr">→</span></a>
                     </div>
                 </article>
 
@@ -330,7 +333,7 @@
                         <img src="https://mgx-backend-cdn.metadl.com/generate/images/1129195/2026-04-27/nnv2yxaaafmq/bip-spain-ai.png"
                             alt="AI & Future Tech BIP in Spain">
                         <div class="bip-img-overlay"></div>
-                        <span class="bip-country">🇪🇸 Barcelona, Spain</span>
+                        <span class="bip-country">Barcelona, Spain</span>
                         <span class="bip-duration">12 Days</span>
                     </div>
                     <div class="bip-body">
@@ -338,20 +341,19 @@
                         <p class="bip-desc">Build and deploy AI-powered prototypes with leading researchers, exploring
                             the ethics and future of intelligent systems.</p>
                         <div class="bip-meta">
-                            <span class="bip-meta-item"><span class="ico">🎓</span> 6 ECTS</span>
-                            <span class="bip-meta-item"><span class="ico">📅</span> Jul 2026</span>
-                            <span class="bip-meta-item"><span class="ico">👥</span> 30 Seats</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-graduation-cap"></i></span> 6 ECTS</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-calendar"></i></span> Jul 2026 - Aug 2026</span>
                         </div>
-                        <a class="bip-cta" href="#cta">View Details <span class="arr">→</span></a>
+                        <a class="bip-cta open-modal" data-bip="spain">View Details <span class="arr">→</span></a>
                     </div>
                 </article>
 
                 <!-- Card 4: Italy -->
                 <article class="bip-card no-img">
                     <div class="bip-img-wrap">
-                        <div class="bip-emoji">🎨</div>
+                        <div class="bip-emoji"><i class="fa-solid fa-palette"></i></div>
                         <div class="bip-img-overlay"></div>
-                        <span class="bip-country">🇮🇹 Milan, Italy</span>
+                        <span class="bip-country">Milan, Italy</span>
                         <span class="bip-duration">7 Days</span>
                     </div>
                     <div class="bip-body">
@@ -359,20 +361,19 @@
                         <p class="bip-desc">A fast-paced design sprint in the heart of Italian design culture —
                             branding, UX and visual storytelling for tomorrow's products.</p>
                         <div class="bip-meta">
-                            <span class="bip-meta-item"><span class="ico">🎓</span> 4 ECTS</span>
-                            <span class="bip-meta-item"><span class="ico">📅</span> Apr 2026</span>
-                            <span class="bip-meta-item"><span class="ico">👥</span> 25 Seats</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-graduation-cap"></i></span> 4 ECTS</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-calendar"></i></span> Apr 2026 - May 2026</span>
                         </div>
-                        <a class="bip-cta" href="#cta">View Details <span class="arr">→</span></a>
+                        <a class="bip-cta" href="italy-bip.html">View Details <span class="arr">→</span></a>
                     </div>
                 </article>
 
                 <!-- Card 5: France -->
                 <article class="bip-card no-img">
                     <div class="bip-img-wrap">
-                        <div class="bip-emoji">🌱</div>
+                        <div class="bip-emoji"><i class="fa-solid fa-seedling"></i></div>
                         <div class="bip-img-overlay"></div>
-                        <span class="bip-country">🇫🇷 Lyon, France</span>
+                        <span class="bip-country">Lyon, France</span>
                         <span class="bip-duration">10 Days</span>
                     </div>
                     <div class="bip-body">
@@ -380,20 +381,19 @@
                         <p class="bip-desc">Launch a sustainable startup concept during an intensive programme blending
                             French innovation hubs with hands-on incubation.</p>
                         <div class="bip-meta">
-                            <span class="bip-meta-item"><span class="ico">🎓</span> 5 ECTS</span>
-                            <span class="bip-meta-item"><span class="ico">📅</span> Sep 2026</span>
-                            <span class="bip-meta-item"><span class="ico">👥</span> 32 Seats</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-graduation-cap"></i></span> 5 ECTS</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-calendar"></i></span> Sep 2026 - Oct 2026</span>
                         </div>
-                        <a class="bip-cta" href="#cta">View Details <span class="arr">→</span></a>
+                        <a class="bip-cta" href="france-bip.html">View Details <span class="arr">→</span></a>
                     </div>
                 </article>
 
                 <!-- Card 6: Portugal -->
                 <article class="bip-card no-img">
                     <div class="bip-img-wrap">
-                        <div class="bip-emoji">🌊</div>
+                        <div class="bip-emoji"><i class="fa-solid fa-water"></i></div>
                         <div class="bip-img-overlay"></div>
-                        <span class="bip-country">🇵🇹 Lisbon, Portugal</span>
+                        <span class="bip-country">Lisbon, Portugal</span>
                         <span class="bip-duration">14 Days</span>
                     </div>
                     <div class="bip-body">
@@ -401,11 +401,10 @@
                         <p class="bip-desc">Explore the future of marine sustainability, coastal engineering and the
                             blue economy in one of Europe's richest ocean ecosystems.</p>
                         <div class="bip-meta">
-                            <span class="bip-meta-item"><span class="ico">🎓</span> 7 ECTS</span>
-                            <span class="bip-meta-item"><span class="ico">📅</span> Oct 2026</span>
-                            <span class="bip-meta-item"><span class="ico">👥</span> 28 Seats</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-graduation-cap"></i></span> 7 ECTS</span>
+                            <span class="bip-meta-item"><span class="ico"><i class="fa-solid fa-calendar"></i></span> Oct 2026</span>
                         </div>
-                        <a class="bip-cta" href="#cta">View Details <span class="arr">→</span></a>
+                        <a class="bip-cta" href="portugal-bip.html">View Details <span class="arr">→</span></a>
                     </div>
                 </article>
 
@@ -424,28 +423,41 @@
             </div>
 
             <div class="why-grid reveal-stagger">
+
                 <div class="why-card">
-                    <div class="why-icon-wrap">🌍</div>
+                    <div class="why-icon-wrap">
+                        <i class="fa-solid fa-earth-europe"></i>
+                    </div>
                     <h3>International Experience</h3>
                     <p>Live, learn and collaborate in a European city alongside students and professors from across the
                         continent.</p>
                 </div>
+
                 <div class="why-card">
-                    <div class="why-icon-wrap">⚡</div>
+                    <div class="why-icon-wrap">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
                     <h3>Short & Intensive</h3>
                     <p>Maximum learning in minimum time — a few focused weeks that fit around your existing degree.</p>
                 </div>
+
                 <div class="why-card">
-                    <div class="why-icon-wrap">🎓</div>
+                    <div class="why-icon-wrap">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
                     <h3>Academic Credits (ECTS)</h3>
                     <p>Every BIP grants between 3 and 9 ECTS credits, fully recognised by your home institution.</p>
                 </div>
+
                 <div class="why-card">
-                    <div class="why-icon-wrap">🤝</div>
+                    <div class="why-icon-wrap">
+                        <i class="fa-solid fa-handshake"></i>
+                    </div>
                     <h3>Networking Opportunities</h3>
                     <p>Join a pan-European alumni network of students, researchers and industry partners that lasts
                         beyond the programme.</p>
                 </div>
+
             </div>
         </div>
     </section>
@@ -471,14 +483,13 @@
                 <article class="exp-card">
                     <div class="exp-img">
                         <span class="exp-tag">Workshop</span>
-                        <span class="exp-emoji">💡</span>
+                        <span class="exp-emoji"><i class="fa-solid fa-lightbulb"></i></span>
                     </div>
                     <div class="exp-body">
                         <h4>Two weeks that changed my path</h4>
                         <p>"The Digital Innovation BIP in Berlin was by far the most intense learning experience of my
                             degree — I came back with a startup idea and three co-founders."</p>
                         <div class="exp-author">
-                            <div class="exp-avatar">ML</div>
                             <div class="exp-author-meta">
                                 <strong>Maria López</strong>
                                 <span>Computer Science · Spain</span>
@@ -490,14 +501,13 @@
                 <article class="exp-card">
                     <div class="exp-img">
                         <span class="exp-tag">City Tour</span>
-                        <span class="exp-emoji">🏛️</span>
+                        <span class="exp-emoji"><i class="fa-solid fa-landmark"></i></span>
                     </div>
                     <div class="exp-body">
                         <h4>Amsterdam taught us to design differently</h4>
                         <p>"Walking through Amsterdam's neighbourhoods with urban planners completely reshaped how our
                             team approached sustainable cities."</p>
                         <div class="exp-author">
-                            <div class="exp-avatar">JD</div>
                             <div class="exp-author-meta">
                                 <strong>Jonas Dietrich</strong>
                                 <span>Architecture · Germany</span>
@@ -509,14 +519,13 @@
                 <article class="exp-card">
                     <div class="exp-img">
                         <span class="exp-tag">Teamwork</span>
-                        <span class="exp-emoji">🤝</span>
+                        <span class="exp-emoji"><i class="fa-solid fa-handshake"></i></span>
                     </div>
                     <div class="exp-body">
                         <h4>Five nationalities. One prototype.</h4>
                         <p>"Our team spoke four languages and came from five countries — yet we shipped a working AI
                             demo in ten days. BIPs are magical."</p>
                         <div class="exp-author">
-                            <div class="exp-avatar">AC</div>
                             <div class="exp-author-meta">
                                 <strong>Alessia Conti</strong>
                                 <span>AI Engineering · Italy</span>
@@ -528,14 +537,13 @@
                 <article class="exp-card">
                     <div class="exp-img">
                         <span class="exp-tag">Travel</span>
-                        <span class="exp-emoji">✈️</span>
+                        <span class="exp-emoji"><i class="fa-solid fa-plane"></i></span>
                     </div>
                     <div class="exp-body">
                         <h4>A semester's worth in 12 days</h4>
                         <p>"I learned more about research methodology in Barcelona than in a whole academic year. The
                             pace is fast but the support is incredible."</p>
                         <div class="exp-author">
-                            <div class="exp-avatar">PN</div>
                             <div class="exp-author-meta">
                                 <strong>Pieter Nowak</strong>
                                 <span>Data Science · Poland</span>
@@ -547,14 +555,13 @@
                 <article class="exp-card">
                     <div class="exp-img">
                         <span class="exp-tag">Field Visit</span>
-                        <span class="exp-emoji">🔬</span>
+                        <span class="exp-emoji"><i class="fa-solid fa-flask"></i></span>
                     </div>
                     <div class="exp-body">
                         <h4>Research centers opened their doors</h4>
                         <p>"Visiting an actual EU research lab while on the BIP made the theory come alive. I now do
                             my thesis with one of those professors."</p>
                         <div class="exp-author">
-                            <div class="exp-avatar">SO</div>
                             <div class="exp-author-meta">
                                 <strong>Sofia Öztürk</strong>
                                 <span>Biotechnology · Turkey</span>
@@ -566,14 +573,13 @@
                 <article class="exp-card">
                     <div class="exp-img">
                         <span class="exp-tag">Culture</span>
-                        <span class="exp-emoji">🎭</span>
+                        <span class="exp-emoji"><i class="fa-solid fa-masks-theater"></i></span>
                     </div>
                     <div class="exp-body">
                         <h4>The cultural part is priceless</h4>
                         <p>"Evenings with classmates from all over Europe, shared meals, cultural nights — these are
                             the memories that stick with you forever."</p>
                         <div class="exp-author">
-                            <div class="exp-avatar">LR</div>
                             <div class="exp-author-meta">
                                 <strong>Léa Rousseau</strong>
                                 <span>Humanities · France</span>
@@ -582,34 +588,6 @@
                     </div>
                 </article>
 
-            </div>
-        </div>
-    </section>
-
-    <!-- ══ CTA SECTION ══ -->
-    <section id="cta" class="cta-section">
-        <div class="cta-glow"></div>
-        <div class="container">
-            <div class="cta-content reveal">
-                <span class="cta-eyebrow">
-                    <span class="dot"></span>
-                    Applications Open · 2026 Edition
-                </span>
-                <h2 class="cta-title">
-                    Ready to join<br>
-                    <span class="accent">a BIP?</span>
-                </h2>
-                <p class="cta-subtitle">
-                    Spend a few transformative weeks abroad, earn ECTS credits, and build a network that spans the
-                    continent. Your European journey starts here.
-                </p>
-                <div class="cta-btn-wrap">
-                    <a class="cta-btn" href="#">
-                        Apply for BIPs
-                        <span class="arrow">→</span>
-                    </a>
-                </div>
-                <p class="cta-footer">Applications reviewed weekly · Funded by Erasmus+</p>
             </div>
         </div>
     </section>

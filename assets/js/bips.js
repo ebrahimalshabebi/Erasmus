@@ -123,3 +123,51 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
         window.scrollTo({ top, behavior: 'smooth' });
     });
 });
+
+const modal = document.getElementById("bipModal");
+const modalBody = document.getElementById("bipModalBody");
+const closeBtn = document.querySelector(".bip-close");
+
+const data = {
+    germany: `
+        <h2>Digital Innovation BIP – Berlin</h2>
+        <p>This programme focuses on startup culture, agile development, and digital product design. 
+        You’ll collaborate with international students to build real prototypes.</p>
+        <ul>
+            <li>📍 Location: Berlin</li>
+            <li>💡 Focus: Startups & Innovation</li>
+            <li>🎓 Credits: 6 ECTS</li>
+        </ul>
+    `,
+    netherlands: `
+        <h2>Sustainable Cities – Amsterdam</h2>
+        <p>Work on real urban challenges such as climate adaptation, mobility, and green architecture.</p>
+        <ul>
+            <li>🌱 Focus: Sustainability</li>
+            <li>🏙 Field visits included</li>
+            <li>🎓 8 ECTS</li>
+        </ul>
+    `,
+    spain: `
+        <h2>AI & Future Tech – Barcelona</h2>
+        <p>Explore machine learning, ethics, and AI applications through hands-on labs.</p>
+        <ul>
+            <li>🤖 AI Projects</li>
+            <li>⚙️ Workshops with researchers</li>
+            <li>🎓 6 ECTS</li>
+        </ul>
+    `
+};
+
+document.querySelectorAll(".open-modal").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const key = btn.dataset.bip;
+        modalBody.innerHTML = data[key];
+        modal.style.display = "flex";
+    });
+});
+
+closeBtn.onclick = () => modal.style.display = "none";
+window.onclick = e => {
+    if (e.target === modal) modal.style.display = "none";
+};
