@@ -52,16 +52,6 @@
         }
 
         /* ── Testimonial card hover upgrade ── */
-        .testimonial-card {
-            transition:
-                transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
-                box-shadow 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-        .testimonial-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 16px 40px rgba(0, 61, 165, 0.12), 0 4px 12px rgba(0,0,0,0.06);
-        }
-
         /* ── Announcement/ticker section reveal ── */
         .home-announcements-section .section-title {
             transition: color 0.3s ease;
@@ -69,90 +59,198 @@
 
         .stats-section,
         .announcements-section,
-        .quick-access-section,
-        .testimonials-section {
+        .quick-access-section {
             padding-top: 40px !important;
             padding-bottom: 40px !important;
             margin-top: 0 !important;
             margin-bottom: 0 !important;
         }
 
-        /* ── Two-column testimonials layout ── */
-        .testimonials-two-col {
-            display: grid;
-            grid-template-columns: 1fr 1.4fr;
-            gap: 48px;
-            align-items: start;
+        .testimonials-section {
+            padding: 90px 0 100px !important;
+            margin: 0 !important;
+            background: linear-gradient(180deg, #f8faff 0%, #eef3ff 50%, #f8faff 100%);
+            position: relative;
+            overflow: hidden;
         }
-
-        .testimonials-intro {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
+        .testimonials-section::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #c8d6ed, transparent);
         }
-
-        .testimonials-eyebrow {
-            font-size: 0.78rem;
-            font-weight: 700;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: var(--color-primary, #003DA5);
-            opacity: 0.75;
-        }
-
-        .testimonials-intro .section-title {
-            margin: 0;
-        }
-
-        .testimonials-intro .section-subtitle {
-            margin: 0;
-            font-size: 0.97rem;
-            line-height: 1.65;
-            color: #555;
-        }
-
-        .testimonials-highlights {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        .testimonials-highlights li {
-            display: flex;
-            align-items: flex-start;
-            gap: 10px;
-            font-size: 0.93rem;
-            color: #444;
-            line-height: 1.5;
-        }
-
-        .highlight-icon {
-            font-size: 1.1rem;
-            flex-shrink: 0;
-            margin-top: 1px;
-        }
-
-        .testimonials-cta {
-            align-self: flex-start;
-            margin-top: 8px;
-        }
-
-        .testimonials-carousel-col {
-            min-width: 0;
-        }
-
-        @media (max-width: 768px) {
-            .testimonials-two-col {
-                grid-template-columns: 1fr;
-            }
+        .testimonials-section::after {
+            content: '\201C';
+            position: absolute;
+            top: 40px; right: 8%;
+            font-size: 14rem;
+            font-family: Georgia, serif;
+            color: rgba(0,61,165,0.04);
+            line-height: 1;
+            pointer-events: none;
         }
 
         /* ══════════════════════════════════════════
-           EXPERIENCE MARQUEE SECTION
+           TESTIMONIALS — new card design
         ══════════════════════════════════════════ */
+        .testimonials-two-col {
+            display: grid;
+            grid-template-columns: 1fr 1.6fr;
+            gap: 64px;
+            align-items: center;
+        }
+        @media (max-width: 900px) {
+            .testimonials-two-col { grid-template-columns: 1fr; gap: 36px; }
+        }
+        .testimonials-intro { display: flex; flex-direction: column; gap: 22px; }
+        .testimonials-eyebrow {
+            font-size: 0.82rem; font-weight: 700; letter-spacing: 0.15em;
+            text-transform: uppercase; color: var(--color-primary, #003DA5); opacity: 0.75;
+        }
+        .testimonials-intro .section-title { margin: 0; }
+        .testimonials-intro .section-subtitle { margin: 0; font-size: 1.05rem; line-height: 1.75; color: #555; }
+        .testimonials-highlights { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; }
+        .testimonials-highlights li { display: flex; align-items: flex-start; gap: 12px; font-size: 0.98rem; color: #444; line-height: 1.6; padding: 10px 16px; background: rgba(255,255,255,0.7); border-radius: 12px; border: 1px solid rgba(0,61,165,0.06); }
+        .highlight-icon { font-size: 1.25rem; flex-shrink: 0; margin-top: 2px; }
+        .testimonials-carousel-col { min-width: 0; }
+
+        /* Slider */
+        .tc-slider { position: relative; display: flex; flex-direction: column; gap: 20px; }
+        .tc-viewport { overflow: hidden; border-radius: 20px; }
+        .tc-track { display: flex; transition: transform 0.48s cubic-bezier(0.77,0,0.18,1); will-change: transform; }
+
+        /* Card */
+        .tc-card {
+            flex: 0 0 100%; width: 100%;
+            background: #fff; border-radius: 22px; border: 1.5px solid #e4ebf7;
+            display: flex; flex-direction: column; overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0,61,165,0.09);
+            min-height: 400px;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        .tc-card:hover {
+            box-shadow: 0 12px 44px rgba(0,61,165,0.14);
+        }
+        .tc-card-top { flex: 1; padding: 36px 34px 26px; display: flex; flex-direction: column; gap: 18px; }
+        .tc-academic-year {
+            display: inline-flex; align-items: center; gap: 6px;
+            font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+            color: var(--color-primary, #003DA5); background: #e8effc;
+            border: 1px solid rgba(0,61,165,0.15); padding: 5px 12px;
+            border-radius: 99px; align-self: flex-start;
+        }
+        .tc-academic-year::before { content: ''; display: none; }
+        .tc-academic-year svg.tc-ay-icon { width: 14px; height: 14px; flex-shrink: 0; }
+        .tc-quote-text { font-size: 1.08rem; line-height: 1.8; color: #2c3e50; font-style: italic; flex: 1; }
+        .tc-card-bottom {
+            display: flex; align-items: center; gap: 16px;
+            padding: 20px 30px; background: #f4f7fd; border-top: 1.5px solid #e4ebf7;
+        }
+        .tc-avatar {
+            width: 52px; height: 52px; border-radius: 50%; object-fit: cover; flex-shrink: 0;
+            border: 2.5px solid #fff; box-shadow: 0 2px 8px rgba(0,61,165,0.13);
+        }
+        .tc-avatar-placeholder {
+            width: 52px; height: 52px; border-radius: 50%; flex-shrink: 0;
+            background: linear-gradient(135deg,#003DA5,#0077cc);
+            display: flex; align-items: center; justify-content: center;
+            color: #fff; font-size: 1.3rem; font-weight: 700;
+            border: 2.5px solid #fff; box-shadow: 0 2px 8px rgba(0,61,165,0.13);
+        }
+        .tc-author-info { flex: 1; min-width: 0; }
+        .tc-author-name { font-size: 0.92rem; font-weight: 700; color: #0c1b2a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .tc-author-uni  { font-size: 0.78rem; color: #4a6080; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .tc-author-major{ font-size: 0.73rem; color: #7a90aa; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .tc-flag { flex-shrink: 0; line-height: 1; }
+        .tc-flag img { width: 36px; height: 26px; object-fit: cover; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.18); display: block; }
+
+        /* Controls */
+        .tc-controls { display: flex; align-items: center; gap: 12px; justify-content: center; }
+        .tc-btn {
+            width: 40px; height: 40px; border-radius: 50%; border: 2px solid #d0ddf0;
+            background: #fff; color: var(--color-primary, #003DA5);
+            cursor: pointer; display: flex; align-items: center; justify-content: center;
+            font-size: 1rem; transition: background 0.2s, border-color 0.2s, transform 0.15s; flex-shrink: 0;
+        }
+        .tc-btn:hover { background: var(--color-primary,#003DA5); border-color: var(--color-primary,#003DA5); color:#fff; transform:scale(1.08); }
+        .tc-btn:disabled { opacity: 0.3; cursor: not-allowed; transform: none; }
+        .tc-dots { display: flex; gap: 7px; align-items: center; }
+        .tc-dot {
+            width: 8px; height: 8px; border-radius: 50%;
+            background: #c8d6ed; border: none; padding: 0;
+            cursor: pointer; transition: background 0.2s, width 0.2s; flex-shrink: 0;
+        }
+        .tc-dot.active { background: var(--color-primary,#003DA5); width: 22px; border-radius: 99px; }
+
+        /* ══════════════════════════════════════════
+           FOOTER — exact styles from contact.css
+        ══════════════════════════════════════════ */
+        .footer {
+            background: #0d2b4d;
+            color: white;
+            padding: 60px 0 30px;
+        }
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .footer-brand h3 {
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
+        .footer-brand p {
+            color: rgba(255,255,255,0.7);
+            line-height: 1.7;
+            margin-bottom: 24px;
+        }
+        .social-links {
+            display: flex;
+            gap: 12px;
+        }
+        .social-link {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+        .social-link:hover { background: #1a4b8c; }
+        .social-link svg { width: 20px; height: 20px; color: white; }
+        .footer-links h4 {
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-size: 1rem;
+        }
+        .footer-links ul { list-style: none; padding: 0; margin: 0; }
+        .footer-links li { margin-bottom: 12px; }
+        .footer-links a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+        .footer-links a:hover { color: white; }
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 30px;
+            text-align: center;
+            color: rgba(255,255,255,0.6);
+            font-size: 0.9rem;
+        }
+        @media (max-width: 1024px) {
+            .footer-content { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .footer-content { grid-template-columns: 1fr; text-align: center; }
+            .social-links { justify-content: center; }
+        }
         .experience-section {
             background: #fff;
             padding: 80px 0 72px;
@@ -288,7 +386,9 @@
             z-index: 1;
         }
 
-        .exp-pill span.pill-icon { font-size: 1.1rem; line-height: 1; }
+        .exp-pill span.pill-icon { font-size: 1.1rem; line-height: 1; display: inline-flex; align-items: center; }
+        .exp-pill span.pill-icon svg { width: 18px; height: 18px; flex-shrink: 0; }
+        .highlight-icon svg { width: 20px; height: 20px; flex-shrink: 0; }
         .exp-pill.accent-blue  { background: #eef3ff; border-color: #c3d3f7; color: #003DA5; }
         .exp-pill.accent-teal  { background: #edfcf8; border-color: #b3eed9; color: #0a7c5c; }
         .exp-pill.accent-amber { background: #fffbeb; border-color: #fde68a; color: #92400e; }
@@ -803,7 +903,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Events</a>
+                        <a class="nav-link" href="events.html">Events</a>
                     </li>
 
                 </ul>
@@ -883,22 +983,22 @@
         <section class="stats-section stats-banner" aria-label="Erasmus statistics">
             <div class="stats-banner-inner">
                 <div class="stat-banner-item reveal">
-                    <span class="stat-banner-value" data-target="38000">38K+</span>
+                    <span class="stat-banner-value" data-target="50000" data-suffix="">50,000</span>
                     <span class="stat-banner-label">Students</span>
                 </div>
                 <div class="stat-banner-divider" aria-hidden="true"></div>
                 <div class="stat-banner-item reveal reveal-delay-1">
-                    <span class="stat-banner-value">420+</span>
+                    <span class="stat-banner-value" data-target="400" data-suffix="+">400+</span>
                     <span class="stat-banner-label">Partner Institutions</span>
                 </div>
                 <div class="stat-banner-divider" aria-hidden="true"></div>
                 <div class="stat-banner-item reveal reveal-delay-2">
-                    <span class="stat-banner-value">95+</span>
+                    <span class="stat-banner-value" data-target="120" data-suffix="+">120+</span>
                     <span class="stat-banner-label">Countries</span>
                 </div>
                 <div class="stat-banner-divider" aria-hidden="true"></div>
                 <div class="stat-banner-item reveal reveal-delay-3">
-                    <span class="stat-banner-value">1,200+</span>
+                    <span class="stat-banner-value" data-target="650" data-suffix="+">650+</span>
                     <span class="stat-banner-label">Annual Mobility Placements</span>
                 </div>
             </div>
@@ -1023,11 +1123,11 @@
                         </div>
                         <span class="qa-card-arrow" aria-hidden="true">↗</span>
                     </a>
-                    <a href="https://sem.aydin.edu.tr/en" class="qa-card" target="_blank" rel="noopener noreferrer">
+                    <a href="https://geribildirim.aydin.edu.tr/?ucLang=EN" class="qa-card" target="_blank" rel="noopener noreferrer">
                         <img src="imgs/icons/11.svg" alt="" class="qa-card-icon" aria-hidden="true">
                         <div class="qa-card-body">
-                            <span class="qa-card-title">Continuing Education</span>
-                            <span class="qa-card-meta">SEM programs</span>
+                            <span class="qa-card-title">Feedback System</span>
+                            <span class="qa-card-meta">Share your feedback</span>
                         </div>
                         <span class="qa-card-arrow" aria-hidden="true">↗</span>
                     </a>
@@ -1051,40 +1151,40 @@
             </div>
             <div class="pill-track-wrapper">
                 <div class="pill-row">
-                    <span class="exp-pill accent-blue"><span class="pill-icon">🌍</span> 95+ Countries</span>
-                    <span class="exp-pill"><span class="pill-icon">🎓</span> World-Class Faculty</span>
-                    <span class="exp-pill accent-teal"><span class="pill-icon">🤝</span> Dedicated Support Team</span>
-                    <span class="exp-pill"><span class="pill-icon">🏙️</span> Istanbul — Where Europe Meets Asia</span>
-                    <span class="exp-pill accent-amber"><span class="pill-icon">✈️</span> Seamless Visa Assistance</span>
-                    <span class="exp-pill"><span class="pill-icon">🏛️</span> 420+ Partner Universities</span>
-                    <span class="exp-pill accent-rose"><span class="pill-icon">💬</span> English-Taught Programs</span>
-                    <span class="exp-pill accent-blue"><span class="pill-icon">📜</span> Erasmus+ Recognized</span>
-                    <span class="exp-pill accent-blue"><span class="pill-icon">🌍</span> 95+ Countries</span>
-                    <span class="exp-pill"><span class="pill-icon">🎓</span> World-Class Faculty</span>
-                    <span class="exp-pill accent-teal"><span class="pill-icon">🤝</span> Dedicated Support Team</span>
-                    <span class="exp-pill"><span class="pill-icon">🏙️</span> Istanbul — Where Europe Meets Asia</span>
-                    <span class="exp-pill accent-amber"><span class="pill-icon">✈️</span> Seamless Visa Assistance</span>
-                    <span class="exp-pill"><span class="pill-icon">🏛️</span> 420+ Partner Universities</span>
-                    <span class="exp-pill accent-rose"><span class="pill-icon">💬</span> English-Taught Programs</span>
-                    <span class="exp-pill accent-blue"><span class="pill-icon">📜</span> Erasmus+ Recognized</span>
+                    <span class="exp-pill accent-blue"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span> 95+ Countries</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg></span> World-Class Faculty</span>
+                    <span class="exp-pill accent-teal"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-3-3.87"/><path d="M7 21v-2a4 4 0 0 1 3-3.87"/><circle cx="12" cy="7" r="4"/></svg></span> Dedicated Support Team</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="22" height="14" rx="2"/><path d="M1 10h22"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></span> Istanbul — Where Europe Meets Asia</span>
+                    <span class="exp-pill accent-amber"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg></span> Seamless Visa Assistance</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 12v.01"/><path d="M9 15v.01"/></svg></span> 420+ Partner Universities</span>
+                    <span class="exp-pill accent-rose"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span> English-Taught Programs</span>
+                    <span class="exp-pill accent-blue"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></span> Erasmus+ Recognized</span>
+                    <span class="exp-pill accent-blue"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span> 95+ Countries</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg></span> World-Class Faculty</span>
+                    <span class="exp-pill accent-teal"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-3-3.87"/><path d="M7 21v-2a4 4 0 0 1 3-3.87"/><circle cx="12" cy="7" r="4"/></svg></span> Dedicated Support Team</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="22" height="14" rx="2"/><path d="M1 10h22"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></span> Istanbul — Where Europe Meets Asia</span>
+                    <span class="exp-pill accent-amber"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg></span> Seamless Visa Assistance</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 12v.01"/><path d="M9 15v.01"/></svg></span> 420+ Partner Universities</span>
+                    <span class="exp-pill accent-rose"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span> English-Taught Programs</span>
+                    <span class="exp-pill accent-blue"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></span> Erasmus+ Recognized</span>
                 </div>
                 <div class="pill-row reverse">
-                    <span class="exp-pill accent-teal"><span class="pill-icon">🌙</span> Rich Cultural Heritage</span>
-                    <span class="exp-pill"><span class="pill-icon">🍽️</span> Vibrant Student Life</span>
-                    <span class="exp-pill accent-amber"><span class="pill-icon">🔬</span> Cutting-Edge Research</span>
-                    <span class="exp-pill"><span class="pill-icon">🏅</span> 38,000+ Students Enrolled</span>
-                    <span class="exp-pill accent-blue"><span class="pill-icon">🌉</span> Two Continents, One City</span>
-                    <span class="exp-pill accent-rose"><span class="pill-icon">📱</span> Digital-First Campus</span>
-                    <span class="exp-pill"><span class="pill-icon">🎭</span> International Community</span>
-                    <span class="exp-pill accent-teal"><span class="pill-icon">🏠</span> Student Housing Support</span>
-                    <span class="exp-pill accent-teal"><span class="pill-icon">🌙</span> Rich Cultural Heritage</span>
-                    <span class="exp-pill"><span class="pill-icon">🍽️</span> Vibrant Student Life</span>
-                    <span class="exp-pill accent-amber"><span class="pill-icon">🔬</span> Cutting-Edge Research</span>
-                    <span class="exp-pill"><span class="pill-icon">🏅</span> 38,000+ Students Enrolled</span>
-                    <span class="exp-pill accent-blue"><span class="pill-icon">🌉</span> Two Continents, One City</span>
-                    <span class="exp-pill accent-rose"><span class="pill-icon">📱</span> Digital-First Campus</span>
-                    <span class="exp-pill"><span class="pill-icon">🎭</span> International Community</span>
-                    <span class="exp-pill accent-teal"><span class="pill-icon">🏠</span> Student Housing Support</span>
+                    <span class="exp-pill accent-teal"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg></span> Rich Cultural Heritage</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></span> Vibrant Student Life</span>
+                    <span class="exp-pill accent-amber"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18h8"/><path d="M3 22h18"/><path d="M14 22a7 7 0 1 0-1-13"/><path d="M9 14h2"/><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2z"/><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></svg></span> Cutting-Edge Research</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15"/><path d="M11 12 5.12 2.2"/><path d="m13 12 5.88-9.8"/><path d="M8 7h8"/><circle cx="12" cy="17" r="5"/><path d="M12 18v-2h-.5"/></svg></span> 38,000+ Students Enrolled</span>
+                    <span class="exp-pill accent-blue"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18h20"/><path d="M6 18V6"/><path d="M18 18V6"/><path d="M6 6a6 6 0 0 1 12 0"/><path d="M2 6h4"/><path d="M18 6h4"/></svg></span> Two Continents, One City</span>
+                    <span class="exp-pill accent-rose"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span> Digital-First Campus</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span> International Community</span>
+                    <span class="exp-pill accent-teal"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span> Student Housing Support</span>
+                    <span class="exp-pill accent-teal"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg></span> Rich Cultural Heritage</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></span> Vibrant Student Life</span>
+                    <span class="exp-pill accent-amber"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18h8"/><path d="M3 22h18"/><path d="M14 22a7 7 0 1 0-1-13"/><path d="M9 14h2"/><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2z"/><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></svg></span> Cutting-Edge Research</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15"/><path d="M11 12 5.12 2.2"/><path d="m13 12 5.88-9.8"/><path d="M8 7h8"/><circle cx="12" cy="17" r="5"/><path d="M12 18v-2h-.5"/></svg></span> 38,000+ Students Enrolled</span>
+                    <span class="exp-pill accent-blue"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18h20"/><path d="M6 18V6"/><path d="M18 18V6"/><path d="M6 6a6 6 0 0 1 12 0"/><path d="M2 6h4"/><path d="M18 6h4"/></svg></span> Two Continents, One City</span>
+                    <span class="exp-pill accent-rose"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span> Digital-First Campus</span>
+                    <span class="exp-pill"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span> International Community</span>
+                    <span class="exp-pill accent-teal"><span class="pill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span> Student Housing Support</span>
                 </div>
             </div>
         </section>
@@ -1092,91 +1192,176 @@
         <section id="testimonials" class="testimonials-section">
             <div class="container">
                 <div class="testimonials-two-col">
-                    <!-- Left: Intro text -->
+
+                    <!-- Left: Intro -->
                     <div class="testimonials-intro reveal">
                         <span class="testimonials-eyebrow">What Students Say</span>
                         <h2 class="section-title section-title-left">Student Testimonials</h2>
                         <p class="section-subtitle">Hear directly from students about their transformative Erasmus+ experience at Istanbul Aydın University.</p>
                         <ul class="testimonials-highlights">
-                            <li>
-                                <span class="highlight-icon">🌍</span>
-                                <span>Students from over <strong>95 countries</strong> share their stories</span>
-                            </li>
-                            <li>
-                                <span class="highlight-icon">🎓</span>
-                                <span>Rated highly by the majority of exchange participants</span>
-                            </li>
-                            <li>
-                                <span class="highlight-icon">🤝</span>
-                                <span>Dedicated support staff for every stage of your journey</span>
-                            </li>
+                            <li><span class="highlight-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span>Students from over <strong>95 countries</strong> share their stories</span></li>
+                            <li><span class="highlight-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg></span><span>Rated highly by the majority of exchange participants</span></li>
+                            <li><span class="highlight-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-3-3.87"/><path d="M7 21v-2a4 4 0 0 1 3-3.87"/><circle cx="12" cy="7" r="4"/></svg></span><span>Dedicated support staff for every stage of your journey</span></li>
                         </ul>
                     </div>
 
-                    <!-- Right: Carousel -->
+                    <!-- Right: New card slider -->
                     <div class="testimonials-carousel-col reveal reveal-delay-2">
-                <div class="testimonial-carousel-wrapper">
-                    <div class="testimonial-carousel">
-                        <div class="testimonial-carousel-track">
-                            <article class="testimonial-card">
-                                <div class="testimonial-card-inner" style="display:flex;flex-direction:column;justify-content:flex-start;">
-                                    <div class="testimonial-author" style="margin-bottom:14px;">
-                                        <img src="imgs/testimonials/anna.png" alt="Anna Sova" class="testimonial-avatar">
-                                        <div class="author-info">
-                                            <h4 class="author-name">Anna Sova</h4>
-                                            <p class="author-location">Ukraine</p>
-                                        </div>
-                                    </div>
-                                    <p class="testimonial-quote">"I enjoyed the program a lot, I am super happy about everything. The course was great, and the team was amazing, helpful, and understanding."</p>
-                                </div>
-                            </article>
+                        <div class="tc-slider" id="tcSlider">
 
-                            <article class="testimonial-card">
-                                <div class="testimonial-card-inner" style="display:flex;flex-direction:column;justify-content:flex-start;">
-                                    <div class="testimonial-author" style="margin-bottom:14px;">
-                                        <img src="imgs/testimonials/morgane.png" alt="Morgane Clement" class="testimonial-avatar">
-                                        <div class="author-info">
-                                            <h4 class="author-name">Morgane Clement</h4>
-                                            <p class="author-location">France</p>
-                                        </div>
-                                    </div>
-                                    <p class="testimonial-quote">"I think everyone should participate in this beautiful program! It's a unique opportunity to discover Turkish culture and meet magnificent people."</p>
-                                </div>
-                            </article>
+                            <!-- Viewport + track -->
+                            <div class="tc-viewport">
+                                <div class="tc-track" id="tcTrack">
 
-                            <article class="testimonial-card">
-                                <div class="testimonial-card-inner" style="display:flex;flex-direction:column;justify-content:flex-start;">
-                                    <div class="testimonial-author" style="margin-bottom:14px;">
-                                        <img src="imgs/testimonials/dilnaz.png" alt="Dilnaz Gabdollayeva" class="testimonial-avatar">
-                                        <div class="author-info">
-                                            <h4 class="author-name">Dilnaz Gabdollayeva</h4>
-                                            <p class="author-location">Kazakhstan</p>
+                                    <!-- Card 1 -->
+                                    <article class="tc-card">
+                                        <div class="tc-card-top">
+                                            <span class="tc-academic-year"><svg class="tc-ay-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg> 2023 – 2024</span>
+                                            <p class="tc-quote-text">I enjoyed the program a lot, I am super happy about everything. The course was great, and the team was amazing, helpful, and understanding. Istanbul will always have a special place in my heart.</p>
                                         </div>
-                                    </div>
-                                    <p class="testimonial-quote">"DISS2023 was an unforgettable experience. Special thanks to the coordinators who ensured our safety and guided us through the program."</p>
-                                </div>
-                            </article>
+                                        <div class="tc-card-bottom">
+                                            <img src="imgs/testimonials/anna.png" alt="Anna Sova" class="tc-avatar" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                            <div class="tc-avatar-placeholder" style="display:none">A</div>
+                                            <div class="tc-author-info">
+                                                <div class="tc-author-name">Anna Sova</div>
+                                                <div class="tc-author-uni">Kyiv National University</div>
+                                                <div class="tc-author-major">International Relations</div>
+                                            </div>
+                                            <span class="tc-flag"><img src="https://flagcdn.com/w40/ua.png" alt="Ukraine"></span>
+                                        </div>
+                                    </article>
 
-                            <article class="testimonial-card">
-                                <div class="testimonial-card-inner" style="display:flex;flex-direction:column;justify-content:flex-start;">
-                                    <div class="testimonial-author" style="margin-bottom:14px;">
-                                        <img src="imgs/testimonials/anna.png" alt="Anna Sova" class="testimonial-avatar">
-                                        <div class="author-info">
-                                            <h4 class="author-name">Anna Sova</h4>
-                                            <p class="author-location">Ukraine</p>
+                                    <!-- Card 2 -->
+                                    <article class="tc-card">
+                                        <div class="tc-card-top">
+                                            <span class="tc-academic-year"><svg class="tc-ay-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg> 2023 – 2024</span>
+                                            <p class="tc-quote-text">I think everyone should participate in this beautiful program! It's a unique opportunity to discover Turkish culture and meet magnificent people. I made friends for life.</p>
                                         </div>
-                                    </div>
-                                    <p class="testimonial-quote">"I enjoyed the program a lot, I am super happy about everything. The course was great, and the team was amazing, helpful, and understanding."</p>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-                    </div> <!-- /.testimonials-carousel-col -->
-                </div> <!-- /.testimonials-two-col -->
+                                        <div class="tc-card-bottom">
+                                            <img src="imgs/testimonials/morgane.png" alt="Morgane Clement" class="tc-avatar" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                            <div class="tc-avatar-placeholder" style="display:none">M</div>
+                                            <div class="tc-author-info">
+                                                <div class="tc-author-name">Morgane Clement</div>
+                                                <div class="tc-author-uni">Université de Bordeaux</div>
+                                                <div class="tc-author-major">Business Management</div>
+                                            </div>
+                                            <span class="tc-flag"><img src="https://flagcdn.com/w40/fr.png" alt="France"></span>
+                                        </div>
+                                    </article>
+
+                                    <!-- Card 3 -->
+                                    <article class="tc-card">
+                                        <div class="tc-card-top">
+                                            <span class="tc-academic-year"><svg class="tc-ay-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg> 2022 – 2023</span>
+                                            <p class="tc-quote-text">DISS2023 was an unforgettable experience. Special thanks to the coordinators who ensured our safety and guided us brilliantly through every step of the program.</p>
+                                        </div>
+                                        <div class="tc-card-bottom">
+                                            <img src="imgs/testimonials/dilnaz.png" alt="Dilnaz Gabdollayeva" class="tc-avatar" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                            <div class="tc-avatar-placeholder" style="display:none">D</div>
+                                            <div class="tc-author-info">
+                                                <div class="tc-author-name">Dilnaz Gabdollayeva</div>
+                                                <div class="tc-author-uni">Narxoz University</div>
+                                                <div class="tc-author-major">Economics &amp; Finance</div>
+                                            </div>
+                                            <span class="tc-flag"><img src="https://flagcdn.com/w40/kz.png" alt="Kazakhstan"></span>
+                                        </div>
+                                    </article>
+
+                                    <!-- Card 4 -->
+                                    <article class="tc-card">
+                                        <div class="tc-card-top">
+                                            <span class="tc-academic-year"><svg class="tc-ay-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg> 2024 – 2025</span>
+                                            <p class="tc-quote-text">Coming to Istanbul was the best decision of my student life. The faculty support, the city energy, and the friendships I built here are truly irreplaceable. I would do it all over again.</p>
+                                        </div>
+                                        <div class="tc-card-bottom">
+                                            <img src="imgs/testimonials/anna.png" alt="Lucas Ferreira" class="tc-avatar" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                                            <div class="tc-avatar-placeholder" style="display:none">L</div>
+                                            <div class="tc-author-info">
+                                                <div class="tc-author-name">Lucas Ferreira</div>
+                                                <div class="tc-author-uni">Universidade de Lisboa</div>
+                                                <div class="tc-author-major">Computer Engineering</div>
+                                            </div>
+                                            <span class="tc-flag"><img src="https://flagcdn.com/w40/pt.png" alt="Portugal"></span>
+                                        </div>
+                                    </article>
+
+                                </div><!-- /.tc-track -->
+                            </div><!-- /.tc-viewport -->
+
+                            <!-- Step controls -->
+                            <div class="tc-controls" id="tcControls">
+                                <button class="tc-btn" id="tcPrev" aria-label="Previous testimonial">&#8592;</button>
+                                <div class="tc-dots" id="tcDots"></div>
+                                <button class="tc-btn" id="tcNext" aria-label="Next testimonial">&#8594;</button>
+                            </div>
+
+                        </div><!-- /.tc-slider -->
+                    </div><!-- /.testimonials-carousel-col -->
+
+                </div><!-- /.testimonials-two-col -->
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Erasmus+ IAU</h3>
+                    <p>Istanbul Aydin University's Erasmus+ Office supports international academic mobility and fosters global partnerships for students and staff.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Erasmus+</a></li>
+                        <li><a href="partners.html">Partner Universities</a></li>
+                        <li><a href="outgoing.html">How to Apply</a></li>
+                        <li><a href="#testimonials">Student Stories</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="outgoing.html">Student Mobility</a></li>
+                        <li><a href="outgoing-staff.html">Staff Mobility</a></li>
+                        <li><a href="outgoing.html">Traineeships</a></li>
+                        <li><a href="javascript:void(0)">Summer Schools</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="javascript:void(0)">Application Forms</a></li>
+                        <li><a href="javascript:void(0)">Grant Information</a></li>
+                        <li><a href="javascript:void(0)">Academic Calendar</a></li>
+                        <li><a href="javascript:void(0)">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Istanbul Aydin University &mdash; Erasmus+ Office. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="assets/js/app.js"></script>
     <script src="assets/js/home-announcements.js"></script>
@@ -1220,7 +1405,8 @@
                         if (!startTime) startTime = timestamp;
                         var progress = Math.min((timestamp - startTime) / duration, 1);
                         var eased = 1 - Math.pow(1 - progress, 3);
-                        el.textContent = Math.floor(eased * target).toLocaleString() + '+';
+                        var suffix = el.hasAttribute('data-suffix') ? el.getAttribute('data-suffix') : '+';
+                        el.textContent = Math.floor(eased * target).toLocaleString() + suffix;
                         if (progress < 1) requestAnimationFrame(step);
                     }
                     requestAnimationFrame(step);
@@ -1232,6 +1418,49 @@
                 el.dataset.countTarget = el.dataset.target;
                 statObserver.observe(el);
             });
+        })();
+
+        /* ── Testimonial card slider ── */
+        (function () {
+            var track   = document.getElementById('tcTrack');
+            var dotsEl  = document.getElementById('tcDots');
+            var btnPrev = document.getElementById('tcPrev');
+            var btnNext = document.getElementById('tcNext');
+            if (!track) return;
+
+            var cards   = track.querySelectorAll('.tc-card');
+            var total   = cards.length;
+            var current = 0;
+
+            var dots = [];
+            for (var i = 0; i < total; i++) {
+                var d = document.createElement('button');
+                d.className = 'tc-dot' + (i === 0 ? ' active' : '');
+                d.setAttribute('aria-label', 'Go to testimonial ' + (i + 1));
+                (function(idx){ d.addEventListener('click', function(){ goTo(idx); }); })(i);
+                dotsEl.appendChild(d);
+                dots.push(d);
+            }
+
+            function goTo(idx) {
+                current = Math.max(0, Math.min(idx, total - 1));
+                track.style.transform = 'translateX(-' + (current * 100) + '%)';
+                dots.forEach(function(d, i){ d.classList.toggle('active', i === current); });
+                btnPrev.disabled = current === 0;
+                btnNext.disabled = current === total - 1;
+            }
+
+            btnPrev.addEventListener('click', function(){ goTo(current - 1); });
+            btnNext.addEventListener('click', function(){ goTo(current + 1); });
+
+            var startX = 0;
+            track.addEventListener('touchstart', function(e){ startX = e.touches[0].clientX; }, {passive:true});
+            track.addEventListener('touchend', function(e){
+                var dx = e.changedTouches[0].clientX - startX;
+                if (Math.abs(dx) > 40) goTo(current + (dx < 0 ? 1 : -1));
+            }, {passive:true});
+
+            goTo(0);
         })();
     </script>
 </body>
