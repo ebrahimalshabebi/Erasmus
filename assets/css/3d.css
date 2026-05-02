@@ -923,7 +923,7 @@ button[type="submit"]:active {
     grid-template-columns: repeat(2, 1fr);
     /* 2 columns */
     gap: 24px;
-    max-width: 800px;
+    max-width: 1200px;
     /* keeps it centered and not too wide */
     margin: 40px auto 0;
     /* centers horizontally */
@@ -973,7 +973,7 @@ button[type="submit"]:active {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #183373, #4d2ed5);
+    background: var(--gradient-primary);
     color: #fff;
     display: flex;
     align-items: center;
@@ -981,7 +981,7 @@ button[type="submit"]:active {
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1px;
-    box-shadow: 0 10px 25px rgba(91, 140, 255, 0.3);
+    box-shadow: 0 10px 25px rgba(26, 107, 191, 0.3);
 }
 
 .highlight-icon {
@@ -1041,13 +1041,13 @@ button[type="submit"]:active {
     width: 60px;
     height: 60px;
     border-radius: 16px;
-    background: linear-gradient(135deg, #183373, #4d2ed5);
+    background: var(--gradient-primary);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     margin-bottom: 16px;
-    box-shadow: 0 15px 35px rgba(91, 140, 255, 0.3);
+    box-shadow: 0 15px 35px rgba(26, 107, 191, 0.3);
     transition: all 0.3s ease;
 }
 
@@ -1061,7 +1061,7 @@ button[type="submit"]:active {
 
 .why-card:hover .why-icon-wrap {
     transform: translateY(-6px) scale(1.05);
-    box-shadow: 0 25px 50px rgba(91, 140, 255, 0.4);
+    box-shadow: 0 25px 50px rgba(26, 107, 191, 0.4);
 }
 
 .section,

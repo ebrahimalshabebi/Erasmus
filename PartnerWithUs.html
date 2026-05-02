@@ -12,8 +12,26 @@
     <link rel="stylesheet" href="assets/css/bips.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/3d.css">
-
-
+    <style>
+        /* Override contact.css to align hero text with the logo */
+        section.hero {
+            text-align: left;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            background: none;
+        }
+        section.hero::before {
+            display: none;
+        }
+        .container.hero-content {
+            max-width: none;
+        }
+        .hero-subtitle {
+            margin: 0 0 40px 0 !important;
+        }
+    </style>
 </head>
 
 <body>
