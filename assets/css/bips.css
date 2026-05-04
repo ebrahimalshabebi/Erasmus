@@ -569,6 +569,9 @@ a {
 
 
 /* ===== SECTION COMMON ===== */
+section {
+    padding: 60px 0 !important;
+}
 
 .section-header {
     margin-bottom: 48px;
@@ -2096,6 +2099,8 @@ a {
     background-color: #142a42;
 }
 
+/* ===== MODAL OVERLAY ===== */
+
 .bip-modal {
     position: fixed;
     inset: 0;
@@ -2104,22 +2109,208 @@ a {
     align-items: center;
     justify-content: center;
     z-index: 999;
+    backdrop-filter: blur(6px);
 }
 
-.bip-modal-content {
+/* ===== MODAL BOX ===== */
+
+.bip-modal-content.fancy {
+    width: 100%;
+    max-width: 800px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    overflow: hidden;
     background: #fff;
-    border-radius: 16px;
-    max-width: 700px;
-    width: 90%;
-    padding: 30px;
-    box-shadow: var(--shadow-xl);
-    animation: fadeInUp .4s ease;
+    position: relative;
+    animation: fadeInUp .35s ease;
 }
+
+/* ===== HEADER ===== */
+
+.modal-header {
+    background: linear-gradient(135deg, #1a6bbc, #03233f);
+    color: #fff;
+    padding: 24px;
+    width: 100%;
+    margin: 0;       
+    border-radius: 0;   
+}
+
+.modal-header small {
+    opacity: .8;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: .75rem;
+}
+
+.modal-header h2 {
+    margin-top: 8px;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+/* ===== CLOSE BUTTON ===== */
 
 .bip-close {
     position: absolute;
-    right: 20px;
-    top: 10px;
-    font-size: 28px;
+    top: 8px;
+    right: 16px;
+    font-size: 42px;
     cursor: pointer;
+    color: #ffffff;
+    z-index: 10;
+}
+
+/* ===== SCROLLABLE CONTENT ===== */
+
+#bipModalBody {
+    overflow-y: auto;
+    flex: 1;
+    scroll-behavior: smooth;
+    overscroll-behavior: contain;
+}
+
+.modal-content-inner {
+    padding: 24px;
+}
+
+/* scrollbar */
+#bipModalBody::-webkit-scrollbar {
+    width: 6px;
+}
+
+#bipModalBody::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,.2);
+    border-radius: 10px;
+}
+
+/* ===== INFO GRID ===== */
+
+.modal-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 20px 0 25px;
+}
+
+.modal-box {
+    background: #f3f3f3;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: .85rem;
+    text-align: center;
+}
+
+/* ===== SECTIONS ===== */
+
+.modal-section {
+    margin-top: 22px;
+}
+
+.modal-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+/* ===== TIMELINE ===== */
+
+.modal-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.modal-step {
+    background: #f6f7fb;
+    padding: 14px;
+    border-radius: 10px;
+    border-left: 4px solid #1a6bbf;
+    font-size: .9rem;
+}
+
+.modal-step strong {
+    color: #1a3d8f;
+}
+
+/* ===== TAGS (universities) ===== */
+
+.modal-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.modal-tag {
+    padding: 6px 12px;
+    background: #eef2f7;
+    border-radius: 20px;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+/* ===== TRIP BOX ===== */
+
+.modal-trip {
+    background: #f7f5f0;
+    padding: 16px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.modal-trip h3 {
+    margin-bottom: 12px;
+}
+
+.modal-trip-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.modal-trip-item {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: .85rem;
+    border: 1px solid #eee;
+}
+
+/* ===== BUTTON ===== */
+
+.modal-apply {
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+    background: #1a3d8f;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform .2s, box-shadow .2s;
+}
+
+.modal-apply:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 600px) {
+    .modal-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .modal-trip-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .modal-header h2 {
+        font-size: 1.3rem;
+    }
 }
