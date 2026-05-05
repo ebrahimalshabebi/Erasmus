@@ -286,14 +286,7 @@ function typeText() {
 typeText();
 
 // ===== Navbar Scroll Effect =====
-const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
-    }
-});
+
 
 // ===== Scroll Reveal Animation =====
 const revealElements = document.querySelectorAll('.reveal');
@@ -315,24 +308,24 @@ window.addEventListener('load', checkReveal);
 const faqItems = document.querySelectorAll('.faq-item');
 
 faqItems.forEach(item => {
-  const question = item.querySelector('.faq-question');
-  const answer = item.querySelector('.faq-answer');
+    const question = item.querySelector('.faq-question');
+    const answer = item.querySelector('.faq-answer');
 
-  question.addEventListener('click', () => {
-    const isOpen = answer.style.maxHeight;
+    question.addEventListener('click', () => {
+        const isOpen = answer.style.maxHeight;
 
-    // Close all
-    faqItems.forEach(i => {
-      i.querySelector('.faq-answer').style.maxHeight = null;
-      i.classList.remove('active');
+        // Close all
+        faqItems.forEach(i => {
+            i.querySelector('.faq-answer').style.maxHeight = null;
+            i.classList.remove('active');
+        });
+
+        // Open current
+        if (!isOpen) {
+            answer.style.maxHeight = answer.scrollHeight + "px";
+            item.classList.add('active');
+        }
     });
-
-    // Open current
-    if (!isOpen) {
-      answer.style.maxHeight = answer.scrollHeight + "px";
-      item.classList.add('active');
-    }
-  });
 });
 
 // ===== Chat Bubble =====
@@ -382,7 +375,13 @@ inputs.forEach(input => {
 });
 
 function validateField(field) {
-    const formGroup = field.parentElement.parentElement;
+    if (!field) return true;
+
+    const formGroup = field.closest('.form-group');
+
+    // 🔥 HARD GUARD (prevents crash 100%)
+    if (!formGroup) return true;
+
     let isValid = true;
 
     if (field.required && !field.value.trim()) {
@@ -421,17 +420,40 @@ contactForm.addEventListener('submit', async (e) => {
 
     if (!isFormValid) return;
 
+    // ✅ ADD TIMESTAMP HERE
+    const timeInput = contactForm.querySelector('[name="time"]');
+    if (timeInput) {
+        timeInput.value = new Date().toLocaleString();
+    }
+
     // Show loading state
     submitBtn.classList.add('loading');
 
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    try {
+        await emailjs.sendForm(
+            "service_yaqc4ji",
+            "template_ddvqt26",
+            contactForm
+        );
 
-    // Show success message
-    submitBtn.classList.remove('loading');
-    contactForm.style.display = 'none';
-    successMessage.classList.add('show');
+
+        // Success
+        submitBtn.classList.remove('loading');
+
+        // 🔥 STOP validation interactions
+        inputs.forEach(input => input.disabled = true);
+
+        contactForm.style.display = 'none';
+        successMessage.classList.add('show');
+
+    } catch (error) {
+        console.error("EmailJS FULL ERROR:", error);
+        alert(error.text || JSON.stringify(error));
+        submitBtn.classList.remove('loading');
+    }
 });
+
+
 
 function resetForm() {
     contactForm.reset();
