@@ -147,3 +147,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     update();
 });
+
+const reveals = document.querySelectorAll('.reveal, .reveal-stagger');
+
+function revealOnScroll() {
+    const trigger = window.innerHeight * 0.85;
+
+    reveals.forEach(el => {
+        const top = el.getBoundingClientRect().top;
+
+        if (top < trigger) {
+            el.classList.add('in');
+        }
+    });
+}
+
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll);
